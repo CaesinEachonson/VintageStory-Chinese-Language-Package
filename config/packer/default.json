@@ -1,0 +1,17 @@
+{
+  "packageName": "VSCN Vintage Story Chinese Language Pack",
+  "packageVersion": "0.1.0",
+  "description": "聚合简体中文语言包，覆盖已安装的受支持 Vintage Story 模组。",
+  "authors": [
+    "VSCN-Studio"
+  ],
+  "modId": "vscnlangpack",
+  "targetLanguage": "zh-cn",
+  "contentRoot": "projects/assets",
+  "outputDirectory": "build",
+  "outputFileNameTemplate": "VSCN-VintageStory-Chinese-Language-Pack-{version}.zip",
+  "excludedProjects": [],
+  "excludedModIds": [],
+  "excludedVersions": [],
+  "versionSelectionStrategy": "highest-semver"
+}
