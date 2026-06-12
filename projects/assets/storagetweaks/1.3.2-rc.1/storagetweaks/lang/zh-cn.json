@@ -1,0 +1,12 @@
+{
+  "compact-and-sort": "整理与排序",
+  "game:item-hoovedwearables-lowerbackside-saddlebags2": "鞍囊",
+  "hotkey-sort-container": "整理打开的存储",
+  "hotkey-sort-inventory": "整理物品栏",
+  "hotkey-store-nearby": "快速存入附近的容器",
+  "quick-store": "快速将物品栏和快捷栏中匹配的物品存入",
+  "store-nearby": "快速将物品存入附近内容匹配的容器",
+  "toggle-favorite-mode-help": "<strong>收藏模式</strong>\n启用后，点击物品栏中的物品会将其加入或移出收藏列表，而不是拿起物品。\n\n收藏的物品不会被快速存入/取出按钮卸下。",
+  "toggle-hide-favorites": "切换收藏图标是始终显示在物品槽中，还是仅在收藏选择模式激活时显示。",
+  "toggle-stack-perishables-help": "<strong>强制堆叠</strong>\n启用后，快速存储/取出和排序会合并通常不会自动合并的物品，例如新鲜度不同的食物（其腐烂进度会混合）。禁用后，这些堆叠将保持分开。"
+}
