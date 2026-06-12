@@ -1,3 +1,4 @@
+using NuGet.Versioning;
 using System.Text.Json.Serialization;
 
 namespace Packer;
@@ -70,6 +71,12 @@ public sealed class PackerConfig
         if (string.IsNullOrWhiteSpace(PackageVersion))
         {
             throw new PackerException("packageVersion must not be empty.");
+        }
+
+        if (!NuGetVersion.TryParse(PackageVersion, out _))
+        {
+            throw new PackerException(
+                $"packageVersion must be a valid SemVer-compatible version, got '{PackageVersion}'.");
         }
 
         if (string.IsNullOrWhiteSpace(ModId))

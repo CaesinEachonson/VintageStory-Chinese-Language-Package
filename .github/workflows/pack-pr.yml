@@ -30,7 +30,7 @@ jobs:
       - name: Generate timestamp version
         id: version
         run: |
-          echo "value=$(date -u +'%Y%m%d-%H%M%S')" >> "$GITHUB_OUTPUT"
+          echo "value=$(date -u +'%Y.%-m.%-d-pr%H%M%S')" >> "$GITHUB_OUTPUT"
 
       - name: Run tests
         run: dotnet test --no-restore

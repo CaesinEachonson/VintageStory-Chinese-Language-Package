@@ -254,7 +254,7 @@ public sealed class PackerTests
         var configPath = workspace.WriteConfigFile();
         var stdout = new StringWriter();
         var stderr = new StringWriter();
-        var version = "20260612.1";
+        var version = "2026.6.12-pr083830";
 
         var exitCode = await CliRunner.RunAsync(
             ["pack", "--config", configPath, "--package-version", version],
@@ -272,6 +272,32 @@ public sealed class PackerTests
         using var modInfoReader = new StreamReader(archive.GetEntry("modinfo.json")!.Open());
         using var modInfoDocument = JsonDocument.Parse(await modInfoReader.ReadToEndAsync());
         Assert.Equal(version, modInfoDocument.RootElement.GetProperty("version").GetString());
+    }
+
+    [Fact]
+    public async Task CliRunner_PackCommand_ReturnsNonZeroForInvalidPackageVersion()
+    {
+        using var workspace = new TestWorkspace();
+        workspace.WriteText(
+            "projects/assets/example/1.0.0/examplemod/lang/zh-cn.json",
+            """
+            {
+              "item.name": "CLI"
+            }
+            """);
+
+        var configPath = workspace.WriteConfigFile();
+        var stdout = new StringWriter();
+        var stderr = new StringWriter();
+
+        var exitCode = await CliRunner.RunAsync(
+            ["pack", "--config", configPath, "--package-version", "20260612-083830"],
+            stdout,
+            stderr,
+            workspace.RootPath);
+
+        Assert.Equal(1, exitCode);
+        Assert.Contains("valid SemVer-compatible version", stderr.ToString(), StringComparison.Ordinal);
     }
 
     private sealed class TestWorkspace : IDisposable
