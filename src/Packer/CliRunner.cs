@@ -5,7 +5,7 @@ namespace Packer;
 public static class CliRunner
 {
     private const string Usage =
-        "Usage: dotnet run --project src/Packer -- pack --config <path>";
+        "Usage: dotnet run --project src/Packer -- pack --config <path> [--package-version <value>]";
 
     public static async Task<int> RunAsync(
         string[] args,
@@ -14,7 +14,7 @@ public static class CliRunner
         string repositoryRoot,
         CancellationToken cancellationToken = default)
     {
-        if (!TryParseArguments(args, out var configPath, out var parseError))
+        if (!TryParseArguments(args, out var configPath, out var packageVersion, out var parseError))
         {
             await stderr.WriteLineAsync(parseError ?? Usage);
             return 1;
@@ -23,6 +23,12 @@ public static class CliRunner
         try
         {
             var config = await PackerConfigLoader.LoadAsync(configPath!, repositoryRoot, cancellationToken);
+            if (packageVersion is not null)
+            {
+                config.PackageVersion = packageVersion.Trim();
+                config.Validate();
+            }
+
             var result = await TranslationPackBuilder.BuildAsync(config, repositoryRoot, cancellationToken);
             var relativeOutputPath = Path.GetRelativePath(repositoryRoot, result.OutputZipPath);
 
@@ -52,9 +58,11 @@ public static class CliRunner
     private static bool TryParseArguments(
         string[] args,
         out string? configPath,
+        out string? packageVersion,
         out string? error)
     {
         configPath = null;
+        packageVersion = null;
         error = null;
 
         if (args.Length == 0)
@@ -81,6 +89,18 @@ public static class CliRunner
                 }
 
                 configPath = args[++i];
+                continue;
+            }
+
+            if (string.Equals(arg, "--package-version", StringComparison.OrdinalIgnoreCase))
+            {
+                if (i + 1 >= args.Length)
+                {
+                    error = $"Missing value for --package-version.{Environment.NewLine}{Usage}";
+                    return false;
+                }
+
+                packageVersion = args[++i];
                 continue;
             }
 

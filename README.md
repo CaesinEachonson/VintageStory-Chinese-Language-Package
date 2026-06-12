@@ -78,6 +78,18 @@ dotnet test
 
 测试会覆盖路径扫描、版本选择、冲突处理、JSON 校验、zip 输出结构以及 CLI 参数契约。
 
+## GitHub Actions
+
+当 Pull Request 包含翻译文件或打包相关变更时，GitHub Actions 会自动执行一次打包，并把生成的 zip 作为 artifact 上传。
+
+PR 产物使用 UTC 时间戳版本号，格式为：
+
+```text
+YYYYMMDD-HHMMSS
+```
+
+因此 `modinfo.json` 里的 `version` 字段，以及输出文件名中的 `{version}`，都会随每次 PR 打包变化。
+
 ## 安装到 Vintage Story
 
 1. 运行打包命令生成 zip。

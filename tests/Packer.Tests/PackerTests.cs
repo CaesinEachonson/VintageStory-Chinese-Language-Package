@@ -239,6 +239,41 @@ public sealed class PackerTests
         Assert.True(File.Exists(Path.Combine(workspace.RootPath, "build", "VSCN-VintageStory-Chinese-Language-Pack-0.1.0.zip")));
     }
 
+    [Fact]
+    public async Task CliRunner_PackCommand_AllowsOverridingPackageVersion()
+    {
+        using var workspace = new TestWorkspace();
+        workspace.WriteText(
+            "projects/assets/example/1.0.0/examplemod/lang/zh-cn.json",
+            """
+            {
+              "item.name": "CLI"
+            }
+            """);
+
+        var configPath = workspace.WriteConfigFile();
+        var stdout = new StringWriter();
+        var stderr = new StringWriter();
+        var version = "20260612.1";
+
+        var exitCode = await CliRunner.RunAsync(
+            ["pack", "--config", configPath, "--package-version", version],
+            stdout,
+            stderr,
+            workspace.RootPath);
+
+        Assert.Equal(0, exitCode);
+        Assert.Equal(string.Empty, stderr.ToString());
+
+        var zipPath = Path.Combine(workspace.RootPath, "build", $"VSCN-VintageStory-Chinese-Language-Pack-{version}.zip");
+        Assert.True(File.Exists(zipPath));
+
+        using var archive = ZipFile.OpenRead(zipPath);
+        using var modInfoReader = new StreamReader(archive.GetEntry("modinfo.json")!.Open());
+        using var modInfoDocument = JsonDocument.Parse(await modInfoReader.ReadToEndAsync());
+        Assert.Equal(version, modInfoDocument.RootElement.GetProperty("version").GetString());
+    }
+
     private sealed class TestWorkspace : IDisposable
     {
         public TestWorkspace()
