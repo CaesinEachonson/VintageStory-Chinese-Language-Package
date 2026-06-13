@@ -1,0 +1,954 @@
+{
+  "I now want to buy the map you talked about": "我现在想买你之前提到的地图。",
+  "I’ll take the map": {
+    " How much is it?": "我要这张地图。多少钱？"
+  },
+  "Not interested": {
+    " Maybe another time": "也许下次吧。"
+  },
+  "The Forlorn Hope? Tell me more": "绝望的希望？详细说说。",
+  "What’s so significant about this tower?": "这座塔有什么重要意义？",
+  "Yes here you go": "好的，给你。",
+  "betterruins:Ahh I see I will try to get you those gears and return": "啊，我明白了，我会尝试给你弄到那些齿轮，然后回来。",
+  "betterruins:All the finest soldiers’ tombs are adorned by those ceremonial weapons of silver and gold, so, must mean you’re a pretty capable warrior if you can get your hands on something like that": {
+    " I want you to give me a scythe forged of solid gold, and then I will share with you the location of this pit": {
+      " It’d be impractical as a tool, of course! But oh, how fun! I can already see it, hanging upon the hearth": {
+        " and the look on my colleagues’ face when I show up with it in tow will be more valuable than anything gears can buy": "所有最精锐士兵的坟墓都装饰着那些金银礼仪武器，所以，如果你能弄到那样的东西，肯定意味着你是个相当有能力的战士。我要你给我一把纯金锻造的镰刀，然后我就告诉你这个坑的位置。当然，作为工具它完全不实用！但是，哦，多有趣啊！我已经能想象它挂在壁炉上的样子了……而我拖着它出现时同事们脸上的表情，会比任何齿轮能买到的东西都珍贵。"
+      }
+    }
+  },
+  "betterruins:And one more thing": {
+    " Don't expect answers from the map - just observe the things around you, that always helped me in difficult situations like yours": "还有一件事。别指望地图会给你答案——多观察身边的事物吧。在我遇到你这样的困境时，这么做总是能帮到我。"
+  },
+  "betterruins:And would you like to visit it?": "那么，你想去拜访一下吗？",
+  "betterruins:Another tragic story? I don't have time": "又一个悲惨故事？我没时间。",
+  "betterruins:As they say: as they flared up, so they faded": {
+    " As far as I know, it's unlikely anyone has forced themselves to visit that place again": {
+      " After the terrible rumors that spread through the world following their failure": {
+        " I even think a tradition appeared to leave that place alone": "俗话说：其兴也勃焉，其亡也忽焉。据我所知，在他们失败之后，可怕的谣言传遍了世界，恐怕再没人强迫自己去那里了。我甚至觉得，一种不再打扰那个地方的传统已经形成。"
+      }
+    }
+  },
+  "betterruins:Can you remind me where the location with the sun symbol was?": "[BR 任务] 你能提醒我那个有太阳符号的地点在哪里吗？",
+  "betterruins:Do you know anything interesting around here?": "[BR 任务] 你知道这附近有什么有趣的事吗？",
+  "betterruins:Don’t be salty, now": "别酸溜溜的嘛。",
+  "betterruins:Don’t you fret": {
+    " I thought this might happen, so I kept another copy on hand": {
+      " You Seraphs ought to stop making up stories about having died far-away every single time you misplace your things": "别担心。我早料到会这样，所以留了个备份。你们这些Seraphs每次弄丢东西就编个死在远方的故事，该改改了。"
+    }
+  },
+  "betterruins:Eager, are you? Wise or foolish - we shall see": {
+    " This map leads to a chamber beneath the sands, once known as the Crossroads Below": {
+      " Vaulted stone, buried secrets": {
+        " It's not marked by stone, but by silence - and silence keeps its secrets well": "急切，是吧？明智还是愚蠢——我们拭目以待。这张地图指向沙地下的一间密室，曾被称为地下十字路口。拱顶石室，掩埋的秘密。它并非以石为记，而是以寂静为示 - 而寂静深藏其秘。"
+      }
+    }
+  },
+  "betterruins:Hard to imagine how it ended": "难以想象它是如何结束的……",
+  "betterruins:Heard you": {
+    " unpleasant, I'll think about it": "听说你……有些令人不快，我会考虑的。"
+  },
+  "betterruins:Here take the Meteoric Knife": "拿着这把陨石刀。",
+  "betterruins:Here you go": "给你。",
+  "betterruins:Here you go I got another copy of the map": "拿去吧，我又弄到了一份地图。",
+  "betterruins:Here’s your map, and best of luck on your journey": {
+    "\n\nGive my regards to that old friend of mine when you get there, will you?": "这是你的地图，祝你旅途顺利。\n\n到了那边，替我向那位老朋友问好，好吗？"
+  },
+  "betterruins:I agree with you": {
+    " Let's leave that place be": "我同意你的看法。我们就别管那个地方了。"
+  },
+  "betterruins:I already knew that": "我早就知道了……",
+  "betterruins:I don't really want to break tradition": {
+    " And it's quite far - I trust rumors more than my own cart for such a distance": {
+      " Yet safety comes first, it's no place for me alone": {
+        " They also say danger outlives its masters": "我并不想打破传统。而且路程相当遥远——这么远的距离，我宁可相信传闻，也不信自己的马车。然而安全第一，这地方不适合我独自前往。人们还说，危险比其主人活得更久。"
+      }
+    }
+  },
+  "betterruins:I guess they are": {
+    " I won’t pry further": "我想是的。我不会再多问了。"
+  },
+  "betterruins:I have the meteoric knife you asked for": {
+    " Here take it": "[BR Quest] 我有你要的陨石刀。给你。"
+  },
+  "betterruins:I have the pickaxe in exchange for the map with the sun": "[BR Quest] 我用镐子换取那张带有太阳标记的地图。",
+  "betterruins:I have your scythe": "[BR Quest] 我有你的镰刀。",
+  "betterruins:I lost that map you gave me": "[BR Quest] 我弄丢了你给我的那张地图。",
+  "betterruins:I lost the map to the Halite Quarry!": "我把通往盐岩采石场的地图弄丢了！",
+  "betterruins:I suppose poor taste can’t be helped": "看来品味差也是没办法的事。",
+  "betterruins:I think I have a map from there": {
+    " I'm not sure it leads exactly to it, but the mark with the sun suggests otherwise": {
+      " The sun - the symbol of that place": "我想我有张来自那儿的地图...我不确定它是否恰好通往那里，但那个太阳标记却暗示着并非如此。太阳——那个地方的象征..."
+    }
+  },
+  "betterruins:I understand": {
+    " I'll step away": "我明白了。我会走开。"
+  },
+  "betterruins:I understand, do you have anything else?": "我明白了，你还有别的事吗？",
+  "betterruins:I want to obtain it": {
+    " I assume you need something in return?": "我想得到它。我猜你需要一些回报？"
+  },
+  "betterruins:I will come back with a meteoric knife!": "我会带一把陨铁小刀回来！",
+  "betterruins:I'll stick to the map, thank you very much": "我还是用地图吧，非常感谢。",
+  "betterruins:I'll try to satisfy your request to prove my intentions": "我会尽力满足你的请求以证明我的意图。",
+  "betterruins:Is there one? Not too old": "有吗？别太旧的。",
+  "betterruins:I’ll bring you a quern!": "我会给你带一个 石磨！",
+  "betterruins:I’ll see what I can do": "我看看我能做些什么。",
+  "betterruins:I’ll take it": {
+    " What’s your price?": "我要了。你开价多少？"
+  },
+  "betterruins:I’ll tell you, but I need to be sure that you know how to put together a quern or you’ll be left with useless halite stone": {
+    " Conveniently, I’ve also gotten very bored of the dull granite grey of my own quern": {
+      " You work on bringing me one with a prettier colour and I’ll work on drawing you up a map": {
+        " Andesite, basalt, peridotite, a quern carved from any of those three would do": "我可以告诉你，但我需要确定你知道如何组装石磨，否则你只会得到无用的岩盐矿石。正好，我也厌倦了自己石磨那单调的花岗岩灰色。你去想办法给我弄个颜色更漂亮的石磨，我来给你画张地图。安山岩、玄武岩、橄榄岩，用这三种石头中的任何一种雕刻的石磨都可以。"
+      }
+    }
+  },
+  "betterruins:I’m looking forward to it": {
+    " I’ll have the map ready when you return": "我很期待。等你回来时，我会把地图准备好。"
+  },
+  "betterruins:I’m sure I simply don’t appreciate Seraph cuisine": "我肯定我只是不欣赏塞拉弗的美食。",
+  "betterruins:I’m sure you already have a cellar to keep your foodstuffs out of the sun": {
+    " When I’m travelling around local farmsteads to stock up, though, I don’t quite have that luxury": {
+      "\n\nIt’s salt! If you use enough of it it tastes better, too": {
+        " Cured meats, pickled veggies…\nI pass by this salt mine on occasion during my travels and always take some to top off my supply": {
+          "\nIt’s been abandoned since long before I first set foot there, so I’m sure they don’t mind": "我敢肯定你已经有个地窖来存放食物，避免阳光直射。不过，当我在当地农场间四处采购时，可就没这个条件了。\n\n是盐！如果放足够多，味道也会更好。腌肉、泡菜……\n我旅途中偶尔会路过这座盐矿，总会取一些来补充我的储备。\n早在我第一次踏入那里之前，它就已经被废弃了，所以我敢肯定他们不会介意。"
+        }
+      }
+    }
+  },
+  "betterruins:I’ve dealt with worse": {
+    " What’s your price?": "更糟的情况我也应付过。你开价多少？"
+  },
+  "betterruins:I’ve got the andesite quern!": "我拿到安山岩石磨了！",
+  "betterruins:I’ve got the basalt quern!": "我拿到了玄武岩石磨！",
+  "betterruins:I’ve got the peridotite quern!": "我拿到了橄榄岩石磨！",
+  "betterruins:Lost it already? Hah": {
+    " No matter - here, take another": {
+      " Try not to feed this one to the wind": "这么快就丢了？哈。没关系——来，再拿一个。这次可别再让它随风而去了。"
+    }
+  },
+  "betterruins:Many have tried": {
+    " Most returned sunstruck, or didn’t return at all": {
+      " The tomb is half-consumed by the desert itself, guarded by puzzles older than the founding of Falx’s line": {
+        " Some say even the Rot turned back at its threshold": {
+          " The silence there is not natural": {
+            " It breathes": {
+              " It waits": "许多人曾尝试过。大多数回来时已中暑，或根本没能回来。陵墓半陷于沙漠之中，由比法尔克斯血脉建立之前便已存在的谜题守护。有人说，就连腐化也在其门槛前却步。那里的寂静并非自然。它在呼吸。它在等待。"
+            }
+          }
+        }
+      }
+    }
+  },
+  "betterruins:Maybe you should get rid of it, might be safer for both of us": "或许你该把它处理掉，那样对我们俩都更安全。",
+  "betterruins:More of a quarry, really": {
+    " Halite": {
+      " Gorgeous pink stone": {
+        " I’ve tried to use it for bowls to no avail, the stuff dissolves in liquids": {
+          " But if you grind it up you get salt": {
+            " As for the site itself, it’s full of decrepit buildings that I personally take wide berths around": {
+              " Leave it to the treasure hunter types to get trapped in collapsing ruins": {
+                "\n\nI don’t think you could exhaust its reserves if you tried, so I feel comfortable sharing its location with you": {
+                  " I’ve seen folks like you running up to my storefront scarfing down ten or so uncooked carrots in a single sitting": {
+                    " So it would bring me comfort knowing that you’ve got salt available, at the very least": "更像个采石场，真的。岩盐。漂亮的粉色石头。我试过用它做碗，但没用，这玩意儿会溶解在液体里。但如果你把它磨碎，就能得到盐。至于这个地点本身，到处都是破败的建筑，我个人会远远避开。让那些寻宝的家伙们去被困在坍塌的废墟里吧。\n\n我觉得你就算想耗尽它的储量也做不到，所以我放心告诉你位置。我见过像你这样的人跑到我的店门口，一口气吞下十来个生胡萝卜。所以知道你有盐可用，至少能让我感到安心。"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "betterruins:More than?": "不止？",
+  "betterruins:Not interested": {
+    " Maybe another time": "不感兴趣，下次再说吧。"
+  },
+  "betterruins:Not worth my time": "不值得我浪费时间。",
+  "betterruins:Now give me the map please": "现在请把地图给我。",
+  "betterruins:Of course": {
+    " I see": {
+      " yes, the pickaxe is solid": {
+        " I think I can trust you with more than just the map": "当然……我明白了……是的，这把镐很结实。我想我可以信任你，不只是地图而已。"
+      }
+    }
+  },
+  "betterruins:Oh, I shudder to imagine how deep you must’ve dug to get your hands on all that precious gold": {
+    " or how much time you must’ve spent sifting it from sandy shores": {
+      " Well": {
+        " Whether you’re strong enough to survive the lowest reaches of this world or patient enough to tread with utmost caution, either trait will serve you well when you head into that ruin": {
+          " You’ve more than proven yourself as far as I’m concerned": "哦，我真不敢想象你得挖多深才能弄到那么多珍贵的金子……或者你在沙滩上淘金花了多少时间。嗯。无论你是强壮到足以在这个世界最深处生存，还是有足够的耐心步步为营，这两种品质在你踏入那片废墟时都会对你大有裨益。就我看来，你已经充分证明了自己。"
+        }
+      }
+    }
+  },
+  "betterruins:Oh, it’ll look great in my kitchen! Thank you kindly for your service, and here’s your map, as promised": {
+    " I’m very thankful to have been a part of your culinary journey": "哦，它放在我的厨房里一定很好看！非常感谢你的帮助，如约，这是你的地图。我很高兴能成为你美食之旅的一部分。"
+  },
+  "betterruins:Oh, look around you! What isn’t noteworthy around here? Nature is thriving and providing for all of us, even amidst the surge of cursed ones plaguing these lands": {
+    " You adventuring types ought to sit still and appreciate that from time to time": {
+      " You remind me of my colleague, who calls themself a treasure hunter": {
+        " Recently sent me a letter about some discovery they lacked the manpower to unearth": {
+          " Fool’s errands, all in all": {
+            " I just wish they’d take the hint and accept that some things are best left buried": "哦，看看你周围！这里有什么不值得一提的吗？大自然生机勃勃，滋养着我们每个人，即使在被诅咒者肆虐这片土地的浪潮中也是如此。你们这些冒险者，真该偶尔静下心来欣赏这一点。你让我想起了我的一位同事，他自称是寻宝人。最近他给我寄了封信，说有什么发现，但缺人手去挖掘。总而言之，都是徒劳无功的傻事。我只希望他能领会这个暗示，明白有些东西最好还是埋在地下。"
+          }
+        }
+      }
+    }
+  },
+  "betterruins:Oh, quiet your yammering": {
+    " Of course it will be": {
+      " Matter of fact, it already is!\nYou’ve made me very happy": {
+        " Honestly, can’t think of anything more worthwhile than that": {
+          "\nIf you want to make me even happier, though, my storefront’s open": {
+            "?": "哦，别唠叨了。当然会的。事实上，已经是了！\n你让我非常开心。说实话，我想不出比这更值得的事了。\n不过，如果你想让我更开心，我的店面开着呢……？"
+          }
+        }
+      }
+    }
+  },
+  "betterruins:Save it for now, I'll come back later": "先留着吧，我一会儿再来。",
+  "betterruins:See, there’s somebody with a good head on their shoulders": {
+    "\nThere are exceptions to the rule, of course": {
+      " Parsnips, onions, carrots": {
+        " I could go on": {
+          "\nWhy don’t you buy some?": "看，这儿有个明白人。\n当然，凡事都有例外。欧洲防风草、洋葱、胡萝卜……我能一直数下去。\n你为啥不买点呢？"
+        }
+      }
+    }
+  },
+  "betterruins:Seen anything noteworthy around lately?": "[BR任务] 最近在这附近看到什么值得注意的东西了吗？",
+  "betterruins:Show me the map": "给我看看地图。",
+  "betterruins:So I did": {
+    " They described it as a perfectly spherical crater left behind in the landscape, with dozens of sprawling tunnels opening into that pit": {
+      " Said it was infested with drifters and the likes and didn’t want to take any chances, so they asked me to send any capable warriors their way": {
+        " But what do they think little old me knows about fighting? I’d certainly not dare invite you to spar": {
+          " No, I reckon I’ll trade the location to you, for a very specific price": "于是我就去了。他们描述说，那是一个完美球形的陨坑，留在大地上，数十条蜿蜒的隧道通向那个深坑。说那里到处是游荡者之类的怪物，他们不想冒险，所以让我派些能打的勇士过去。可他们觉得我这个老家伙懂什么打斗呢？我当然不敢邀请你去比划比划。不，我想我可以用这个地点跟你做个交易，开个很具体的价码。"
+        }
+      }
+    }
+  },
+  "betterruins:Sorry, not interested": "抱歉，不感兴趣。",
+  "betterruins:Sounds grim, my condolences": {
+    " I should go": "听起来很不幸，节哀。我该走了。"
+  },
+  "betterruins:Sounds like a fairytale": "听起来像童话故事。",
+  "betterruins:Sounds worthy, but I still need to learn that": "听起来值得，但我还需要学习那个。",
+  "betterruins:Spoken like one born of purpose": {
+    " But rusty gears is not enough, not for this": {
+      " I require something rarer - something that fell from the stars": {
+        " Bring me a knife of meteoric iron": {
+          " Freshly forged": {
+            " Untouched by blood or rust": {
+              " Only then shall I entrust you with the map": "说得像是生来就肩负使命之人。但生锈的齿轮还不够，为此事还不够。我需要更稀罕之物——从星辰坠落之物。给我一把陨铁刀。刚刚锻造而成。未沾染鲜血与锈蚀。唯有那时，我才会将地图托付于你。"
+            }
+          }
+        }
+      }
+    }
+  },
+  "betterruins:Strange for you to request something like this": "你提出这样的请求还真是奇怪。",
+  "betterruins:Take the map": {
+    " May it guide you true, and may the sands be kind to your steps": "收下这张地图。愿它指引你正确的方向，也愿沙地对你的脚步温柔以待。"
+  },
+  "betterruins:Thank you!": "谢谢你！",
+  "betterruins:Thanks!": "多谢！",
+  "betterruins:Then take the map and let your own judgement guide you": {
+    " Some places are better understood in silence than in stories": "然后拿起地图，凭自己的判断前行。有些地方，沉默比故事更易领会。"
+  },
+  "betterruins:Then walk on, dreamer": {
+    " Some things are best left to the wind and to the dead": "继续前行吧，梦想家。有些事情最好留给风和逝者。"
+  },
+  "betterruins:Then you are smarter than you look": {
+    " Lesser adventurers would have disappeared into that ruin and not returned, blinded by the glimmer of gold, like so many before them": {
+      "\n\nFeel free to stick around here and browse my wares instead": {
+        " That way, you won’t go home empty-handed after all": "那你比看上去要聪明。那些不够格的冒险者早已迷失在那废墟中，一去不返，被金子的闪光蒙蔽了双眼，就像之前的许多人一样。\n\n不如留在这里，逛逛我的货品吧。这样，你至少不会空手而归。"
+      }
+    }
+  },
+  "betterruins:There are plenty of stories": {
+    " They gather like dirt on boots": {
+      " Listening to them is certainly safer than checking them": "传说数不胜数，像靴上的泥土般越积越多。听这些传说当然比亲自查探更安全。"
+    }
+  },
+  "betterruins:There are whispers, traveler": {
+    " Tales passed from one sun-scorched tongue to the next - of a place far beneath the dunes": {
+      " An ancient tomb, where four trade empires once crossed paths and secrets were locked away in silence": {
+        " It's not on any common map": {
+          " but I may possess something rare": "有流言在低语，旅人。传说从一个被烈日灼烤的口舌传到另一个——那是关于沙丘之下深处的一个地方。一座古墓，四个商贸帝国曾在此交汇，秘密在沉寂中被封存。它不在任何常见的地图上……但我或许拥有某件罕见的东西。"
+        }
+      }
+    }
+  },
+  "betterruins:There is one": {
+    " But it holds no more certainty than the others": "有一个。但它并不比其他更确定。"
+  },
+  "betterruins:There were rumors about the existence of one place": {
+    " Distant and large": {
+      " So distant that speaking of it is already an achievement": {
+        " People wanted to influence something that, as is customary, cannot really be influenced": {
+          " They wanted to muffle": {
+            " or even push away": {
+              " the screech of metal in the middle of the day, and the feeling of rust in the air": {
+                " But the world doesn't like it much when its manifestations are silenced": "曾有传言提到了一个地方的存在。遥远而辽阔。远到仅是谈论它便已是一种成就。人们想要影响某些——按常理来说——实难施加影响的事物。他们想要压制……甚至推开……那正午时分的金属尖啸，以及弥漫在空气中的锈蚀之感。但这个世界并不太喜欢自己的种种显现被噤声。"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "betterruins:This had better be worth it": "这最好值得……",
+  "betterruins:This is definitely useful knowledge, thank you very much": "这确实是很有用的知识，非常感谢。",
+  "betterruins:Those who made it sealed themselves in, taking their names with them": {
+    " But they left warnings, etched in stone and scratched into bone": {
+      " Listen closely when you're down there": {
+        " you might still hear them": "那些成功的人将自己封禁于内，带走了他们的名字。但他们留下了警告，刻于石上，刮入骨中。当你在那下面时，仔细倾听……你或许仍能听到他们的声音。"
+      }
+    }
+  },
+  "betterruins:Typical for stories, I'm interested": "就像故事里那样，我很感兴趣。",
+  "betterruins:Very well": {
+    " Take the map, and may your steps be careful where the sun once burned brightest": "很好。带上这张地图，愿你在昔日阳光最为炽烈之处步步留心。"
+  },
+  "betterruins:Well, thank you in turn! For humouring me, and getting me this scythe": {
+    " This thing’s much heavier than it looks, and I could use someone of your faculties to carry it back to my farmhouse when I tire of trading": {
+      " But that’s nowhere in the foreseeable future! Let’s worry about right now; all those gears that are weighing you down": {
+        " Come take a look at my wares, I’ll gladly help you lighten those pockets": "好吧，那我也得谢谢你！谢谢你迁就我，还帮我找到了这把镰刀。这东西比看起来重得多，等我做买卖累了，倒需要你这样有力气的人帮我把它扛回农舍。但那在可预见的将来还早着呢！先别操心那个，眼下你口袋里的那些齿轮压得你够呛。来看看我的货物吧，我很乐意帮你给口袋减减负。"
+      }
+    }
+  },
+  "betterruins:What would that price be?": "那代价是什么？",
+  "betterruins:Where is it?": "它在哪儿？",
+  "betterruins:Who made it?": "是谁造的？",
+  "betterruins:Why hasn't anyone gone after it?": "为什么没人去找过它？",
+  "betterruins:Why, thank you for entertaining my request": {
+    " Remember to stock up on food before you leave, it won’t do you any good to go prospecting on an empty stomach": "哎呀，谢谢你满足我的请求。记住在你离开前储备好食物，饿着肚子去探矿对你没有任何好处。"
+  },
+  "betterruins:Yes, but not exactly payment": {
+    " A confirmation of your abilities": {
+      " Show that you can handle good metal - bring me an iron pickaxe you forged yourself": {
+        " If you're going there, better not go without purpose or craftsmanship": "是的，但算不上报酬。这是对你能力的确认。展示你能驾驭优质金属 - 给我一把你亲手锻造的铁镐。要是打算去那儿，可别没个目的也没点手艺就上路。"
+      }
+    }
+  },
+  "betterruins:Yes, knowledge and items you'll need there": {
+    " Considering the different rumors, the danger seems to still live there": {
+      " You'll need equipment that can withstand an unexpected strike": {
+        " You'll need fire - it doesn't burn willingly there, so take enough torches": {
+          " Also - support, something to brace yourself against if the ground trembles": {
+            " And medicine - absolutely": {
+              " The pain from those events has most likely remained there, and the place will gladly share it with any visitor": {
+                " Perhaps even with the first visitor": "是的，那里有你所需的知识与物品。考虑到种种传闻，危险似乎仍盘踞在那里。你需要能抵御意外袭击的装备。你需要火焰——那里的火不易点燃，所以带上足够的火把。此外——支撑物，当地面震颤时能让你稳住身形的东西。还有药品——绝对需要。那些事件留下的痛苦很可能仍残留在那里，而那个地方会乐意与任何访客分享。也许甚至包括第一位访客……"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "betterruins:Yes, my appreciation of nature doesn’t end at all that sticks out of the ground, but my skills don’t lend themselves particularly well to working metal": {
+    " This might be my only opportunity to see something like this, let alone own it for myself! And I don’t intend to squander it if you’re interested in that ruin": {
+      " Trader’s mindset, I suppose": {
+        " I just can't help myself! Speaking of trade, are you buying?": "没错，我对自然的欣赏绝不仅限于那些露出地面的东西，但我的技能并不特别擅长加工金属。这可能是我唯一能见到这种东西的机会，更别说自己拥有了！如果你对那个遗迹感兴趣，我可不打算浪费这个机会。我想，这就是商人的思维吧。我就是控制不住自己！说到交易，你要买东西吗？"
+      }
+    }
+  },
+  "betterruins:You don’t know good eating": "你不懂美食。",
+  "betterruins:You mentioned a discovery?": "你提到了一项发现？",
+  "betterruins:You mentioned a salt mine?": "你提到了一座盐矿？",
+  "betterruins:You probably wander the world a lot": {
+    " Heard many stories?": "[BR 任务] 你大概经常在世界各地游历。听过很多故事吗？"
+  },
+  "betterruins:You truly have it": {
+    " A blade that sings of the forge and starlight": {
+      " You’ve earned this": "你真的拥有它了...一把吟唱着熔炉与星光的利刃。这是你应得的。"
+    }
+  },
+  "betterruins:[BR Quest] Do you have any tips for preserving food?": "[BR 任务] 你有什么保存食物的窍门吗？",
+  "betterruins:item-handbooktext-betterruins:br-schematic-alchemist": "<strong>发现于</strong>\n任何废墟中稀有",
+  "betterruins:item-handbooktext-betterruins:br-schematic-ancient": "<strong>发现于</strong>\n任何废墟中稀有",
+  "betterruins:item-handbooktext-betterruins:br-schematic-artisan": "<strong>发现于</strong>\n任何废墟中稀有",
+  "betterruins:item-handbooktext-betterruins:br-schematic-banner": "<strong>发现于</strong>\n任何废墟中稀有",
+  "betterruins:item-handbooktext-betterruins:br-schematic-bed": "<strong>发现于</strong>\n任何废墟中稀有",
+  "betterruins:item-handbooktext-betterruins:br-schematic-book": "<strong>发现于</strong>\n任何废墟中稀有",
+  "betterruins:item-handbooktext-betterruins:br-schematic-candle": "<strong>发现于</strong>\n任何废墟中稀有",
+  "betterruins:item-handbooktext-betterruins:br-schematic-carpenter": "<strong>发现于</strong>\n任何废墟中稀有",
+  "betterruins:item-handbooktext-betterruins:br-schematic-cartwright": "<strong>发现于</strong>\n任何废墟中稀有",
+  "betterruins:item-handbooktext-betterruins:br-schematic-chest": "<strong>发现于</strong>\n任何废墟中稀有",
+  "betterruins:item-handbooktext-betterruins:br-schematic-crate": "<strong>发现于</strong>\n任何废墟中稀有",
+  "betterruins:item-handbooktext-betterruins:br-schematic-door": "<strong>发现于</strong>\n任何废墟中稀有",
+  "betterruins:item-handbooktext-betterruins:br-schematic-farmer": "<strong>发现于</strong>\n任何废墟中稀有",
+  "betterruins:item-handbooktext-betterruins:br-schematic-gaslamp": "<strong>发现于</strong>\n任何废墟中稀有",
+  "betterruins:item-handbooktext-betterruins:br-schematic-gravedigger": "<strong>发现于</strong>\n任何废墟中稀有",
+  "betterruins:item-handbooktext-betterruins:br-schematic-jonasassembly": "<strong>发现于</strong>\n任何遗迹中极为罕见",
+  "betterruins:item-handbooktext-betterruins:br-schematic-jonaslamp": "<strong>发现于</strong>\n任何废墟中稀有",
+  "betterruins:item-handbooktext-betterruins:br-schematic-jonaspart": "<strong>发现于</strong>\n任何遗迹中极为罕见",
+  "betterruins:item-handbooktext-betterruins:br-schematic-mechanical": "<strong>发现于</strong>\n任何遗迹中极为罕见",
+  "betterruins:item-handbooktext-betterruins:br-schematic-palisade": "<strong>发现于</strong>\n任何废墟中稀有",
+  "betterruins:item-handbooktext-betterruins:br-schematic-pipes": "<strong>发现于</strong>\n任何废墟中稀有",
+  "betterruins:item-handbooktext-betterruins:br-schematic-road": "<strong>发现于</strong>\n任何废墟中稀有",
+  "betterruins:item-handbooktext-betterruins:br-schematic-roofing": "<strong>发现于</strong>\n任何废墟中稀有",
+  "betterruins:item-handbooktext-betterruins:br-schematic-shipwright": "<strong>发现于</strong>\n任何废墟中稀有",
+  "betterruins:item-handbooktext-betterruins:br-schematic-stone": "<strong>发现于</strong>\n任何废墟中稀有",
+  "betterruins:item-handbooktext-betterruins:br-schematic-table": "<strong>发现于</strong>\n任何废墟中稀有",
+  "betterruins:item-handbooktext-betterruins:br-schematic-textureflipper": "<strong>发现于</strong>\n故事结构大学",
+  "betterruins:item-handbooktext-betterruins:br-schematic-toymaker": "<strong>发现于</strong>\n任何废墟中稀有",
+  "betterruins:item-handbooktext-betterruins:br-schematic-weaver": "<strong>发现于</strong>\n任何废墟中稀有",
+  "betterruins:item-handbooktext-betterruins:br-schematic-wood": "<strong>发现于</strong>\n任何废墟中稀有",
+  "betterruins:item-handbooktext-betterruins:locatormap-agedsunrift": "<strong>发现于</strong>\n在地表遗迹中罕见",
+  "betterruins:item-handbooktext-betterruins:locatormap-calix": "<strong>与</strong>\n农业 商人 <strong>交谈</strong>",
+  "betterruins:item-handbooktext-betterruins:locatormap-coalmine": "<strong>发现于</strong>\n任何废墟中稀有",
+  "betterruins:item-handbooktext-betterruins:locatormap-crossroadsbelow": "<strong>与</strong>\n奢侈品商人交谈",
+  "betterruins:item-handbooktext-betterruins:locatormap-forlornhopedungeon": "<strong>发现于</strong>\n孤望塔",
+  "betterruins:item-handbooktext-betterruins:locatormap-forlornhopetower": "<strong>与</strong>\n奢侈品商人交谈",
+  "betterruins:item-handbooktext-betterruins:locatormap-halitequarry": "<strong>与</strong>\n农业 商人 <strong>交谈</strong>",
+  "betterruins:item-handbooktext-betterruins:locatormap-huaca": "<strong>发现于</strong>\n十字路口\n\n<strong>淘沙</strong>\n沙子 或 砂砾",
+  "betterruins:item-handbooktext-betterruins:locatormap-mansion": "<strong>发现于</strong>\n十字路口",
+  "betterruins:item-handbooktext-betterruins:locatormap-mine1": "<strong>发现于</strong>\n任何废墟中稀有",
+  "betterruins:item-handbooktext-betterruins:locatormap-mine2": "<strong>发现于</strong>\n任何废墟中稀有",
+  "betterruins:item-handbooktext-betterruins:locatormap-shoppingcentre": "<strong>发现于</strong>\n十字路口",
+  "betterruins:item-handbooktext-betterruins:locatormap-sunrift": "<strong>发现于</strong>\n任何 遗迹 中稀有出现\n\n<strong>与</strong>\n奢侈品 商人 <strong>交谈</strong>",
+  "betterruins:item-handbooktext-betterruins:locatormap-thepanopticon": "<strong>发现于</strong>\n十字路口",
+  "betterruins:item-handbooktext-betterruins:locatormap-university": "<strong>与</strong>\n奢侈品商人交谈",
+  "betterruins_structures_spawn_chance": "BetterRuins 结构生成几率",
+  "betterruins_structures_spawn_chance_comment": "影响所有 BetterRuins 结构（不包括村庄）的生成概率。",
+  "betterruins_villages_spawn_chance": "BetterRuins 村庄生成概率",
+  "betterruins_villages_spawn_chance_comment": "影响所有 BetterRuins 村庄的生成概率，这些村庄是由彼此靠近的小型结构群组成的（不是单个结构）。",
+  "blueprints_spawn_chance_title": "蓝图生成机会",
+  "coloredvillage_spawn_chance": "彩色村庄生成机会",
+  "desertruins_min_distance": "沙漠 遗迹 最小间距",
+  "desertruins_min_spawn_distance": "沙漠 遗迹 距出生点最小距离",
+  "desertruins_spawn_chance": "沙漠废墟生成机会",
+  "desertruins_title": "沙漠 遗迹",
+  "desertvillage_spawn_chance": "沙漠村庄生成机会",
+  "dialogue-actualbuying": "不错的选择。这就是我承诺的地图。它应该引导你到塔楼。他们说这样的地方通常保存着过去的遗物和宝藏，尽管它们很少无人看守。如果你发现任何有价值的东西，带回来给我——我总是对稀有文物感兴趣。祝你好运，冒险家。",
+  "dialogue-ahyouhavecometotherightplace": "啊，你找对人了。我处理大多数人不敢涉足的机会。告诉我——你是那种寻找稀有和非凡事物的人吗？如果是这样，我有一张地图可能会引起你的兴趣。它标记了一座古代塔楼的位置，曾经由一群著名的战士使用，名为Forlorn Hope。你听说过他们吗？",
+  "dialogue-anythingspecialtosell": "你现在有什么特别的东西卖吗？",
+  "dialogue-buyforlornmap1": "那么，你准备好用10个生锈的齿轮交易了吗？这是一个我不会再提供的报价。",
+  "dialogue-couldyouremindme": "你能提醒我你认为地球仪上标记的位置在哪里吗？",
+  "dialogue-forlornhope1": "Forlorn Hope是一群传奇的战士，由国王和领主亲自挑选，执行最不可能完成的任务。这些士兵在其他人失败的地方茁壮成长——战斗大师，既令人敬畏又受人尊敬。他们的名字本身就能激发盟友的忠诚和敌人的恐惧。这座塔是他们的据点之一，是他们训练、储存战利品和制定计划的地方。如果故事有任何真实性，他们的时代的宝藏可能仍然留在它的墙壁内。",
+  "dialogue-forlornhope2": "这是个好问题。像这样的塔楼被建造为堡垒，不仅是为了保护，而且是为了持久。据说这座塔楼保存着文物，甚至可能是Forlorn Hope战役的遗物。有人说这是他们力量和遗产的纪念碑，一个历史仍然向那些勇敢倾听的人低语的地方。但这样的地方往往隐藏着危险和秘密——小心行事。",
+  "dialogue-forlornhope3": "这张地图不是我轻易放弃的东西。用10个生锈的齿轮，它就是你的了。对于潜在财富的指南来说，这是一个公平的价格，你不觉得吗？",
+  "dialogue-fromwheredoyougetall": "你从哪里得到所有这些有价值的物品？",
+  "dialogue-globediscussion": "令人难以置信的工艺，真正是那个时代的遗物。但这里有一些东西，一个引起我好奇心的标记。\n\n（商人继续仔细检查地球仪，当他查看地图上的一个特定点时，眉头微微皱起。）",
+  "dialogue-globediscussion1": "有什么重要的东西，引起了你的注意吗？",
+  "dialogue-globediscussion2": "确实，我的朋友。看这里，在这个特定的标记上。它似乎是故意的，不像通常的制图细节。它似乎指向一个宏伟的结构——一所大学，如果传言可信的话。据说它坐落在一个峡谷中，周围是一个古老村庄的遗迹。还有这里...\n\n（他用手指敲击地图。）\n\n...一座塔楼，可能是大学的一部分。这样的地方通常隐藏着值得发掘的秘密。如果你有足够的勇气去探索它，谁知道你可能会发现什么宝藏？",
+  "dialogue-globediscussion3": "峡谷中的大学？这确实听起来很有趣。它可能意味着什么？",
+  "dialogue-globediscussion4": "这就是问题所在，不是吗？有些人声称这是一个巨大的学习场所，学者和梦想家聚集的地方。其他人低声说它藏有被外界认为太危险的知识——文本和文物。无论真相如何，它早已被遗弃，废墟中可能充满了机会，适合那些敢于冒险的人。\n\n（他停顿了一下，表情若有所思。）\n\n",
+  "dialogue-globediscussion5": "我需要把这个地球仪带给我的客户，但在此之前，让我复制下这些标记。\n\n（商人仔细检查地球仪，用羽毛笔将复杂的细节描摹到一张羊皮纸上。）\n\n好了——这张地图应该能引导你到那所大学。那里有什么宝藏或知识，我无法说，但它肯定值得你去探索。如果你发现任何有价值的东西，带回来——我总是对稀有文物感兴趣。\n\n",
+  "dialogue-globediscussion6": "按照承诺，这是你带来地球仪的10个生锈齿轮的奖励。非常感谢！",
+  "dialogue-globediscussion7": "很高兴和你做生意。",
+  "dialogue-imbackandibring": "我回来了，我带来了一个完整的地球仪。",
+  "dialogue-maprepeat1": "让我检查一下我的笔记...啊，在这里。这应该能帮助你找到峡谷中的大学。明智地使用它，祝你好运。",
+  "dialogue-newalwaysmore": "是的，总有更多的工作要做。我可能有些事情要你做...",
+  "dialogue-strategy1": "我总是在寻找，从其他商人、顾客和在这个领域漫游的勇敢宝藏猎人那里获取它们。",
+  "dialogue-strategy2": "说到宝藏，你现在在寻找什么特别的东西吗？",
+  "dialogue-strategy3": "有趣的是你问这个！我有一个长期客户的特别请求。他们正在寻找一个大型完整的地球仪，作为给朋友的礼物。你觉得在你的旅行中可能会遇到这样的东西吗？",
+  "dialogue-strategy4": {
+    "1": "我会留意大型地球仪。",
+    "2": "我现在很忙，抱歉。也许下次吧。"
+  },
+  "dialogue-strategy5": "我欣赏你的热情。请放心，如果你找到这样的宝藏，我会慷慨地奖励你。",
+  "dialogue-takeglobe": "你找到了地球仪？！我明白了。让我仔细看看这件非凡的作品。\n\n（他仔细检查地球仪，用手指追踪复杂的线条，研究褪色的地图。）\n\n",
+  "femursnappervillage_spawn_chance": "FemurSnappers村庄生成机会",
+  "forestvillage_spawn_chance": "森林村庄生成机会",
+  "game:Alright, save me the trouble": {
+    " Here's four gears": "行，省得我费事。给你四个齿轮。"
+  },
+  "game:Excellent": {
+    " Thank you for the business": "太好了。感谢您的惠顾。"
+  },
+  "game:Here, I've marked on a map where you might find one of them": {
+    " He had set up a small outpost there last time I passed by": "喏，我在地图上标了个点，你或许能在那里找到他们中的一个。上回路过时，他在那儿建了个小哨站。"
+  },
+  "game:Kind of you to ask, traveler": {
+    " It's {{npcname}}": "旅行者，多谢关心。我是{{npcname}}。"
+  },
+  "game:No thanks, I don't have much to spare": "不用了，谢谢，我没什么多余的。",
+  "game:blockdesc-door-1x2heavy-aged": "这扇 门 已经生锈，无法打开。",
+  "game:blockdesc-door-1x3heavy-aged": "这扇门已经生锈，无法打开。",
+  "game:blockdesc-door-2x4heavy-aged": "这扇门已经生锈，无法打开。",
+  "game:clutter-globe1": "大型完整地球仪",
+  "game:ingamediscovery-lore-agitatedregards": "发现了传说故事《焦躁的问候》\r\n第 {0} / {1} 部分\r\n<font size=\"20\">按 J 键打开日志</font>",
+  "game:ingamediscovery-lore-allhandsrequired": "发现了传说故事《全体就位！》\r\n第 {0} / {1} 部分\r\n<font size=\"20\">按 J 键打开日志</font>",
+  "game:ingamediscovery-lore-authoritativecopy": "发现了传说故事《权威副本》\r\n第 {0} / {1} 部分\r\n<font size=\"20\">按 J 键打开日志</font>",
+  "game:ingamediscovery-lore-brickworkerslament": "发现了传说故事《砖工的哀叹》\r\n第 {0} / {1} 部分\r\n<font size=\"20\">按 J 键打开日志</font>",
+  "game:ingamediscovery-lore-conditions": "发现知识“条件”\r\n第 {0} / {1} 部分\r\n<font size=\"20\">按 J 打开日志</font>",
+  "game:ingamediscovery-lore-darkheat": "发现传说“黑暗的热量”\r\n第 {0} 部分 / {1}\r\n<font size=“20”>按 J 打开你的日记</font>",
+  "game:ingamediscovery-lore-deliverieslist": "发现知识“小型交付清单”\r\n第 {0} / {1} 部分\r\n<font size=\"20\">按 J 打开日志</font>",
+  "game:ingamediscovery-lore-desertexcavation": "发现知识“沙漠挖掘日志”\r\n第 {0} / {1} 部分\r\n<font size=\"20\">按 J 打开日志</font>",
+  "game:ingamediscovery-lore-desperatetimes": "发现传说“绝境逢生”\r\n第 {0} 部分 / {1}\r\n<font size=“20”>按 J 打开你的日记</font>",
+  "game:ingamediscovery-lore-devotion": "发现传说“虔诚”\r\n第 {0} 部分 / {1}\r\n<font size=“20”>按 J 打开你的日记</font>",
+  "game:ingamediscovery-lore-doubts": "发现知识“疑虑”\r\n第 {0} / {1} 部分\r\n<font size=\"20\">按 J 打开日志</font>",
+  "game:ingamediscovery-lore-dutyofthescribe": "发现知识“书记员的职责”\r\n第 {0} / {1} 部分\r\n<font size=\"20\">按 J 打开日志</font>",
+  "game:ingamediscovery-lore-experimentteammember": "发现知识“实验小组成员的记录”\r\n第 {0} / {1} 部分\r\n<font size=\"20\">按 J 打开日志</font>",
+  "game:ingamediscovery-lore-faulknersmusings": "发现知识“福克纳的沉思”\r\n第 {0} / {1} 部分\r\n<font size=\"20\">按 J 打开日志</font>",
+  "game:ingamediscovery-lore-favorableconditions": "发现知识“实验启动的有利条件”\r\n第 {0} / {1} 部分\r\n<font size=\"20\">按 J 打开日志</font>",
+  "game:ingamediscovery-lore-fieldengineersdiary": "发现传说“现场工程师日记”\r\n第 {0} 部分 / {1}\r\n<font size=“20”>按 J 打开你的日记</font>",
+  "game:ingamediscovery-lore-finalentriesarchmaster": "发现了传说‘至尊大师-领袖的最后记录’\n部分 {0} / {1}\n<font size=\"20\">按 J 打开你的日志</font>",
+  "game:ingamediscovery-lore-finalhour": "发现传说 '最后时刻'\r\n第 {0} / {1} 部分\r\n<font size=\"20\">按 J 打开你的日志</font>",
+  "game:ingamediscovery-lore-forlornhopebounty": "发现传说“赏金雄心”\r\n第 {0} 部分 / {1}\r\n<font size=“20”>按 J 打开你的日记</font>",
+  "game:ingamediscovery-lore-forlornhopemilitaryrecord89": "发现传说“军事记录 #89”\r\n第 {0} 部分 / {1}\r\n<font size=“20”>按 J 打开你的日记</font>",
+  "game:ingamediscovery-lore-forlornhoperecruitment": "发现传说“渺茫的希望 的招募信”\r\n第 {0} 部分 / {1}\r\n<font size=“20”>按 J 打开你的日记</font>",
+  "game:ingamediscovery-lore-forlornhopestrategies": "发现的传说“战争战略和战术”\r\n第 {0} 部分 / {1}\r\n<font size=“20”>按 J 打开你的日记</font>",
+  "game:ingamediscovery-lore-glimmershield": "发现传说“The 光辉之盾Castle”\r\n第 {0} 部分 / {1}\r\n<font size=“20”>按 J 打开你的日记</font>",
+  "game:ingamediscovery-lore-grandrifttheory": "发现知识 '大裂隙理论' 第 {0} / {1} 部分 <font size=\"20\">按 J 打开日志</font>",
+  "game:ingamediscovery-lore-greensecret": "发现了隐秘知识'绿色秘密'\n部分 {0} / {1}\n<font size=\"20\">按J键打开日志</font>",
+  "game:ingamediscovery-lore-hopeandisaiahsledgers": "发现了传说 '希望与以赛亚的账本'\n部分 {0} / {1}\n<font size=\"20\">按 J 打开日志</font>",
+  "game:ingamediscovery-lore-initialphases": "发现传说 '实验的初始阶段'\n第{0}部分 / {1}\n<font size=\"20\">按J键打开日志</font>",
+  "game:ingamediscovery-lore-lastfisherman": "发现传说“渔夫的遗言”\r\n第 {0} 部分 / {1}\r\n<font size=“20”>按 J 打开你的日记</font>",
+  "game:ingamediscovery-lore-lastwall": "发现传说“最后一道墙”\r\n第 {0} 部分 / {1}\r\n<font size=“20”>按 J 打开你的日记</font>",
+  "game:ingamediscovery-lore-librarianslament": "发现传说“图书管理员的哀歌”\r\n第 {0} 部分 / {1}\r\n<font size=“20”>按 J 打开你的日记</font>",
+  "game:ingamediscovery-lore-lostdoll": "发现传说“失落的玩偶”\r\n第 {0} 部分 / {1}\r\n<font size=“20”>按 J 打开你的日记</font>",
+  "game:ingamediscovery-lore-maxwellscreations": "发现了传说 '麦斯威尔造物的回声'\n部分 {0} / {1}\n<font size=\"20\">按 J 键打开你的日志</font>",
+  "game:ingamediscovery-lore-messagetothestudent": "已发现传说 '致学生的信'\n部分 {0} / {1}\n<font size=\"20\">按 J 键打开日志</font>",
+  "game:ingamediscovery-lore-minerlogentries": "发现传说 '矿工埃德里的日志'\r\n第 {0} / {1} 部分\r\n<font size=\"20\">按 J 打开你的日志</font>",
+  "game:ingamediscovery-lore-newmaterials": "发现了传说 'Viridilite'\n部分 {0} / {1}\n<font size=\"20\">按 J 打开日志</font>",
+  "game:ingamediscovery-lore-paigespleas": "发现了传说《佩奇的恳求》\n第 {0} / {1} 部分\n<font size=\"20\">按 J 键打开日志</font>",
+  "game:ingamediscovery-lore-paigeswoes": "发现了传说《佩奇的哀愁》\n第 {0} / {1} 部分\n<font size=\"20\">按 J 键打开日志</font>",
+  "game:ingamediscovery-lore-panopticonletters": "发现了传说《全景监狱信件》\n第 {0} / {1} 部分\n<font size=\"20\">按 J 键打开日志</font>",
+  "game:ingamediscovery-lore-pawprints": "发现了传说《爪印》\n第 {0} / {1} 部分\n<font size=\"20\">按 J 键打开日志</font>",
+  "game:ingamediscovery-lore-priestdiary": "发现传说“牧师日记”\r\n第 {0} 部分 / {1}\r\n<font size=“20”>按 J 打开你的日记</font>",
+  "game:ingamediscovery-lore-quarrycorrespondences": "发现了传说《采石场通信》\n第 {0} / {1} 部分\n<font size=\"20\">按 J 键打开日志</font>",
+  "game:ingamediscovery-lore-reportslubrication": "发现了传说《机械润滑报告》\n第 {0} / {1} 部分\n<font size=\"20\">按 J 键打开日志</font>",
+  "game:ingamediscovery-lore-ripleysresearch": "发现了传说《里普利的研究》\n第 {0} / {1} 部分\n<font size=\"20\">按 J 键打开日志</font>",
+  "game:ingamediscovery-lore-saltstainedscrawlings": "发现了传说《盐污渍的涂鸦》\n第 {0} / {1} 部分\n<font size=\"20\">按 J 键打开日志</font>",
+  "game:ingamediscovery-lore-severancenotice": "发现传说《解雇通知》\r\n第 {0} / {1} 部分\r\n<font size=\"20\">按 J 键打开日志</font>",
+  "game:ingamediscovery-lore-smashingsuccess": "发现传说《粉碎性成功》\r\n第 {0} / {1} 部分\r\n<font size=\"20\">按 J 键打开日志</font>",
+  "game:ingamediscovery-lore-stokersdirective": "发现传说《司炉工的指令》\r\n第 {0} / {1} 部分\r\n<font size=\"20\">按 J 键打开日志</font>",
+  "game:ingamediscovery-lore-strangetoylist": "发现传说《奇怪的玩具清单》\r\n第 {0} / {1} 部分\r\n<font size=\"20\">按 J 键打开日志</font>",
+  "game:ingamediscovery-lore-sundialdiary": "发现传说《日晷日记》\r\n第 {0} / {1} 部分\r\n<font size=\"20\">按 J 键打开日志</font>",
+  "game:ingamediscovery-lore-tournamentwinners": "发现传说《常规锦标赛优胜者》\r\n第 {0} / {1} 部分\r\n<font size=\"20\">按 J 键打开日志</font>",
+  "game:ingamediscovery-lore-treasurehunternotes1": "发现传说《宝藏猎人的笔记》\r\n第 {0} / {1} 部分\r\n<font size=\"20\">按 J 键打开日志</font>",
+  "game:ingamediscovery-lore-viridiliteshift": "发现传说《绿光石转变》\r\n第 {0} / {1} 部分\r\n<font size=\"20\">按 J 键打开日志</font>",
+  "game:ingamediscovery-lore-wolfstonecastle": "发现传说 '狼石堡'\r\n第 {0} 部分 / {1}\r\n<font size=“20”>按 J 打开你的日记</font>",
+  "game:item-stackrandomizer-agitatedregards": "BR 传说 焦躁的问候",
+  "game:item-stackrandomizer-authoritativecopy": "BR 传说 权威副本",
+  "game:item-stackrandomizer-backpack": "BR 战利品 背包",
+  "game:item-stackrandomizer-blrmeteoriciron": "BR 方块 陨铁",
+  "game:item-stackrandomizer-brickworkerslament": "BR 传说 砖匠的哀歌",
+  "game:item-stackrandomizer-buildingblocks": "BR 战利品 建筑方块",
+  "game:item-stackrandomizer-clayproducts": "BR 战利品 黏土制品",
+  "game:item-stackrandomizer-conditions": "BR 传说 条件",
+  "game:item-stackrandomizer-cursed": "BR 战利品 来自其他模组的特殊无争议战利品",
+  "game:item-stackrandomizer-darkheat": "BR 传说 暗热",
+  "game:item-stackrandomizer-deliverieslist": "BR 传说 小型配送清单",
+  "game:item-stackrandomizer-desertexcavation": "BR 传说 沙漠发掘日志",
+  "game:item-stackrandomizer-desperatetimes": "BR 传说 绝望时刻",
+  "game:item-stackrandomizer-devotion": "BR 传说 奉献",
+  "game:item-stackrandomizer-dutyofthescribe": "BR 传说 书记官的职责",
+  "game:item-stackrandomizer-experimentteammember": "BR 传说 实验团队成员",
+  "game:item-stackrandomizer-faulknersmusings": "BR 传说 福克纳的沉思",
+  "game:item-stackrandomizer-favorableconditions": "BR 传说 有利条件",
+  "game:item-stackrandomizer-fieldengineersdiary": "BR 传说 战地工程师日记",
+  "game:item-stackrandomizer-finalentriesarchmaster": "BR 传说 大法师的最后记录",
+  "game:item-stackrandomizer-finalhour": "BR 传说 最后时刻",
+  "game:item-stackrandomizer-forlornhope": "BR 传说 孤望",
+  "game:item-stackrandomizer-forlornhope-armor": "BR 战利品 绝境者护甲",
+  "game:item-stackrandomizer-forlornhope-specials": "BR 战利品 绝望希望特殊物品",
+  "game:item-stackrandomizer-forlornhope-weapons": "BR 战利品 绝望希望 武器",
+  "game:item-stackrandomizer-forlornhopebounty": "BR 传说：绝望希望悬赏",
+  "game:item-stackrandomizer-forlornhopemilitaryrecord89": "BR 传说：绝望希望军事记录",
+  "game:item-stackrandomizer-forlornhoperecruitment": "BR 传说：绝望希望征兵",
+  "game:item-stackrandomizer-forlornhopestrategies": "BR 传说：绝望希望战略",
+  "game:item-stackrandomizer-glimmershield": "BR 传说 微光之盾",
+  "game:item-stackrandomizer-grandrifttheory": "BR 传说：大裂隙理论",
+  "game:item-stackrandomizer-greensecret": "BR 传说：绿色秘密",
+  "game:item-stackrandomizer-hopeandisaiahsledgers": "BR 传说：霍普与以赛亚的账本",
+  "game:item-stackrandomizer-initialphases": "BR 传说：实验的初始阶段",
+  "game:item-stackrandomizer-kingclothing": "BR 战利品 国王服饰",
+  "game:item-stackrandomizer-largechurch": "BR 传说 大教堂",
+  "game:item-stackrandomizer-lastfisherman": "BR 传说 最后的渔夫",
+  "game:item-stackrandomizer-lastwall": "BR 传说 最后的墙",
+  "game:item-stackrandomizer-librarianslament": "BR 传说 图书管理员的哀叹",
+  "game:item-stackrandomizer-lostdoll": "BR 传说 丢失的玩偶",
+  "game:item-stackrandomizer-mask": "BR 战利品 面具",
+  "game:item-stackrandomizer-maxwellscreations": "BR 传说 麦克斯韦的造物",
+  "game:item-stackrandomizer-mechanical": "BR 战利品 机械制品",
+  "game:item-stackrandomizer-messagetothestudent": "BR 传说 致学生的信",
+  "game:item-stackrandomizer-minerlogentries": "BR 传说 矿工埃德里的日志",
+  "game:item-stackrandomizer-newlore": "BR 战利品 所有传说条目",
+  "game:item-stackrandomizer-newmaterials": "BR 传说 翠绿石",
+  "game:item-stackrandomizer-paigespleas": "BR 传说 佩奇的恳求",
+  "game:item-stackrandomizer-paigeswoes": "BR 传说 佩奇的悲叹",
+  "game:item-stackrandomizer-panopticonletters": "BR 传说 全景监狱书信",
+  "game:item-stackrandomizer-pawprints": "BR 传说 爪印",
+  "game:item-stackrandomizer-priestdiary": "BR 传说 牧师的日记",
+  "game:item-stackrandomizer-quarrycorrespondences": "BR 传说 采石场通信记录",
+  "game:item-stackrandomizer-reportslubrication": "BR 传说 机械润滑报告",
+  "game:item-stackrandomizer-ripleysresearch": "BR 传说 里普利的研究",
+  "game:item-stackrandomizer-rottenkingclothing": "BR 战利品 腐烂的国王服饰",
+  "game:item-stackrandomizer-saltstainedscrawlings": "BR 传说 盐 污渍的潦草笔记",
+  "game:item-stackrandomizer-severancenotice": "BR 传说 解雇通知",
+  "game:item-stackrandomizer-smashingsuccess": "BR 传说 粉碎性成功",
+  "game:item-stackrandomizer-stokersdirective": "BR 传说 司炉的指令",
+  "game:item-stackrandomizer-strangetoylist": "BR 传说 奇怪的玩具清单",
+  "game:item-stackrandomizer-sundialdiary": "BR 传说 日晷日记",
+  "game:item-stackrandomizer-tournamentwinners": "BR 传说 锦标赛优胜者",
+  "game:item-stackrandomizer-treasurehunternotes1": "BR 传说 宝藏猎人 的笔记",
+  "game:item-stackrandomizer-undergroundlibrary": "BR 传说 地下图书馆",
+  "game:item-stackrandomizer-viridiliteshift": "BR 传说 翠绿岩转变",
+  "game:item-stackrandomizer-wolfstone": "BR 传说 狼石",
+  "game:item-textureflipper": "时空变换器",
+  "game:itemdesc-textureflipper": "一种装饰华丽的铜镍合金装置，旨在转换一些杂乱的方块纹理，引导时间重组的本质。\n\n查看支持的杂乱方块并使用F键选择替代纹理。\n\n并非所有杂乱方块都可以修改，但请确保在所有方块上测试此设备。",
+  "game:location-calix": "时空圣杯计划",
+  "game:location-coalmine": "煤矿",
+  "game:location-crossroads": "十字路口",
+  "game:location-forlornhopedungeon": "孤望堡垒",
+  "game:location-forlornhopetower": "孤望塔",
+  "game:location-gates": "损坏的仪器",
+  "game:location-graves": "遗忘的墓碑",
+  "game:location-halitequarry": "盐岩采石场",
+  "game:location-huaca": "艾·阿帕埃克瓦卡",
+  "game:location-mansion": "宅邸",
+  "game:location-mine1": "废弃矿井",
+  "game:location-mine2": "废弃矿井",
+  "game:location-shoppingcentre": "穹顶购物中心",
+  "game:location-sunrift": "日裂实验",
+  "game:location-thepanopticon": "全景监狱",
+  "game:location-undergroundruins": "海绵状坟墓",
+  "game:location-university": "大学",
+  "game:loretype-agitatedregards": "一封关于资源短缺与庄园管理不善的愤懑信件。",
+  "game:loretype-allhandsrequired": "斯万马克庄园发布的招募告示。",
+  "game:loretype-authoritativecopy": "一份密封的法律文件，确立了具有约束力的基础设施权利，并揭示了一场旷日持久的家族间争端的根源。",
+  "game:loretype-brickworkerslament": "一位砖工对庄园内劳作、指责与怨恨的个人记述。",
+  "game:loretype-conditions": "来自领导团队的实验规划笔记。",
+  "game:loretype-darkheat": "在陨石撞击点附近发现的研究者笔记。",
+  "game:loretype-deliverieslist": "一份来自哈什沃德及周边定居点的送货清单。",
+  "game:loretype-desertexcavation": "在一座被掩埋的沙漠神殿中发现的日志残页。",
+  "game:loretype-dutyofthescribe": "实验开始时，书记员的原木。",
+  "game:loretype-experimentteammember": "实验团队一名成员的个人记录。",
+  "game:loretype-faulknersmusings": "大建筑师福克纳在隔离期间的日志笔记。",
+  "game:loretype-favorableconditions": "来自观测点的风暴预警记录。",
+  "game:loretype-fieldengineersdiary": "一位现场工程师的日记。",
+  "game:loretype-finalentriesarchmaster": "大导师领袖的最后笔记。",
+  "game:loretype-finalhour": "某人最后笔记的故事。",
+  "game:loretype-forlornhope": "关于“绝望希望”的文件。",
+  "game:loretype-glimmershield": "来自一座古老城堡的故事。",
+  "game:loretype-grandrifttheory": "来自观测点的理论笔记。",
+  "game:loretype-greensecret": "一封藏在翠绿石储藏点附近的私人信件。",
+  "game:loretype-hopeandisaiahsledgers": "来自地下水道隔离区的典狱长账簿。",
+  "game:loretype-initialphases": "一份关于大裂隙实验的阶段报告。",
+  "game:loretype-largechurch": "在一座大教堂中发现的笔记。",
+  "game:loretype-lastfisherman": "在一段城堡废墟墙段中发现的笔记。",
+  "game:loretype-lastwall": "在一段城堡废墟墙段中发现的笔记。",
+  "game:loretype-lostdoll": "在一处废弃农庄中发现的笔记。",
+  "game:loretype-maxwellscreations": "在缮写室中发现的一份演出笔记。",
+  "game:loretype-messagetothestudent": "一封写给学徒机械师的工作坊便条。",
+  "game:loretype-minerlogentries": "在煤矿中发现的原木条目。",
+  "game:loretype-newmaterials": "在绿辉石矿床附近发现的研究者笔记。",
+  "game:loretype-paigespleas": "遗留在庄园通风口下的各类信件。",
+  "game:loretype-paigeswoes": "一份关于水道关闭及其后果的个人记述。",
+  "game:loretype-panopticonletters": "散落在地下各处的被拘留者信件。",
+  "game:loretype-pawprints": "一系列留在共享储藏处的信息，记录了雇佣兵交易、未解决的暴力、腐烂物之后的生存，以及一个古老印记演变为活传统的过程。",
+  "game:loretype-quarrycorrespondences": "一批内部通信，揭示了隐秘目标、失败的回收行动，以及一处偏远采石场作业被悄然放弃的经过。",
+  "game:loretype-reportslubrication": "关于行星齿轮系统润滑的维护记录。",
+  "game:loretype-ripleysresearch": "记录时间圣杯的构想、进展与失败的研究笔记。",
+  "game:loretype-saltstainedscrawlings": "被困劳工的私人手记，记载着虚假的希望、缓慢的醒悟，以及坍塌采石场下的最后告别。",
+  "game:loretype-severancenotice": "一份正式的行政命令，以例行庄园程序为幌子，撤销了 传送器 的访问权限。",
+  "game:loretype-smashingsuccess": "一份详细记述一次成功破坏任务及其执行者所付出个人代价的战地报告。",
+  "game:loretype-stokersdirective": "一份概述维护宏大引擎的职责与风险的官方指令。",
+  "game:loretype-strangetoylist": "撤离前留在营房里的一张潦草清单。",
+  "game:loretype-sundialdiary": "洞穴群中透镜项目的日记条目。",
+  "game:loretype-tournamentwinners": "由锦标赛记录员保存的赛事记录。",
+  "game:loretype-treasurehunternotes1": "一位宝藏猎人在探索地下废墟建筑群时留下的野外笔记。",
+  "game:loretype-undergroundlibrary": "在地下图书馆发现的笔记。",
+  "game:loretype-universalstories": "早已被遗忘的过往故事。",
+  "game:loretype-viridiliteshift": "来自地下研究设施的观察点报告。",
+  "game:loretype-wolfstone": "来自一座古老城堡的故事。",
+  "graves_title": "严重",
+  "item-br-schematic-alchemist": "炼金术士蓝图",
+  "item-br-schematic-ancient": "遗迹石匠 的蓝图",
+  "item-br-schematic-artisan": "工匠蓝图",
+  "item-br-schematic-banner": "旗手的旗帜 蓝图",
+  "item-br-schematic-bed": "木工床 蓝图",
+  "item-br-schematic-book": "图书管理员 的蓝图",
+  "item-br-schematic-candle": "钱德勒蓝图",
+  "item-br-schematic-carpenter": "木匠蓝图",
+  "item-br-schematic-cartwright": "车匠蓝图",
+  "item-br-schematic-chest": "宝藏卫士 的蓝图",
+  "item-br-schematic-crate": "仓储管理员 的蓝图",
+  "item-br-schematic-door": "守门人 的蓝图",
+  "item-br-schematic-farmer": "农夫蓝图",
+  "item-br-schematic-gaslamp": "兰普赖特的蓝图",
+  "item-br-schematic-gravedigger": "掘墓人蓝图",
+  "item-br-schematic-jonasassembly": "工程师的装配体蓝图",
+  "item-br-schematic-jonaslamp": "金属工匠的乔纳斯提灯 蓝图",
+  "item-br-schematic-jonaspart": "工匠部件 蓝图",
+  "item-br-schematic-mechanical": "机械师的机构蓝图",
+  "item-br-schematic-palisade": "栅栏建造者蓝图",
+  "item-br-schematic-pipes": "水管工蓝图",
+  "item-br-schematic-road": "铺路机道路蓝图",
+  "item-br-schematic-roofing": "屋顶大师蓝图",
+  "item-br-schematic-shipwright": "造船匠蓝图",
+  "item-br-schematic-stone": "石匠的蓝图",
+  "item-br-schematic-table": "木工桌 蓝图",
+  "item-br-schematic-textureflipper": "时空变换器蓝图",
+  "item-br-schematic-toymaker": "玩具匠蓝图",
+  "item-br-schematic-weaver": "织匠蓝图",
+  "item-br-schematic-wood": "伐木工 的蓝图",
+  "item-locatormap-agedsunrift": "陈旧地图：日裂实验",
+  "item-locatormap-calix": "地图：时空圣杯计划",
+  "item-locatormap-coalmine": "煤矿地图",
+  "item-locatormap-crossroadsbelow": "地图：地下十字路口",
+  "item-locatormap-forlornhopedungeon": "孤望堡垒地图",
+  "item-locatormap-forlornhopetower": "孤望塔地图",
+  "item-locatormap-gates": "机械圣物箱地图",
+  "item-locatormap-graves": "丢失的墓碑追踪",
+  "item-locatormap-halitequarry": "地图：盐岩采石场",
+  "item-locatormap-huaca": "地图：艾阿帕克神龛",
+  "item-locatormap-mansion": "地图：宅邸",
+  "item-locatormap-mine1": "废弃矿井地图",
+  "item-locatormap-mine2": "废弃矿井地图",
+  "item-locatormap-shoppingcentre": "地图：穹顶商城",
+  "item-locatormap-sunrift": "通往日裂实验的地图",
+  "item-locatormap-thepanopticon": "通往全景监狱的地图",
+  "item-locatormap-undergroundruins": "深渊探险地图",
+  "item-locatormap-university": "大学地图",
+  "itemdesc-br-schematic-*": "这些蓝图是可重复使用的，其中包含了由他们的行业大师制作的被遗忘配方的秘密。\n\n（注意：待筛选邮件项目将在此处下方的配方浏览器中出现两次。较低的将起作用，其他的将不可点击。",
+  "itemdesc-locatormap-*": "一张指向隐藏地点的地图。使用它来找到隐藏区域的入口。\n（右键点击在地图上标记）",
+  "itemdesc-locatormap-gates": "一张指向传送器地点的地图。建议在精确位置向下挖掘。\n（右键点击可在地图上标记）",
+  "itemdesc-locatormap-graves": "一张指向地表墓穴的地图。\n（右键点击可在地图上标记）",
+  "itemdesc-locatormap-undergroundruins": "一张指向地下结构的地图。建议在精确位置向下挖掘。\n（右键点击可在地图上标记）",
+  "largeruins_min_distance": "大型遗迹最小距离",
+  "largeruins_spawn_chance": "大型废墟生成机会",
+  "largeruins_title": "大型遗迹",
+  "loot": "战利品倍数",
+  "loot_comment": "允许更改BetterRuins的战利品添加和修改。设置为0可完全禁用。",
+  "loot_title": "战利品",
+  "lore-agitatedregards-piece1": "里普利，这必须停止了。我理解你认为你的项目很重要，但我认为让家主开心且吃饱本身也相当重要。事实上，这符合我们所有人的最大利益！我刚刚目睹金翅雀解雇了另一个仆人，只因他献上的葡萄被认为太小，有窒息风险。在我不得不亲自呈上水果蔬菜之前，已经没有多少仆人可以替我顶罪了。\r\n\r\n我一次次伸手去取硝石来制作我的肥料，却发现容器空空如也。当你用完最后一点东西时，就该下单订购更多。这里的规矩就是这样。我知道这是你第一次担任研究主管，但我们承受不起你犯这些错误。我在德拉布尔学院受训多年，学习修剪树篱和培育花，从没学过种植作物，更别说产出足够养活全体员工的作物了。而且我承认，我不止一次梦想过去阿斯坎农果园工作。但无论如何，我已经出色地承担起了我的新职责。你为什么不能也这样呢？\r\n\r\n那位皮革匠，愿她安好，竟指责我用量过多！然而我的田地从未如此糟糕，我知道这并非我园艺才能的过错。无论你在下面做什么，最好值得你如此粗心地耗尽我们的试剂，给府邸上层带来的这些麻烦。我已经又下了一份硝石的订单，数量是往常的两倍，我恳求你这次给我们其他人留一些。\r\n\r\n带着焦躁的问候，\r\n巴西拉·卡马尔\r\n金翅雀家族首席园艺师\r\n\r\n___NEWPAGE___",
+  "lore-agitatedregards-title": "焦躁的问候 (BR)",
+  "lore-allhandsrequired-piece1": "昭告天下：斯万马克庄园诚征能工巧匠，参与宏伟水道之建设。此工程旨在以运河贯通吾等领地。\n\n凡挖掘、砌石、木作、搬运等各行劳工，皆可获公平薪酬与温暖住所，费用由高贵的斯万马克家族全额支付。\n\n有意效劳者，可前往亚罗福德镇外第二十三里程碑处。从斯万马克庄园正门进入，求见艾尔温女士，由其指引前往工地。\n\n签署人：\n国际知名\n总建筑师 福克纳",
+  "lore-allhandsrequired-title": "全员征召！(BR)",
+  "lore-authoritativecopy-piece1": "本文件构成斯万马克庄园与金翅雀家族在昂德兰王室监督下，并经其指定仲裁者同意所订立之贸易协议的忠实且具约束力的记录，用以规范两家之间关于通行、准入及互不干涉之事宜。\n\n斯万马克家族确认其对金翅雀家族领地及属地内道路、运河及其他区域基础设施的建造、维护和运营拥有唯一权力。\n\n金翅雀家族被授予永久且优先的通行权，可使用所有由斯万马克家族维护的、为在金翅雀家族属地与贸易点之间运输货物、材料和人员所必需的基础设施。\n\n金翅雀家族及其利益方在其自身领土内的道路上无需支付通行费。除签署时确定的维护费外，不得以其他方式扣留、限制斯万马克基础设施的通行权或对其附加条件，除非有昂德兰王室的直接制裁。\n\n斯万马克家族应确保对服务于金翅雀家族路线的上述基础设施进行合理维护和及时修缮，且不得为施加影响、压力或获取优势之目的而延误或忽视此类维护。\n\n斯万马克家族确认不干涉金翅雀家族的内部运营、开采及贸易活动，且不得利用其对基础设施的控制来影响、阻碍金翅雀家族的利益或向其索取额外让步。\n\n金翅雀家族承认斯万马克庄园为区域基础设施的唯一权力机构，并同意不在金翅雀家族领地内建造或委托建造与之竞争的道路、运河或运输工程。\n\n本协议在昂德兰王室的授权下见证并盖章，由各自贵族家族的代表一式三份签署。",
+  "lore-authoritativecopy-title": "权威副本 (BR)",
+  "lore-brickworkerslament-piece1": "一切都通过这些蝗虫、助手和偶尔出现的幻灵实现了自动化，但我们仍必须留在岗位上。提供我们的“专业知识”，却对过程本身毫无参与……\n不，我们不过是那些机械装置必然出故障时的替罪羊。分配给我们的任务简单得近乎侮辱，却又让我们承担全部责任。是你启动了自动机，所以它的故障就是你的错。\n\n我想，如果他们直接让我们离开，我或许会更乐意，可我们却只能闲坐着等待。等待着蝗虫们再次无可避免地崩溃。等待着为它们的失败背黑锅。偶尔，他们找不到可以归咎的砖工，便会向工程师们寻求答案。我曾偶然听人说起那些会议是如何进行的。每一个缺点都归咎于乔纳斯·镰刀剑，而他们同时仍声称设计完全出自自己之手。\n这些工程师难道如此骄傲，以至于拒绝考虑他们的技艺需要改进，他们的仿制品并不完美？我本人出身于自豪的石匠世家，但我引以为傲的是能经受时间考验的石工，而不是那些最能取悦盖奇·金翅雀的新奇玩意儿。\n\n不过，我必须保持他们的好感。在那次会议上，我得知卡利克斯即将完工，很快我们都将过上无忧无虑的生活。所以我会再咬紧牙关一阵子，在每个班次开始时启动那些自动机，并向上帝祈祷它们能一直运转下去，这样我才能继续在这里工作。",
+  "lore-brickworkerslament-title": "砖工之叹 (BR)",
+  "lore-conditions-piece1": "透镜成功后的会议振奋了我们的精神，我们不打算停下。\n既然光能有利地影响裂隙，我们计划增加负载并组合条件。\n\n除此之外，我们还将尝试亲自穿越裂隙。\n\n我们实验的下一阶段将组合多种条件：将裂隙转移至单一点，用透镜稳定它们，研究裂隙在暴风雨中对反射日光的反应，以及——最关键的是——志愿者穿越稳定化的大裂隙。\n\n我们将做好一切准备；如果我们能设法同时满足所有条件，任务就完成了一半。\n\n___NEWPAGE___",
+  "lore-conditions-title": "状况（BR）",
+  "lore-darkheat-piece1": "第 1 天：\r\n\r\n我踏上了探索被流星撞击的废墟的旅程。当我探索古老的建筑时，我偶然发现了一块被流星劈开的奇怪石头。这与我以前见过的任何东西都不一样。\r\n\r\n第 2 天：\r\n\r\n我在废墟中度过了一夜，无法将目光从石头上移开。随着黑暗悄悄进入，我注意到了一些奇怪的事情。这块石头散发着大量的热量。它变得越暗，它变得越热。就好像石头正在产生自己的光。___新页面___",
+  "lore-darkheat-piece2": "第 3 天：\r\n\r\n我花了一整天的时间对这块石头进行实验。我发现它对各种形式的黑暗有反应，从没有光到有阴影。就好像它以黑暗为食并将其转化为能量。我从来没有见过这样的事情。我还注意到它产生的热量足以熔化铁。\r\n\r\n第 5 天：\r\n\r\n我继续用这块石头做实验。我发现它以不同的方式对不同类型的黑暗做出反应。例如，当它暴露在生物的阴影下时，它产生的热量比暴露在封闭盒子的黑暗中产生的热量要多。我还不确定这意味着什么，但它很有趣。\r\n\r\n第 8 天：\r\n\r\n我一直在做一个新的实验来测试石头的力量极限。我把它放在一个密封的容器里，完全黑暗，我正在监测热量输出。温度正在迅速上升，远远超出了我的预期.___新页面___",
+  "lore-darkheat-piece3": "第 10 天：\r\n\r\n我几乎无法抑制自己的兴奋。这块石头超出了我的所有预期。它产生的热量达到了前所未有的水平，足以为一个小城市供电。不过，我需要小心，因为石头的力量是不可预测的，如果不加以控制可能会很危险。\r\n\r\n第 15 天：\r\n\r\n我最近的实验是灾难性的失败。我试图通过引入更多的黑暗来进一步增加石头的输出。然而，石头的力量变得无法控制，并引起了一场巨大的爆炸。我受了重伤，我的实验室被毁了。\r\n\r\n第 20 天：\r\n\r\n我的伤口还没有愈合，我担心我快要死了。这块石头太强大了，我愚蠢地认为我能控制它。我只能希望我的研究对其他人有用，并且他们能从我的错误中吸取教训。",
+  "lore-darkheat-title": "黑暗的热度",
+  "lore-deliverieslist-piece1": "来自哈什沃德城及附近定居点的金属物资交付清单：\r\n\r\n- 哈什沃德\r\n32 钢 锭\r\n64 铜 锭\r\n32 琥珀金 锭\r\n\r\n- 附近定居点\r\n2 铁 铁砧\r\n一板条箱黑色煤炭\r\n\r\n- 哈什沃德\r\n12 乔纳斯部件，附有一本关于其机械结构和行星齿轮系统的书本\r\n\r\n___NEWPAGE___",
+  "lore-deliverieslist-title": "小型交付清单（BR）",
+  "lore-desertexcavation-piece1": "这些破败的墙壁是我在酷热和猛烈沙子中唯一的喘息之所。每当风沙停歇，我便拿起我的铲，再次尝试揭开入口。但无论是夜晚的寒冷还是白天的酷热，都迫使我频繁休息，而同样频繁的沙尘暴又迅速抹去我好不容易取得的那点进展。\r\n\r\n我坐在篝火旁写日记来打发时间，等待下一次挖掘的机会，但我心里清楚，这是徒劳之举。我怀疑这座神庙的入口已被完全封死，必须用蛮力破开。而我目前没有这种力量。我在这里找到的任何东西，肯定足以资助我的下一次探险，但没有资金雇佣劳力，我无法指望挖掘它。\r\n\r\n这实在没办法。随着口粮日渐减少，再待下去就是不负责任了。明天黎明，当温度开始升起时，我将踏上归途。我不是制图师，但我会尽力记录下这个位置，这样至少可以把地图卖给更有能力的人。\r\n\r\n我很清楚，把这样的发现拱手让给普通的盗墓贼，是在背叛我作为考古学家的荣誉！我只能希望大学的教授们能原谅我，理解我的处境。",
+  "lore-desertexcavation-title": "沙漠挖掘日志（BR）",
+  "lore-desperatetimes-piece1": "食物快用完了。我们不得不在废墟中越走越远，才能找到任何没有变成一堆腐烂的像样的饭菜。感染的风险只会随着时间的推移而增加......我们已经不得不拒绝两个人的进入。他们并没有掉以轻心。\r\n\r\n我们必须做一些事情......我从没想过我们不得不这样做。在我们杀死了裂隙中的一个生物之后......Tobias 决定尝试烹饪它。气味很可怕。金属的气味传遍了整个洞穴。更糟糕的是那些味道发霉、腐烂的东西。所有的肌肉和血管，没有肉或脂肪。恶心。最糟糕的是，整个身体都嵌入了小块金属。我差点摔断一颗牙。\r\n\r\n不过，我不得不说......之后我就不饿了。要么是我失去了食欲，要么是从那个肮脏的东西中找到了一些营养。无论如何，我希望他们能尽快带着更多的食物回来......不是......那。                \r\n\r\n___新页面___",
+  "lore-desperatetimes-title": "绝境逢生",
+  "lore-devotion-piece1": "抄写员笔记，1350 年\r\n\r\n“启动特雷尔森，起来。”\r\n\r\n祀徒站起来，来自庭院四面八方的眼睛从黑暗中凝视着。\r\n\r\n“上前。”\r\n\r\n新人踏上混凝土圆圈，将左手面朝下放在祭坛上。\r\n\r\n“你发誓要拿起武器对抗 Rot 和 Rust 吗？庄严地使用原材料作为秩序的代理人？英勇战斗，直到人类的未来得到保障？\r\n\r\n起始开口了。“我发誓。”\r\n\r\n当这些话从起始的嘴里说出来时，一种蓝绿色的物质从祭坛上升起。原材料。它把自己绑在起始的脖子上，变成一条项链的形状。\r\n\r\n“前进吧，新的战士，作为先锋和保护者。”\r\n\r\n在房间的远处角落，一位单独的抄写员在一块大石板上记下了这位新战士的名字。充满了力量、力量和对他们事业的重新点燃的信念。\r\n\r\n最后，它几乎没有产生什么影响。                 \r\n\r\n___新页面___",
+  "lore-devotion-title": "虔诚",
+  "lore-doubts-piece1": "疑虑 1 / 平民\r\n为什么是现在？\r\n\r\n请不要误解我，我很感激我们至少能拥有这些。\r\n但为什么是现在？多年来，我一直梦想着这种规模的合作。\r\n\r\n为什么非要等到腐烂物才让我们团结起来？\r\n难道仅仅是因为我们现在站在一起对抗共同的敌人吗？\r\n如果对“他者”的仇恨是唯一能让我们克服彼此仇恨的东西，那么……\r\n我祈祷，如果那台宏伟机器成功了，我们不会回到老路上去。\r\n而如果它失败了，我们能团结一致，直到痛苦的终结。___NEWPAGE___",
+  "lore-doubts-piece2": "疑虑 2 / 黑卫士\r\n我曾倚着我那把可靠的战斧，在城门口站了多年。一把长柄斧，一件可怕的武器。她定能让那些躲藏的人心生恐惧，至少是那些还保有视力的人。我怀念她握在手中的分量。我多希望这里有地窖能让我挥动她！\r\n\r\n说实话，我最怀念的是她在我和那些恶棍之间拉开的距离。我曾经羡慕弓箭手。他们从不需要近距离目睹自己劳作的成果。如今，我被困在这狭窄的隧道里，只有一把短剑，我才明白，当初有长柄武器时是多么幸运。___NEWPAGE___",
+  "lore-doubts-piece3": "疑虑 3 / 恶徒\r\n我期望他人受苦，这有错吗？\r\n这些……我们称之为恶徒的人。那些撒谎、偷窃和杀人的人。\r\n我现在明白他们为什么戴面具了。\r\n要是我认出了他，我会亲手送他去见上帝。\r\n而现在，我只能寄希望于他们全都葬身在地表上，他也在其中。___NEWPAGE___",
+  "lore-doubts-piece4": "疑虑 4 / 猎人\n我想我今天射中了一个人。\n\n由于 腐烂物，很难分辨。我当时正在蔓延的疫病边缘寻找猎物，试图在失去之前尽可能带回一些 肉类。\n\n大多数猎物会朝你跑来，逃离疫病之地，选择速死而非缓慢腐朽。这很冒险，但结果无可辩驳。不过，我想我以前从未听过有谁求我帮它解脱痛苦。___NEWPAGE___",
+  "lore-doubts-piece5": "疑虑 5 / 钟表匠\n原初物质甚至超出了我的理解。\n而我自认为学识相当渊博。\n我多希望能为此更高兴些。我一直乐于学习新事物。\n\n然而，我从未像现在这样觉得自己像个笨手笨脚的傻瓜。就像我初次踏入大学时那样。回想起来，那时的世界显得如此渺小。如今，无尽的可能性令我不知所措，不知从何开始。\n\n我会像大多数同僚一样，把细节留给约纳斯 镰刀剑 去弄清楚，并勤勉地提供他所需的零件。___NEWPAGE___",
+  "lore-doubts-piece6": "疑虑 6 / 裁缝\n一上，一下，穿过去……\n\n我见过许多人在这些艰难时期信奉箴言。而我，早已有了一条。它伴随我度过了多年的编织岁月。\n\n一上，一下，穿过去……\n\n我拒绝让双手闲置。总有人需要温暖，无论是哪种意义上的温暖。我很感激自己能为他们提供这份温暖。\n\n一上，一下，穿过去……\n\n当这一切都过去时，我希望他们回忆起这个地方，想到的是肌肤上温暖的织物，而非脚下冰冷的 石头。___NEWPAGE___",
+  "lore-doubts-title": "疑虑 (BR)",
+  "lore-dutyofthescribe-piece1": "实验开始了。我有义务记录我们周围发生的一切。\n建筑群里只剩下14个人。\n\n包括：大导师——核心领导者；书记员（我）；两名负责管理透镜的领导小组成员；以及十名勇敢的战士，其中一半人打算跨越这个世界的边界。\n\n如果战士们成功跨越边界，领导小组和我也将能够穿过裂隙。\n\n___NEWPAGE___",
+  "lore-dutyofthescribe-title": "书记员的职责 (BR)",
+  "lore-experimentteammember-piece1": "我们已为实验做好准备；外来人员正在撤离。\n整个团队都在准备，尤其是 战斗 团队。\n\n我非常兴奋；真希望我能处在他们的位置——\n去窥探一个不同于我们自己的世界，尽管大多数领导小组成员对此持怀疑和担忧态度……\n\n___NEWPAGE___",
+  "lore-experimentteammember-title": "实验团队成员的记录",
+  "lore-faulknersmusings-piece1": "我摊上了一个多么雄心勃勃的工程啊。\r\n\r\n一套将此地与外界相连的运河系统。\r\n\r\n任务本质上很简单。挖掘运河很简单。但要挖这么多条，就雄心勃勃了。难道所有雄心勃勃的任务，不都可以分解成无数个简单的任务吗？\r\n\r\n不管怎样，我仍然对斯万马克家族那条线说服别人替他们干活的能力感到惊叹。我也仍然对自己又一次上了当感到惊讶。\r\n\r\n说真的，我不该抱怨。人多好办事，要不是周围的定居点也同样迫切需要一条通往内陆的水路，这些水道根本不可能建成。___NEWPAGE___",
+  "lore-faulknersmusings-piece2": "换作其他任何情况，这都是不可能完成的壮举。但正如所料，一切进展得如鱼得水。懂吗？如鱼得水？因为这些运河里全是水，而且……\r\n\r\n算了，不提了。第一阶段的工作已经完成，现在第二阶段可以开始了。我们的雇主似乎对我们的进展已经非常满意。\r\n\r\n斯万马克家族已经做出了决定。我们知道接下来该如何进行。我们排空的水库将蜕变成为一个真正的商业中心！\r\n\r\n即使现在，这里也遍布着劳工，他们沿着洼地边缘修建步道，在底部将即将成为我办公室的地方凿进岩石和石头。睡在这儿比每天往返要容易。从高处俯瞰，工人们看起来像蚂蚁一样，言行举止也像，而我则是他们的指挥。\r\n\r\n原材料从供应商那里源源不断地流入工地，长满老茧的双手以前所未有的速度将它们组装成步道和脚手架。我一生中从未见过自己的设计如此迅速地成形。___NEWPAGE___",
+  "lore-faulknersmusings-piece3": "已经有三名劳工染上了瘟疫。我真希望我还能像以前那样，满怀热情地用羽毛笔书写羊皮纸。我不确定是谁把瘟疫带到这里的，也不确定这重不重要。他们至少来自三个不同的城镇。如果腐烂物已经遍布所有这些城镇，那么……唉。我只确定，如果我任由疫情在这里不受控制地蔓延，斯万马克家族就会受到伤害。所以我绝不会允许。\r\n\r\n霍普和以赛亚。这是协助我执行隔离的两名黑卫士兵的名字。他们是分别来到这里的，各自负责护送一名奢侈品商人，但他们英勇地放弃了自己的职责，来履行我赋予他们的任务。我非常尊敬他们，因为他们做了需要做的事，而别人都不愿做。最重要的是，我很庆幸他们站在我这边！\r\n\r\n艾尔文和佩姬还不知道隔离的性质，但我已经通过通风口告知佩姬，隔离已经实施。让事情发展到这个地步，我感到羞愧……我觉得我没脸见斯万马克家族了。至少在这事结束之前不行。除了建筑师，我还是一名炼金术士。这里拥有我寻找解药所需的所有试剂。在那之前，任何人不得离开或进入。他们会理解的。他们必须理解。我已经强行摧毁了所有进出运河交汇处的通道，包括通往庄园工具棚的楼梯。如今，我宝贵的水道变成了一所传染病院。___NEWPAGE___",
+  "lore-faulknersmusings-piece4": "相信我，请相信我，我的初衷是好的。这座被遗弃的水库本应成为一个宏伟壮丽的集市。如今它却成了瘟疫的粪坑。我已经不知道地表上发生什么了。我也不确定自己是否想知道。但我希望，通过我们的牺牲，庄园能免于腐烂物。\r\n\r\n腐烂物不仅通过身体传播，也通过精神传播。也许被拘留者就是因此受到了影响，这解释了他们为何爆发出愤怒和对我生命的威胁。而且我拒绝相信那对双胞胎狱卒向来都如此残忍。别误会我的意思。这无疑是平息事态的有效方法。但我想收回我之前写的话。我对黑卫不再有尊敬。只剩下敬畏，以及健康的恐惧。\r\n\r\n最近我感觉被人注视着。当然，所有被隔离的人都在指望我找到解决办法！我有责任为他们提供解药和随后的自由，因为是我让他们注定遭受这种命运。但他们充满希望的眼神恳求我帮助的感觉，再也挥之不去。即使在我房间的墙壁内，从我关上那扇门的那一刻起，我仍能感觉到他们的目光停留在我身上。我无法再这样工作了。因此，应霍普和以赛亚的要求，我把我的住处让给了他们，自己退到一个未完工的隧道里，在相对私密的环境下继续我的工作，尽管我对自己能否战胜已在我骨骼中扎根的黑死病几乎不抱信心。\r\n\r\n现在死亡对我们来说是一种仁慈。我无法想象还有谁能保持良好的生命值。许多人失去了肢体。我能闻到以赛亚护甲下面的坏死气味。直到我再次踏入水库，被护送到我的新工作地点时，我才意识到情况变得有多糟。难道我真的把自己锁起来那么久，却毫无进展，还是说疾病传播的速度如此之快，我一开始就根本没有机会？\r\n\r\n我鼓起决心，将进行合成解药的最后尝试。但我从起点开始就毫无进展。完全没有。我必须承认，在软弱的一刻，我制作了一种口服毒药，我祈祷自己现在仍有勇气喝下它，趁我还有这个能力。\r\n\r\n即使是最卑微的建筑师也听说过圆形监狱。那是一种实验性的、残酷的监狱设计，其中一个人可以同时看到每一个囚犯。但直到现在，我才考虑到那回望过来的无数双眼睛。___NEWPAGE___",
+  "lore-faulknersmusings-title": "福克纳的沉思 (BR)",
+  "lore-favorableconditions-piece1": "振荡器以非自然的力量颤动着。振动前所未有地刮擦着圆盘，半径更大了。\r\n一场强度异常的时空风暴正在逼近。\r\n\r\n这是期待已久的结果。\r\n我紧急通知了所有人；外来人员的疏散正在进行中。\r\n风暴警报的钟声听起来比平时更响亮。\r\n\r\n___NEWPAGE___",
+  "lore-favorableconditions-title": "实验启动的有利条件 (BR)",
+  "lore-fieldengineersdiary-piece1": "卷。 1 (1/4)\r\n\r\n我冒昧地记录了这次探险的个人日记；协会的标准文件中未涵盖现场工作的许多方面。我将每月向此文档添加内容；工作中被认为“过于个人化”或“与协会的使命和价值观无关”的所有方面都应记录下来，无论闷闷不乐的推纸者的意见和财务合同的限制如何。乔纳斯本人是一个脚踏实地的人，他并没有将自己的天才限制在预先写好的盒子和官僚机构的范围内。我也不会。话虽这么说，由于担心我的项目失去资金，这本期刊永远不会进入协会的办公桌。必须遵守一些规则。\r\n\r\n如果我的工作被认为不适合公众访问，我将在这里详细介绍基础知识：我正在努力改进蝗虫的刺激-反应矩阵；具体来说，这是一种让受过训练的人即时修改其行为的方法，而无需重新校准主界面。我的重点将是深入研究蝗虫的“个性”；这些机器距离首都越远，它们的行为就越奇怪，但我相信这可以经过微调，成为 蝗虫 不寻常应用的一项资产。我花了几周的时间来到一个偏远的回水亚麻种植社区，并带来了一个具有异常行为改变的蝗虫蜂巢原型，以便在这些简单的人身上进行实验。              \r\n\r\n___新页___",
+  "lore-fieldengineersdiary-piece2": "卷。 2 (2/4)\r\n\r\n距离我上次进入已经过去一个月了，我已经尽可能舒适地适应了这个社区。令人惊讶的是，这些人如何使用如此简单的工具和结构度过难关。就像回到过去一样。人们很友善，但对我的工作持怀疑态度；他们从未见过蝗虫辅助工作所能达到的令人难以置信的壮举。我应该在大约一周内完成原型蜂巢的设置，然后我会将它们放入亚麻田中。当地人已经意识到了这一点，他们对此事的看法也已经明确：从中间分裂。有些人担心这些小机器，而另一些人则对它们的发布感到兴奋。\r\n\r\n一个令人兴奋的当地人的一个显着例子是一个小女孩，她花更多的时间在树林里收集蜘蛛，而不是在街上和其他孩子一起追逐玩具。她曾多次来到我的实验室，并对蝗虫与她在森林中收集的小昆虫有多么相似发表了很多评论。她甚至给我带来了一只被困在罐子里的蝗虫，并问我当“它们被放出笼子”时，它们是否会和它相处。当我凝视罐子里的小生物时，它以一种怪异的意识回望着我。尽管孩子和宠物令人毛骨悚然，但她对这个项目的兴趣可能对公共关系很有用，所以我一直欢迎并容忍她不断的提问。              \r\n\r\n___新页___",
+  "lore-fieldengineersdiary-piece3": "卷。 3 (3/4)\r\n\r\n蝗虫释放成功！人们最初持怀疑态度，有些人甚至害怕他们掠过的面容，但很快人们就忘记了这一点，因为这些小奇迹清除了整片田野的杂草，赶走了老鼠，在难以到达的地方挂上了电线和绳索，各种农民也采摘了它们。最喜欢蝗虫来完成困难的任务。 “就像多了一双神奇的手”，其中一个人一边说，一边把一只蝗虫指向风车的顶部，上面挂着一些插满鲜花的麻绳，以庆祝节日。乡村亚麻农民曾经艰苦的生活现在变成了空气清新、节日丰收的生活。修改后的行为矩阵效果非常好；我给这种特殊的变体起了个绰号“Auxilio Canis”，因为它们的群体心态和乐于助人的预测行为。\r\n\r\n该行为矩阵的一个显着副作用是，当蝗虫不履行职责且未暴露在强光下时，它们有时会蹲下并……盯着人看。典型的蝗虫行为表明，当处于空闲状态时，它们应该寻找最近的人类并运行任务预测协议来帮助它们。虽然蝗虫白天非常忙碌且乐于助人，但我发现许多蝗虫只是在我晚上散步时看着我。口头命令会让他们摆脱困境，所以这可能是他们矩阵中的一个错误，但我想把它记在这里以防万一。没有什么比在黑暗中看到几十个黄色的小针刺从小巷和板条箱里跟着你更好的了，除了蟋蟀的尖叫声和看不见的碎石上小金属腿的咔哒声之外，没有任何声音可以打破这种魔咒。\r\n\r\n然而，协会认为新的行为矩阵是成功的，并将原理图的副本送回首都分发。我在报告中留下了关于弱光条件下异常行为的手写笔记，但它不太可能在官僚程序中幸存下来。我将在一周内返回协会；我不能说我不会想念这个被困在时间之外的小村庄。见证简单的生活让我呼吸到了新鲜空气，希望以后还能有机会进行类似的野外工作。              \r\n\r\n___新页___",
+  "lore-fieldengineersdiary-piece4": "第 4 卷 （4/4）\r\n\r\n我希望我能等到发送我的报告。一切都如此迅速地分崩离析;他们只用了一个晚上就把每个人都用铁丝包裹起来，绑在床上，嘴里塞满了锯末。唯一拯救我的是走的路线与我通常晚上散步的路线略有不同。从我在风车的藏身处，我可以看到他们为我设下的带刺铁丝网弹簧陷阱。那些小怪物在黑暗中盯着我们看的那些夜晚......他们在看着我们。学习。假装服从滋生自满。我看着他们把每个人一个一个地从家里拖出来，像蜉蝣一样把他们从建筑物和灯柱上串起来。它的效率非常高;我想起了他们练习过的老鼠的命运。我们真是愚蠢，竟然篡改了知觉。我真是个傻瓜，竟然给他们代理权。教他们如何学习。他们已经了解到我们不再需要。             \r\n\r\n___新页面___",
+  "lore-fieldengineersdiary-title": "现场工程师日记",
+  "lore-finalentriesarchmaster-piece1": "战斗小队的一半人都不在了。\r\n第一个被活生生吞噬了……\r\n我的三个人被铁锈覆盖，并被从传送门喷涌而出的大量尖刺击中。\r\n另外一个人显然受到了腐烂物的影响。\r\n\r\n我们匆忙逃离；一切失控得太快了。\r\n\r\n那该死的裂隙开始喷出铁锈，让周围的一切都老化，仿佛在一个不安宁的冬季期间，雪正通过一扇敞开的窗户飞入暴风雪中。\r\n\r\n……我不知道等待我的是什么。我把自己锁在这里，命令剩余的守护者保护剩下的人。\r\n写下这些让我感到无比苦涩；我曾如此希望这个实验能为我们的问题提供答案。\r\n\r\n很可能，其他所有人都通过缮写室中央那个阳光照射的开口撤离了——我听到了骚动声。\r\n\r\n我的良知和理性折磨着我；看来我将不得不永远留在这里了。在我目睹了这一切，并为我们失去的人承担责任之后，我恐怕很难再过上正常的生活。\r\n\r\n—— 大贤者\r\n\r\n___NEWPAGE___",
+  "lore-finalentriesarchmaster-title": "大法师领袖的最终记录 (BR)",
+  "lore-finalhour-piece1": "我恐怕时日无多了。我们三位医生中已有两人因黑疫去世。一位可怜的同事曾拼命求生，但我不得不亲自动手解决，因为我无法冒被感染的风险。\n\n我一直试图找出感染的源头，但随着研究的进行，我的双手开始颤抖。我担心自己很快也会步他们的后尘，变成那些尸体，或者门外的怪物。\n\n昨日，一群流离失所的难民从一个遥远的小镇逃到这里。我不能让他们发现这个地下室，否则他们也会被感染。我已经用祭坛封住了入口，希望他们只是将这里当成一座普通的教堂。\n\n现在，我能感受到它正在侵袭我。写下这些话时，我的右手已经开始发黑，而这并非因为墨水。我只能祈祷，上面的人永远不会移开那座祭坛，而这一切疯狂也能尽快过去，化为尘埃。\n\n如果还有幸存者读到这些，请记住我——奥登·汉密尔顿，已经竭尽全力保护人类。我怀着最殷切的期望，祝愿你们生活在一个更加美好的世界里。\n\n___NEWPAGE___",
+  "lore-finalhour-title": "最后时刻",
+  "lore-forlornhopebounty-piece1": "悬赏《绝望的希望》！\r\n\r\n打倒绝望的希望！！\r\n\r\n看看钢铁方阵的愤怒吧，黑暗之王和混乱之主！当我们向被诅咒的绝望希望释放我们的愤怒时，让整个世界在恐惧中颤抖吧！是时候从存在的表面根除这些无礼的害虫了！\r\n\r\n绝望的希望，一群被误导的傻瓜可怜的干部，敢于与钢铁方阵的力量交锋。他们傲慢地昂首阔步，相信自己的勇气使他们立于不败之地。但要知道，在我们的熊熊烈火面前，他们的勇敢只不过是一根摇曳的蜡烛！\r\n\r\n因此，钢铁方阵发出了野蛮的赏金，血红色的，滴着折磨的本质。奖励 160 块金块，奖励给那些无情的手，将任何绝望希望恶棍的头颅献上！他们破碎的尸体将对那些胆敢梦想挑战我们统治的人发出令人难以忘怀的警告！\r\n\r\n对于这些可怜的灵魂，不会有任何怜悯。如果有人试图庇护他们，他们的家人将遭受难以言喻的恐怖，他们的土地将被烧成荒芜的荒地！我们将嗅出他们的藏身之处，追捕他们直至天涯海角，因为没有任何地方可以躲避我们的愤怒！\r\n\r\n绝望的希望将被撕裂，他们的名字将被遗忘，他们的记忆将被抹去！在我们恐怖统治的宏伟织锦上，它们将不过是转瞬即逝的噩梦！他们的命运已经注定，他们的厄运正以难以估量的凶猛逼近！\r\n\r\n跪在钢铁方阵前，享受权力和难以想象的财富的承诺。对于那些敢于反对我们的人，让“绝望的希望”成为一个令人不寒而栗的提醒：反抗的代价！\r\n\r\n凭借阿勒隆·铁心将军不屈的意志，\r\n日期未知",
+  "lore-forlornhopebounty-title": "渺茫的希望 的赏金",
+  "lore-forlornhopemilitaryrecord89-piece1": "军事记录 #89\r\n日期未知\r\n\r\n孤独的希望单位\r\n\r\n指挥官： 阿拉里克爵士\r\n\r\n组成：\r\n\r\n37 名步兵志愿者，因非凡的勇气和技能而被选中。\r\n\r\n任务：\r\n\r\n在安特卫普围城战期间，“孤独希望”部队被指定为我们部队的先锋。他们的主要目标是带头攻击敌人的要塞阵地，在他们的防御中制造一个缺口，使我军的主力能够前进。             \r\n\r\n___新页面___",
+  "lore-forlornhopemilitaryrecord89-piece2": "命令和战术：\r\n\r\n在阿拉里克爵士的指挥下，“孤独的希望”号奉命迅速而坚决地向敌人的防御工事推进。他们将使用剑、矛和盾的组合进行协同攻击，旨在突破敌人的防御，为主力跟进铺平道路。            \r\n\r\n___新页面___",
+  "lore-forlornhopemilitaryrecord89-piece3": "行动和参与：\r\n\r\n孤望小队以无与伦比的勇气发起了他们的攻击。他们带着震撼天空的战斗呐喊，一头扎进敌人的队伍，面对一连串的炮弹和集中的抵抗。他们没有被压倒性的困难吓倒，继续前进，他们不屈不挠的精神成为我们整个军队的勇气灯塔。\r\n在随后的激烈混战中，孤望军伤亡惨重，但他们无情的推进成功地突破了敌人的一部分防御工事，从而在他们的防御中创造了一个薄弱点。这一关键成就使我们的主力部队能够利用突破口并成功发起全面攻击，最终取得决定性的胜利。               \r\n\r\n___新页面___",
+  "lore-forlornhopemilitaryrecord89-piece4": "伤亡和荣誉：\r\n\r\n“孤独的希望”在他们的无私努力中遭受了重大损失，有 19 个勇敢的灵魂在战场上献出了自己的生命。他们在面对不可逾越的困难时的牺牲和英勇行动为他们赢得了西班牙王国永恒的感激之情。\r\n\r\n遗产：\r\n\r\n“绝望”的事迹将永远铭刻在历史的编年史上，证明他们不屈不挠的勇气和对事业的忠诚。他们的名字将被吟游诗人和传令官歌颂，激励后代在逆境中拥抱勇气和荣誉。",
+  "lore-forlornhopemilitaryrecord89-title": "军事记录 #89",
+  "lore-forlornhoperecruitment-piece1": "致所有勇敢无畏的灵魂，\r\n\r\n我们寻找愿意参与一项极其重要的使命的勇敢战士——这项使命需要勇敢者展示他们对事业坚定不移的奉献精神。是时候组建一个被称为“绝望的希望”的精选团体了。\r\n\r\n绝望的希望将被赋予一项危险的任务，需要无与伦比的勇气和技巧。这不是胆小者的使命，而是那些敢于直面逆境、知道这条道路可能通向不确定命运的人的使命。\r\n\r\n这支受人尊敬的队伍将成为我军的先锋，带头冲锋，向敌人的坚固防御工事发起冲锋。你们的英勇将激励我们的军队，你们坚定不移的承诺将载入史册。\r\n\r\n让我们知道，这一呼吁并非盲目鲁莽。绝望的希望承认这项事业的严重性，其成员将是第一个面对敌人攻击的人。但正是在这种牺牲中，传奇诞生了，你的英勇事迹将被后人传颂。\r\n\r\n那些敢于接受这一崇高追求的人将在他们的同志中获得荣誉和荣耀。你的名字将被歌颂，你的事迹将被吟游诗人传颂。\r\n\r\n如果你愿意加入这个神圣的兄弟会，表明你的意愿，荣耀之路就会摆在你面前。请记住，绝望的希望并不是绝望的力量，而是面对看似不可克服的困难时不屈不挠的决心。\r\n\r\n不要让恐惧阻碍你和你的命运。拥抱英勇的召唤，因为绝望的希望正在寻找那些愿意将自己的名字刻在英勇石碑上的极少数人。\r\n\r\n立即响应这一号召，我们将共同铸造勇敢的遗产，并永垂不朽。\r\n\r\n为了服务事业，\r\n\r\n阿拉里克爵士\r\n被遗弃者先锋队指挥官",
+  "lore-forlornhoperecruitment-title": "渺茫的希望 的招聘信",
+  "lore-forlornhopestrategies-piece1": "战争战略和战术纲要\r\n\r\n第六章 绝望的希望在攻城战中的作用\r\n\r\n第 1 部分：简介\r\n\r\n在战争的进行中，特别是在攻城艺术中，使用精英先锋部队，通常被称为“绝望的希望”，证明了历史上军事指挥官的大胆和聪明才智。本章将阐述 Forlorn Hope 的概念和应用，这是一支英勇的干部，被指派带头攻击敌人的防御工事。             \r\n\r\n___新页面___",
+  "lore-forlornhopestrategies-piece2": "第 2 部分：选择和组成\r\n\r\n渺茫的希望 不是一支匆忙集结的力量，而是一支经过精心挑选的力量，以体现坚定不移的勇气和武力的品质。他们将从我们最英勇的步兵志愿者中挑选出来，他们在逆境中表现出非凡的勇气和坚韧不拔的精神。经验也是一种宝贵的品质，因为它在混乱的战斗中赋予智慧。             \r\n\r\n___新页面___",
+  "lore-forlornhopestrategies-piece3": "第 3 部分：角色和目标\r\n\r\n孤独的希望的主要目的是突破敌人的强大防御，为我们的部队主体创造一个脆弱的漏洞。因此，他们的角色是牺牲勇气之一，因为他们将首当其冲地面对敌人的最初攻击，面对各种危险的障碍。             \r\n\r\n___新页面___",
+  "lore-forlornhopestrategies-piece4": "第 4 部分：部署和战术\r\n\r\n在“孤独希望”号的掌舵下，我们的部队将集中集结，准备沿着他们的道路进入敌人防御的核心。他们应使用一系列适合近距离战斗的武器，从长矛和长戟到盾牌和大刀。\r\n\r\n孤独的希望将以最严谨的方式前进，既不犹豫也不动摇决心。一场精心策划的进攻，辅以战鼓声和咆哮的号角声，将使他们充满不可动摇的精神，体现我军不屈不挠的意志。             \r\n\r\n___新页面___",
+  "lore-forlornhopestrategies-piece5": "第 5 部分：纪念牺牲\r\n\r\n孤独的希望虽然以他们的勇敢而闻名，但他们在崇高的努力中可能会遭受严重的损失。他们袭击的后果需要主力部队迅速反应，他们应该精确而坚韧地利用突破口。\r\n\r\n然而，让我们的军事学说被铭刻在史册上，孤独希望的牺牲不会被遗忘。他们的名字将在英勇的歌声中回响，他们的事迹将在时间的走廊中回荡，激励一代又一代的人效仿他们坚定不移的勇气。             \r\n\r\n___新页面___",
+  "lore-forlornhopestrategies-piece6": "第 6 部分：结论\r\n\r\n在这篇论文的书页中，我们阐明了“孤独的希望”的作用，它象征着我们在攻城战领域坚定不移地致力于胜利。他们的命运与我们的军事遗产交织在一起，永远值得珍惜和尊重。",
+  "lore-forlornhopestrategies-title": "战争战略和战术",
+  "lore-glimmershield-piece1": "坐落在王国的中心，矗立着一座被称为 光辉之盾的宏伟城堡。这是一个奇迹，它雄伟的方形形状被一条深深的护城河所环绕，由四座高大的塔楼守卫着，每座塔楼都高大而自豪。\r\n威克里夫家族是一个强大而有影响力的氏族，在早期几个世纪是 光辉之盾的领主。\r\n他们的城堡让所有看到它的人都羡慕不已，这是他们的财富、权力和声望的真实证明。\r\n城堡的墙壁上装饰着雕塑和绘画，每一件都比上一件精致。在图书馆里，每个书架上都摆满了大量的书籍，这是这家人通过多次旅行和往来。___新页面___获得的知识宝库",
+  "lore-glimmershield-piece2": "但威克里夫家族不仅富有，而且很强大。在城堡的军械库内，存放了武器和盔甲，足以装备一整支 200 名士兵的军队。威克里夫家族是一股不可忽视的力量，他们知道这一点。\r\n在城堡的围墙外，威克里夫家族的土地绵延不绝，令人叹为观止。四面八方都可以看到大片的果园和花园，由家里的仆人和工人精心照料。这是他们权力的象征，是他们对这片土地统治的证明。\r\n然而，与所有伟大的事物一样，光辉之盾的荣耀最终结束了。埃德蒙·威克里夫伯爵 （埃尔-埃德蒙-威克里夫） 去世后，这座城堡空置多年，由于家族努力维持他们的权力和影响力。___新页面___而年久失修",
+  "lore-glimmershield-piece3": "直到后来的几个世纪，这座城堡才被赋予了新的用途，但并没有受到它的欢迎。这座城堡被改造成战俘的战俘营，一个黑暗而不祥的地方，见证了许多苦难和艰辛。\r\n被关押在城堡围墙内的囚犯受到严酷对待，几乎不考虑他们的福祉或基本人权。他们中的许多人死在了城堡的围墙内，他们的尸体被留在地牢和城堡被遗忘的角落里腐烂。\r\n最后，据说是囚犯们自己放火烧了城堡，将其化为废墟和灰烬。今天，只剩下 光辉之盾Castle 的左翼，鲜明地提醒着这个家族曾经强大的统治以及导致其毁灭的动荡事件。",
+  "lore-glimmershield-title": "光辉之盾城堡",
+  "lore-grandrifttheory-piece1": "根据观察点最近的记录，同时被阻挡和转移的裂隙数量决定了我们将之重定向到洞穴西南角单一点的裂隙的大小。\n\n换句话说：我们用偏导器和裂隙守卫覆盖的区域越大，累计转移的裂隙就越大——我称之为大裂隙。\n\n___NEWPAGE___",
+  "lore-grandrifttheory-title": "大裂谷理论 (BR)",
+  "lore-greensecret-piece1": "Max,\n我希望你在收到我的信后找到了这个地方。\n我挖掘出了一块那种奇特的绿色矿石的极其结晶的碎片。\n我把它留给你——我成功地神不知鬼不觉地把它带了出来！\n\n我相信你会为它找到更好的用途，而不是卖给第一个出价的人。=)\n\n___NEWPAGE___",
+  "lore-greensecret-title": "绿色秘密 (BR)",
+  "lore-hopeandisaiahsledgers-piece1": "第一天。福克纳已下令关闭所有运河入口，并指示我们维持被扣押者间的秩序。\n\n封锁时，水库内约有43名被扣押者：\n- 17名劳工\n- 11名商人/船夫\n- 5名随行守卫\n- 6名杂项旅人\n- 4名儿童\n\n根据福克纳的指令：\n- 在找到治愈方法前，任何人不得离开。\n- 任何出现病变或发热迹象者将被隔离至水库下层的病患区。\n- 未经看守监督，不得进行六人以上的聚集。\n\n补给品已被收缴、登记并重新分配。易腐品——主要来自一位极度不满的商人的鱼——若公平分配，可维持第一周。该商人抗议，但在得到正式补偿承诺后服从。愿隔离能迅速结束。\n\n以赛亚拟稿\n由霍普确认___NEWPAGE___",
+  "lore-hopeandisaiahsledgers-piece2": "第7天。灵魂们不安。人们要求我们无法给出的答案。\n\n两人试图贿赂通过南水闸的通行。水闸无论如何都堵塞了——福克纳的爆炸导致坍塌。两名违规者被关入限制区十二小时；随后释放并受到警告。\n\n福克纳要求仅以书面形式更新。声称他在“集中注意力”。\n我们已经要求明确的医疗程序，但至今未收到任何回复。\n\n下层水库病区的积水已经变得污浊。几名最初隔离的劳工一夜之间死于疾病。我们已开始让拘留者睡在走道上以减少接触。\n\n旅行者罗兰的孩子发烧但没有皮疹。\n罗兰恳求豁免；请求获批，理由是强行隔离会激起更大动荡。两人已被转移到病区。\n\n以赛亚起草\n由霍普确认___NEWPAGE___",
+  "lore-hopeandisaiahsledgers-piece3": "第13天。被拘留者和看守都越来越疲惫。\n\n最初43名被拘留者中，22人仍存活。最近的人员损失发生在夜间，在病患区。\n\n下方尸体堆积如山，但由于通风不足，我们无法安全焚烧。那些尚能行动的患病者被命令将尸体移至坍塌的隧道，直到找到永久解决方案。\n\n三名劳工夜间试图绕过走道警戒线。声称是为了呼吸更新鲜的空气。已被送回指定区域并受到训诫。\n\n已故的罗兰的女儿问我们，他是否会在“空气更清新时醒来”。已告知她这是该问福克纳的问题。\n\n配给供应保持稳定，尽管分配量有所减少。由于需要供养的人数减少，目前的储备可能比预计的更持久。\n\n首次观察到一名随行看守出现病灶，该看守此前评估为健康。\n已隔离至病患区。\n\n福克纳仍未给出医疗方案。\n\n由以赛亚起草\n由霍普确认___NEWPAGE___",
+  "lore-hopeandisaiahsledgers-piece4": "第24天？第25天？记录必须继续。\n\n人口估计：九人尚存，处于不同程度的衰败中。\n数人已无法站立。多数不再言语。仍在呼吸者，气息也极为微弱。\n通道间的往来已停止。病区一片死寂。\n\n福克纳未回应我们最近的报告。我们相信他已迁往隧道更深处，继续他的工作。\n\n霍普正在……休息。\n他们的视力已完全丧失，但当我说话时，他们仍会转过头来。\n我自身状况尚可控制。先前尝试脱下我的护甲，结果导致皮肤撕裂。\n腐烂物正沿前臂与肋骨蔓延。疼痛间歇发作。\n唉。这本账簿不是用来抱怨的。\n\n口粮依然充足。几乎无人消耗。没有理由再维持配给计划。\n\n再无更多可报告之事。规程仍在，却已无人可供执行。\n我们仍坚守岗位。这是对我们的期望。我们已为这职责付出一切，如今已一无所有。\n\n我会为霍普演奏。用福克纳的钢琴。我会弹一首我们都记得的曲子。如有必要，我会将它刻入肌肉记忆，以便在我自己也失明时仍能弹奏。我向诸神祈祷，愿这成为我们在黑色病疫夺走我们心智之前，最后听到的声音。\n\n以赛亚起草___NEWPAGE___",
+  "lore-hopeandisaiahsledgers-title": "霍普与以赛亚的账簿（BR）",
+  "lore-initialphases-piece1": "第一阶段\n裂隙出现——有利的环境条件与精确的计算使其集中在洞穴的西南角。\n渐渐地，生物开始涌现，但我们已准备好将透镜对准它们。\n\n第二阶段\n透镜已瞄准——大裂隙趋于稳定。\n没有来自大法师的团队接近裂隙。\n我们继续等待，一切保持稳定……\n\n第三阶段\n风暴的逼近已被感知；我们将在其显现的瞬间转移透镜。\n大法师指示生物不得靠近——在透镜从裂隙转移期间，我们有五名战士。\n我们此前从未在风暴期间将透镜对准裂隙。\n\n风暴正在逼近……\n\n第四阶段\n风暴已降临；片刻之后，瞄准透镜的命令即将下达……\n\n___NEWPAGE___",
+  "lore-initialphases-piece2": "实验结果……\n\n第五阶段\n那景象骇人；我们再也无法抵御大裂隙。\n\n生物开始以异常的强度从中喷涌而出。\n\n数以百万计的锈色微粒从实验中心散发出来。\n\n它夺走了我们族人的生命；我们仓皇逃离。\n战斗小队损失近半。\n\n站得最近的那人直接从地表被抹去。\n锈色碎片覆盖了另外三名参与者的身体；我听到了他们的尖叫与呻吟……\n\n第五人身上布满了暗色斑点；我相信那是腐烂物。\n我们救不了他；他周围聚集着成群的锈色生物。\n我锯子他试图启动最靠近中心的裂隙守卫……\n\n___NEWPAGE___",
+  "lore-initialphases-title": "实验的初始阶段（BR）",
+  "lore-lastfisherman-piece1": "我现在写下这篇文章是希望有人能找到我的话并理解我们所面临的恐怖。我只是一个普通的村民，一个卑微的渔夫，看到了任何人不应该看到的事情。\r\n\r\n一切从昨晚开始，就像其他任何一个晚上一样。月亮高高挂在天空，小镇静悄悄的。当我在我的小屋里写这本书时，我听到了一种让我浑身发冷的声音。那是一声咆哮，声音就像一千只熊同时咆哮。\r\n\r\n我跑到外面看到了它——这个生物会摧毁我们的城镇。它就像我以前从未见过的一样，是一个长着遮蔽月亮的翅膀和像余烬一样发光的眼睛的怪物。它又发出一声咆哮，我看到半个城镇在我眼前消失了。\r\n\r\n那时我就​​知道我们注定要失败，我们的城镇已经消失了。我能感觉到黑暗笼罩着我，我知道我无法熬过这个夜晚。然而，当我写下这些话时，我还是情不自禁地感受到了希望。\r\n\r\n也许有人会找到这本书，他们会理解我们所面临的恐怖。也许他们会知道，我们曾经是一个繁华的小镇，河里鱼密，人民幸福。也许他们会知道，我们并不是静静地走进黑夜，我们战斗到了最后。\r\n\r\n\r\n\r\n...以下几页在你手中被烧毁并碎裂...",
+  "lore-lastfisherman-title": "渔夫的遗言",
+  "lore-lastwall-piece1": "这里曾经是一个以其丰富的渔业而闻名的小镇。该镇的象征是一条大鱼，镇上的人们为自己的繁荣感到自豪。这座小镇周围环绕着已经屹立了几个世纪的城墙，这证明了这座小镇的力量和韧性。\r\n\r\n然而，在一个命运攸关的夜晚，一种神秘的生物降临在小镇上。它是黑暗的生物，拥有遮蔽月亮的翅膀和震动大地的咆哮。镇上的人们惊恐地逃跑了，但这个生物速度太快了。一股黑暗能量席卷而来，将半个城镇蒸发，只留下一段残破的城墙残存。\r\n\r\n幸存的镇民们震惊不已，无法理解降临在他们身上的恐怖。那个生物不见了踪影，留下的只有毁灭和绝望。小镇已是一片废墟，人们心碎不已。\r\n\r\n随着时间的推移，这个小镇成为了一个充满传奇的地方，有关这种生物的故事代代相传。有人声称它是从地狱深处派来的恶魔，也有人说它是一条被诅咒的龙，为一些早已被遗忘的错误寻求复仇。\r\n\r\n被毁坏的城墙残骸矗立着，无情地提醒人们这座小镇的悲剧，证明了这个神秘生物所造成的破坏。石头饱经风霜，龟裂，边上长满了青苔。这座城镇的象征——大鱼——在墙壁和横幅上仍然清晰可见，但这个地方早已被遗忘。\r\n\r\n这种神秘生物仍然是争论和猜测的话题，一些人仍然声称它在这片土地上漫游，寻找下一个受害者。被毁坏的城墙部分无声地见证了降临在小镇上的恐怖，也是对那些敢于挑战命运的人的警告。",
+  "lore-lastwall-title": "屹立不倒的最后一面墙",
+  "lore-librarianslament-piece1": "我从大法官那里听说，腐烂在这片土地上的蔓延速度比预计的要快。按照这个速度，许多人将无法及时撤离到法克斯的地下避难所之一。\r\n\r\n他们正在讨论使用图书馆作为那些无法长途跋涉的人的临时住所。我完全不同意。全国所有的农民都在泥泞、腐烂和疾病中行走吗？我维护这个地方太久了，不会发生这样的事情。\r\n\r\n我担心在我前往避难所后我的图书馆会发生什么。这是我所拥有的一切，也是我所拥有的一切。我不知道没有它我该怎么办。一想到它被下层民众当作贫民窟，我就热泪盈眶。\r\n\r\n我不会拥有它。尽管我不在乎，王国注定会遭受瘟疫。我会封印图书馆。这将是我的坟墓，但我精心维护的知识将在未来的岁月中完好无损。我只能希望，当它再次被发现时，毕竟已经被抛在一边随波逐流，他们能把这些知识派上用场。                      \r\n\r\n___新页___",
+  "lore-librarianslament-title": "图书管理员的哀叹",
+  "lore-lostdoll-piece1": "在腐朽世界的暮色中，一个孤独的身影将自己关在一座破烂的小房子的顶层。外面，腐烂像一场贪婪的瘟疫一样席卷了这片土地，只留下死亡和绝望。下面曾经生机勃勃的村庄现在变成了一片墓地，到处都是扭曲的尸体和喉咙里的尖叫声，到处都是从腐烂中诞生的怪物。\r\n\r\n他在阁楼里寻求庇护，这是躲避下面恐怖的最后避难所。绝望驱使他们向上，他和他的女儿争先恐后地逃离腐烂者的无情进攻。但命运却是残酷的。当他们爬上梯子时，她滑倒了。他伸出手，但为时已晚。腐烂野兽扑向她，它们怪异的四肢将她拖入黑暗。她的尖叫声深深地烙印在他的脑海里，无情地提醒着他的失败。\r\n\r\n现在，她只剩下她的娃娃了。这是一个简单的东西，有着纽扣般的眼睛和缝制的微笑，它一直是她不变的伴侣。他紧紧地握住它，布料已经破旧、污迹斑斑。他把它放在阁楼门边，仿佛无生命的守护者可以抵御不可避免的事情。\r\n\r\n日子在饥饿和绝望中变得模糊。他对所剩无几的食物进行配给，但永远不够。撕心裂肺的饥饿扭曲着他的内心，不断地、痛苦地提醒着他缓慢的死亡。他的力量逐渐消失，取而代之的是一种空虚、痛苦的空虚，侵蚀着他的理智。\r\n\r\n随着腐烂吞噬了外面的一切，从那扇窗户射出的光线一天比一天暗淡。下面的混乱和杀戮的声音不断提醒着我们无情的威胁。房子吱吱作响，发出呻吟声，空气中弥漫着腐烂和死亡的恶臭。\r\n\r\n对女儿的回忆折磨着他，既生动又残酷。她的笑声，她顽皮的滑稽动作，还有她晚上把洋娃娃抱在胸前的样子。这些记忆是一把双刃剑，在给他带来短暂安慰的同时，也加深了他的悲伤。\r\n\r\n随着他的身体越来越虚弱，他的精神也开始崩溃。现实与噩梦之间的界限变得模糊。阁楼感觉就像一座坟墓，寒冷而令人窒息。他躺在坚硬、破碎的地板上，娃娃压在他的胸前。他的呼吸急促，视野中充满了阴影和幻影。\r\n\r\n在那些最后的、痛苦的时刻，洋娃娃缝制的微笑似乎在嘲笑他，是对他徒劳无益的挣扎的残酷玩笑。但他已经没有力气去战斗了。他闭上眼睛，向黑暗投降，娃娃一眨不眨的眼睛是他最后看到的东西。\r\n\r\n外面的世界继续陷入混乱，但在那个被遗弃的阁楼里，在女儿最后一丝纯真的守护下，他找到了残酷、冰冷的结局。娃娃站在那里守夜，是这场悲剧的无声见证者，在死亡的寂静中永远守护着他。                  \r\n\r\n___新页___",
+  "lore-lostdoll-title": "失落的玩偶",
+  "lore-maxwellscreations-piece1": "今天，缮写室里回荡着美妙的合唱。\n\n上演了一出名为“麦克斯韦的创造”的表演。\n\n四位艺术家献声致敬此地，为此处已珍藏的浩瀚知识增添了价值。\n\n___NEWPAGE___",
+  "lore-maxwellscreations-title": "麦克斯韦创造的回响（BR）",
+  "lore-messagetothestudent-piece1": "零件需求\n学生，我的轮班即将结束。我无法完成裂缝抑制器的修理。\n\n在我们的仓库中寻找：\n磁通间隙连接器\n倒置折射筒\n精密平衡振荡器\n以及若干金属组件\n\n将它们留在此处。我会教你那个流程，那是我曾从与乔纳斯镰刀剑共事之人那里学来的。\n\n___NEWPAGE___",
+  "lore-messagetothestudent-title": "致学生的信 (BR)",
+  "lore-minerlogentries-piece1": "挖掘的第9天\r\n\r\n法尔科来了已经几个月了。他是个不错的人，真的。他说他是奉上级的特殊命令来的，显然是一个叫乔纳斯的人派来的。我和伙计们没多想——只是另一个对地质学感兴趣的监工，我们这么认为。法尔科大部分时间都在检查我们的工作并在笔记本上画画。他不喜欢在旁边盯着，让我们继续工作，但我能感觉到他总是盯着西边的矿井。___NEWPAGE___",
+  "lore-minerlogentries-piece10": "挖掘的第58天\r\n\r\n今天设置了炸药并炸毁了洞穴。整个地方都在震动，灰尘从每个角落抖落。法尔科在离开前感谢了我们每个人，握了握手，说我们会因为保持沉默而得到报酬。他的同伴悄悄地离开了，没有回头，只是消失在出谷的路上。我觉得我们今天埋葬的不仅仅是岩石。即使现在，几小时后，仍然难以摆脱那种感觉，好像洞穴里的东西还在……醒着。___NEWPAGE___",
+  "lore-minerlogentries-piece11": "挖掘的第65天\r\n\r\n有些伙计说他们还能听到那种嗡嗡声，好像它卡在他们的脑袋里。我不能撒谎；有时候我也能感觉到，一种无法安静的记忆。法尔科走了，矿井被封了，但我的一部分感觉它还在注视着我，好像黑暗中的东西还没有放手。无论洞穴里有什么，我都不想多想。最好低下头，让它继续被埋葬。",
+  "lore-minerlogentries-piece2": "挖掘的第15天\r\n\r\n同样的例行公事，同样的工具，同样的灰尘。我们一直在开采普通的矿脉，没什么特别的。法尔科大部分时间都和我们一起在矿井里，不怕弄脏手。我觉得伙计们很欣赏这一点，尽管他们仍然想知道一个学者为什么会来一个普通的矿井。有时候他似乎心不在焉，眼睛总是盯着岩石，好像在期待看到更多的东西。___NEWPAGE___",
+  "lore-minerlogentries-piece3": "挖掘的第24天\r\n\r\n法尔科今天命令我们向西挖掘，比我们通常挖的更深。没有解释，只是点点头，轻声说，‘坚持这条路。’那里的岩石不同，几乎像玻璃一样，很难凿开。伙计们有疑问，但法尔科不喜欢讲故事，所以我们只是继续工作。不过，他确实密切关注，来回踱步，好像在计算我们每一次凿击。___NEWPAGE___",
+  "lore-minerlogentries-piece4": "挖掘的第30天\r\n\r\n昨天来了一个新家伙，另一个学者类型。法尔科简单地介绍了他，没给我们名字，两人花了半夜时间在灯下讨论地图和图表。他们都是务实的人，专注于工作，也很友好，但很明显他们是冲着某个特定目标来的。不过他们没多说。不过，他们和我们没什么不同，只是多受了点教育。这让我们更容易信任他们。___NEWPAGE___",
+  "lore-minerlogentries-piece5": "挖掘的第38天\r\n\r\n我们在傍晚时分发现了一个空洞——一个深邃的洞穴，墙壁光滑如抛光石，空气中有一股寒意直透我们的皮肤。它感觉古老、未被触碰，就像踏入了一个几个世纪未见光的地球部分。法尔科和他的朋友进去看了看，没说什么，只是拿起灯笼去探索。过了一会儿他们回来了，脸色苍白。告诉我们清理洞穴入口周围的空间，但没有给出理由。两人似乎……不安。___NEWPAGE___",
+  "lore-minerlogentries-piece6": "挖掘的第40天\r\n\r\n表面上的工作还是一样，铲土、磨工具、清理岩石。但在地下，情况就不同了。法尔科和另一个人不让洞穴入口无人看守，总是盯着它，尽管他们对在那里发现的东西保持沉默。伙计们开始不安——有传言说阴影中有奇怪的形状，感觉墙壁在注视着我们。就连总是笑呵呵的里格斯也变得沉默。无法摆脱那种感觉，好像我们并不孤单。___NEWPAGE___",
+  "lore-minerlogentries-piece7": "挖掘的第43天\r\n\r\n我们在岩石中发现了奇怪的碎片。黑色，光滑如玻璃，即使在手中也很冷。法尔科告诉我们一发现就交给他。他说需要‘分类’，但没有给出任何细节。我们对奇怪的发现已经习以为常，但这些碎片不同，几乎像是隐藏着什么。法尔科不信迷信，但我看到他不时回头，好像也感觉到了。___NEWPAGE___",
+  "lore-minerlogentries-piece8": "挖掘的第47天\r\n\r\n洞穴里有一种嗡嗡声，像是一首遥远的歌，几乎听不见但持续不断。伙计们认为是风声，也许是岩石中的气流，但听起来太稳定了。就连法尔科也听到了，花了很长时间把耳朵贴在墙上，试图弄清楚。这声音似乎没有打扰他或他的同伴——他们只是耸耸肩。但法尔科的眼神中有一种我以前没见过的神情。不禁想知道他们在那个地方听到了什么。___NEWPAGE___",
+  "lore-minerlogentries-piece9": "挖掘的第53天\r\n\r\n今天，法尔科宣布我们将封闭洞穴。他说这是为了‘结构安全’，并会补偿我们的麻烦。他让我们把爆破火药带下来，小心设置。另一位学者没说什么，但当我们开始设置炸药时，他看起来松了一口气。我问法尔科是否真的有必要，他只是点点头，看向黑暗处。有些事情他没说，有些他们在地下看到的东西吓到了他们。我没有追问。觉得也许最好别管。___NEWPAGE___",
+  "lore-minerlogentries-title": "矿工埃德里的日志",
+  "lore-newmaterials-piece1": "我感谢城市批准我在该地区开始研究的请求。\n薇瑞迪石的小型矿床在这里异常频繁地出现。\n\n然而，在世界其他地方，它零星出现且呈大块状，没有可辨别的模式——这种不一致性使任何严谨的研究都变得复杂。\n\n之前的团队曾尝试研究它，但该区域之外的条件不利于取得成果。\n\n它的年龄仍然难以估计；至今尚未出现一致的形成模型。\n\n实地实践表明，它会影响裂隙，并且在足够高的浓度下，可以局部减弱风暴。\n我们正在扩大实验，以验证这些效应并确定安全处理阈值。\n\n___NEWPAGE___",
+  "lore-newmaterials-title": "翠绿石 (BR)",
+  "lore-paigespleas-piece1": "“福克纳，我得弄清楚这里到底怎么回事。这隔离是为了什么？”\n“福克纳，商业行会开始不耐烦了。他们想知道什么时候能让他们的人回来。你知道隔离大概什么时候结束吗？”\n“福克纳，或许你可以招一个被隔离的人守在格栅下面，一看到我在这儿就来叫你。这样我们就能再说上话了，哪怕咱们都忙得不可开交。我有好多问题要问！”\n“福克纳，有没有什么事我能帮你完成职责，让隔离顺利进行？从通风口我能闻到食物变质的味道。我已经把所有能匀出来的粮袋都从格栅扔下去了。肯定够用一辈子了。”\n“福克纳，下头很难看清，我的提灯光也照不到那么远。我不知道这些东西你有没有收到，但是……我宁愿相信你收到了。要知道，我一直在为你祈祷。”\n“福克纳，我渴望你的指引。艾露恩情绪低落，我这才意识到我的希望全寄托在她的笑容之上。我真希望能再跟你说说话，但我明白你必须在下面忙着保证一切顺利。”\n“福克纳，对不起。”\n“福克纳，真的对不起。”",
+  "lore-paigespleas-title": "佩奇的恳求（BR）",
+  "lore-paigeswoes-piece1": "哦，我们曾经多么高歌颂扬我们的水路是多么畅通无阻啊！斯万马克家族已经赚回了我们的投资，而且还多了不少，而贸易中心甚至尚未开始建设。我们通过对穿越运河交汇处的那些人课以重税，榨取他们能拿出的每一分钱，把口袋塞满了黄金。而且，由于这条内陆水道比步行或马车快得多，许多知名商人宁愿选择我们的运河，而不走那条踩熟的老路。形势一片大好，而且只会越来越好。\n\n然而，为什么好事总是不长久！？我仍然不确定大建筑师福克纳当时在通风口下喊的是什么。一个警告，关于隔离检疫的事情，还有一道命令，让仆人们掩埋那些通向地底更深处的工具棚，之后他就匆匆溜走了。我记得大约两小时前感觉到地面震动，那时我发现一群不满的商船船员站在我家门口。他们说，他们的小船撞上了一堆巨大的碎石，堵塞了通往水路的运河，损坏了他们打算出售的陶器。他们所受的伤就是足够的证据，我不想进一步加剧关系紧张。埃莱温的父亲一生都对福克纳深信不疑，现在我也同样如此。我只是赔偿了商人们损失的货物和时间，然后送他们上路了。___NEWPAGE___",
+  "lore-paigeswoes-piece2": "已经过去两周多了！国库开始感受到被封锁的水路带来的压力。我得承认我们生活得相当奢侈，所以即使没有新的资金入账，仅此一项也足以耗尽国库，但我一次又一次地发现，自己不得不动用储备金来安抚成群结队的愤怒旅人，他们远道而来，只为穿越我们的运河。我雇临时工把他们的船只从水里拖出来，经由陆路运输他们的货物，并送给他们一点金子作为酬谢，因为我明白他们珍惜自己的时间，就如同我珍惜我的一样，而且更重要的是，我深知与商人保持关系的价值。我能听见我的生活与生意伴侣，最亲爱的埃勒温，此刻正在对他们说话，安抚他们一切都会恢复正常。\n\n有人教导我，不要解释为何水路成了禁区，因为那些商人都是固执的人，他们会把给出的每一个理由都视为挑衅，并与之争辩……尽管我确实听到有些人满怀厌恶地谈论一种蔓延各地的腐化瘟疫。我宁愿相信那只是个传说。\n我正按母亲的教导行事，但必须承认，疑虑正悄然滋生。我已经尝试了五次在栅栏处寻求接触，但从未在那边看到任何人。每次我只能闻到一种过熟蔬菜的气味，甜得发腻，刺入我的鼻孔，于是我便转身离去。我衷心希望福克纳身体健康。___NEWPAGE___",
+  "lore-paigeswoes-piece3": "我还在喘着气，但我必须将这记忆用墨水记录下来，以免它消失无踪。上帝啊，我倒是希望它能离我而去。我要让艾尔温免受这痛苦，独自担下这副重担。\n\n我终于又在格栅处看到了一张脸，爬到通风口顶端才看清，那只能算是残存的一张脸了。皮肤剥落，颅骨外露，骨头被泥土和鲜血染作暗红，你根本分不清哪是骨、哪是血。我从前闻过死亡的气息，如今它就在我眼前直勾勾地盯着我。它在看着我。我想它试图发出声音，但我听到的，只是它从格栅中伸出手来抓我时，金属刮擦石头的可怖嚎叫。我怕自己性命不保，便跑了，命令我们仅剩的那个仆人往格栅上铲土，直到将那股声音彻底淹没。我明白这意味着什么，我的请求有多沉重。底下不管是何活物，都将窒息而死。到了这步，这已是一种小小的慈悲了。是我还能为他们做的，唯一一点事了。\n\n那记忆不肯离我而去。更糟的是，我知道那东西并非有意要伤害我。因为我亲眼见过人溺水，而我所目睹的抓挠，正是一场完美的模仿，是临死前绝望的、想抓住点什么好让头浮在水面之上的挣扎，直到最终彻底沉入水底。___NEWPAGE___",
+  "lore-paigeswoes-piece4": "我要把这一切都抛在身后，这该死的水道和我们上方那座废弃的家园。在墓地上建房本就是厄运，我也不打算去验证这厄运是否会追溯生效。\n\n反正这里也没什么值得我留恋的了。我发现艾莉温神情恍惚地坐在沙发上。前一周她就一直表现得冷漠易怒。我本以为只是压力太大，但现在我明白了；没了她香水的掩盖，那股无法忽视的恶臭如今已弥漫在我们的房间里。\n我祈求腐烂物能快些将她带走。我自己实在狠不下心亲手送她去见上帝。\n如果还有谁活着，我恳求你，以我的不幸为警示，从你来的地方掉头回去吧。___NEWPAGE___",
+  "lore-paigeswoes-title": "佩奇的悲歌 (BR)",
+  "lore-panopticonletters-piece1": "即使有这么多人跟我一起受苦，我却从未感到如此孤独。\n\n这都是拜那些看守所赐。任何试图亲近的举动，首先会被指控为传播瘟疫，其次会被指控为密谋叛乱。而结果就是，双方都会被拿来杀鸡儆猴，示众给其他人看。\n\n我只希望这黑死病能快些把我们所有人都带走。___NEWPAGE___",
+  "lore-panopticonletters-piece2": "这算什么虐待？！\n\n我是法里斯·侯赛因，德拉布尔王位的继承人。我本期望能得到比这更好的待遇！\n在一次例行的商贸旅途中，我本欲将最精美的丝绸分享给世界，却发现自己被带进了一个潮湿阴暗的洞穴。\n\n我的丝绸被撕碎，变成了抹布。太可怕了！这些粗鄙的劳工就算价值摆在眼前也认不出来。然而我却和他们一起被困在这里。我造访过的那些检疫所至少还有几分隐私可言，所以这所谓的隔离算什么？简直荒谬。我要找这些执法者谈谈，让他们准许我离开。他们肯定会理解的。就算不理解，他们也会明白，为杰出之人破例，等待着他们的将是怎样的财富。___NEWPAGE___",
+  "lore-panopticonletters-piece3": "在经历了如此漫长又麻烦的旅程以及随后的劳作之后，我本想休息一下，但我不确定这就是我想要的。像这样干坐着，让我坐立不安。我并不介意工作。我来这里就是为了工作。有消息说这里需要工人，而我也早就想离开城市一段时间了。我的同事们是一群友好又充满好奇心的人。他们对我的家乡有很多疑问，我都乐此不疲地一一解答！\n\n等这一切结束后，我要带他们去看看我家周围遍地生长的大王花。___NEWPAGE___",
+  "lore-panopticonletters-piece4": "我制定了一个逃跑计划。写下这份记录能帮我把它牢记于心，而且当那些看守意识到他们被伟大的黄鼠狼耍了的时候，这记录肯定会让他们气得发疯！\n\n我从来都不是个游泳好手，但我能憋气很久，而且那些旧下水道窄小得足以靠触觉摸索前行。我这只腐烂的手仍能感觉到微弱的触感。而透过格栅照进来的光，在那片伸手不见五指的黑暗中会格外显眼。那些格栅锈得那么厉害，肯定一碰就碎。\n\n我会等着某个人或别的什么东西不可避免地惹怒那些看守。他们喜欢把所有人都召集起来，搞个大场面。在这片混乱的掩护下，我将启动我的宏伟计划，溜进运河，进入下水道，然后去警告世人斯万马克家族犯下的种种不公。___NEWPAGE___",
+  "lore-panopticonletters-title": "全景监狱书信集 (BR)",
+  "lore-pawprints-piece1": "办不到。我们是雇佣兵，不是战团，我们可不想让自己成为这么大的靶子。\n\n再说了，斯万马克庄园可是我们的老主顾。要是让他们知道你曾企图直接刺杀他们的女族长，那可就太遗憾了，不过我想，只要你在下个满月之前还清欠我们的债，我们或许就能非常凑巧地把这事给忘了。\n\n话说回来，你账还没结清，怎么会觉得我们会接更多的活儿呢？\n\n科里托克的伊萨克\n\n___NEWPAGE___",
+  "lore-pawprints-piece2": "我恳求你们，荒野中的恶狼！\n\n我的孩子就在一个日出前被路边的强盗掳走。我勉强逃得性命。他们索要的赎金远非我所能支付，因此我将把我所有的一切献给你们，我和我祖先的传家之宝。\n\n请把我的孩子平安带回我身边。我不在乎那些奴隶贩子会怎样。他们在通往埃拉克的路上，大约一千步远的地方扎营，伏击商队。\n\n___NEWPAGE___",
+  "lore-pawprints-piece3": "因德里纳克，我需要你的建议。\n\n阿斯卡农的活儿开始超出范围了。他们只是不断买进低价值的地表。他们勉强凑到的那点硬币都变成了更多的地产。我看不出他们打算拿所有这些来做什么。\n\n结果，我很难盯住哈瓦尔德。更麻烦的是，他在自己人中间走动时像个平民，没有固定的住所可以跟踪，也没有珠宝让他显得突出。这一切都让他极难追踪。\n\n豺狼\n\n___NEWPAGE___",
+  "lore-pawprints-piece4": "发现藏匿点被翻动过，但空了。去见了妮可拉，她以性命担保说她已经付清了该付的。她还没蠢到在这种事上撒谎。\n\n该死的这些拾荒者。我觉得可能是那个叛逃者黄鼠狼。反正他们近来已经太过碍事，把我们的好名声都拖进了泥里。我会亲自把他们赶出镇子。\n\n因德里纳克\n\n___NEWPAGE___",
+  "lore-pawprints-piece5": "伊萨克，我想我无法安睡，直到我看到一些告示牌，任何东西，证明这一切都结束了。经过多年的争斗，我终于找到了对的人来解决这个问题，并且他们正确地、一劳永逸地解决了它，然后我可以再次安息，真正地安息，知道我和我所照管的人都安全了。\n\n我真的想相信你的话，真的，但噩梦仍未离开我。请随意忽略我的胡言乱语，因为我已经没有什么可以付给你了。但我恳求你，如果可以的话，把证据留在这里。从他身上取下的一个信物。我只需要看到证据，我不会把它从藏匿点拿走，如果我拿了，你知道去哪儿找我。\n\n___NEWPAGE___",
+  "lore-pawprints-piece6": "还有人剩下吗？\n\n世界已经变了。我几乎认不出任何东西。但我认出了我们的印记。我以为没有谁能从腐烂物中幸存下来。但现在腐烂物已经消失了。\n我过去常出没的道路已经消失。我看不到远处地平线上的城墙。也看不到高耸于城墙之上的塔楼的轮廓。我还在昂德兰吗？\n\n只有……树木和草。曾有一段时间，我对世界别无所求，但我立刻意识到我是多么想念人们。如果有人发现这个，我开始向东旅行寻找其他幸存者，我请求你跟随我。\n\n因德里纳克\n\n___NEWPAGE___",
+  "lore-pawprints-piece7": "旧世界的人们就是这样交流的吗？感觉有点傻，在树木下面留纸条。我想知道你会怎么看待我们，延续你们的传统。\n\n也许不完全是你们的传统。我们现在用你们的符号作为路标。我们也用它们来互相交换礼物。习惯是取走一些东西，并留下一些东西。我在这个藏匿点找到了我最喜欢的玩具。一个粘土猎犬小雕像。\n\n我们中的一些人把它们用作礼拜场所。在路上很难找到教堂！我的娜娜教我随身携带一个小刀，以便能随时补描雕刻。我猜这对你们很重要。我希望有一天当我不在了，那些后来者也会照看我留下的东西。\n\n阿玛\n\n___NEWPAGE___",
+  "lore-pawprints-title": "爪印 (BR)",
+  "lore-priestdiary-piece1": "抄写员的笔记，个人的反思\r\n\r\n在过去的几个月里，我的信仰开始动摇。我听说过那些黑病患者蹂躏遥远的海岸，以及上帝对它的无所作为。我在讲道时说过，我们的信仰和信仰会引导我们度过难关，但我怎么能宣扬这种错误的信仰呢？我已经看到了它的作用。受害者在感染后仅几天会发生什么。\r\n\r\n我一直坚定不移地祈祷，坚定不移地相信上帝会拯救我。但我仍然担心最坏的情况。如果不是主，那么法尔克斯呢？如果不是 Falx，那又是谁呢？\r\n\r\n我尽量不去想它。                      \r\n\r\n___新页面___",
+  "lore-priestdiary-title": "牧师日记",
+  "lore-quarrycorrespondences-piece1": "盖奇的指示\n\n工头杰克·福斯特，\n\n你的任命反映了我们对你的谨慎与能力的同等信任。这项行动两者都需要。\n\n这个矿场的存在是为了开采盐和钾肥。它必须继续以一种完全且彻底不起眼的方式进行。它不需要盈利。\n\n话虽如此，你已经知道我们家族之间悬而未决的争端已有些时日。你的次要目标是取回一份由前女族长格特鲁德·金翅雀与斯凡马克的阿纳斯塔西娅之间达成的贸易协议的权威副本。据信它被装在一个蜡封的黄铜卷轴盒子里，这是当时昂德兰的标准做法。\n\n随信附上一份文件。这是你那些野性同僚在一次失败狩猎中的报告，是在昂德兰仲裁官失踪时委托编写的。用它来确定权威副本是在何处丢失的。\n\n它也将清楚地表明斯凡马克庄园对我们的亏欠程度，以及我为何如此执着于解决这场高贵的争端。他们用一份伪造的协议在法庭上赢了我们，并多年来对我们自己土地上的道路使用征收不合理的通行费。\n\n这份副本将使我们能够强制重新仲裁，并剥夺该庄园的地位。\n\n斯凡马克家族将继续观察我们的行动。将他们的审计员视为合作者，而非对手。任何公开的冲突都会违背这次行动的目的。如果人员损失，且取回副本不可能不引起注意，那么放弃矿场是更可取的选择。\n\n以金色的恩典，\n盖奇·金翅雀\n\n___NEWPAGE___",
+  "lore-quarrycorrespondences-piece2": "仲裁者猎踪\r\n\r\n很难错过这位仲裁者，他那身打扮太显眼了。我一眼就看到了他身上的 卷轴 箱子，于是拦下了马车。他拒绝投降，逃向了 盐 之口，那是 水 多年来一直消失其中的古老落水洞。看来它也挺喜欢 Undland 的走狗。\r\n\r\n他是在坠落时摔断脖子还是淹死的，都无关紧要了。他死了，那份密封的协议也随他而去。不拿我们自己的命去冒险，就别想拿回来，而你付的钱还不够我们这么干。\r\n\r\n其余的人我们都干净利落地处理了。卫兵、随从，一整个队伍。尸体堆在他们自己的马车里，也一并推下了 盐 之口。路上没有旁人看见这一切。\r\n\r\n我们没能找回你的文件。你可以称之为失败，但上帝绿色的大地上也再没人能拿到它了。掉进那个坑里的东西，有生之年的记忆里，从没有回来过的。没有副本，没有目击者，就意味着没有争议。你照样可以做你打算做的事。\r\n\r\n爪与牙无需采取进一步行动，我们期望在本月底前于这个交接点收到全额报酬。\r\n\r\n科里托克的伊萨克\r\n\r\n___NEWPAGE___",
+  "lore-quarrycorrespondences-piece3": "娜塔莉亚的检查备忘录\r\n\r\n致 J. 福斯特，\r\n\r\n我已完成对 盐岩 采石场及其周边工程的最新一次检查。我承认，发现并无特别之处让我有些宽慰。该作业点正如其所声称的那样：一个规模适中的 盐岩 和 钾肥 场地，运营得当，除了其持续合规性外，对斯万马克庄园并无特殊兴趣。\r\n\r\n但我不得不提一下那些数字。运营成本似乎远超回报，差距还相当大。我想，若非金翅雀家族在其他方面地位稳固，这会更令人担忧。不过，看到一个贵族家族耗费如此多精力却收益甚微，还是令人好奇。我并非怀念老格特鲁德执掌你们家族的那些日子，但那时金翅雀家族无疑更是一股不可小觑的力量。这无关紧要。我知道你们库房里的钱足够撑到盖奇最终长大成人。\r\n\r\n通道状况保持良好，这在很大程度上归功于斯万马克的维护。考虑到该地点的偏远，我建议应更加重视那些能让材料、设备和工人抵达此处的基建设施。若没有我们持续的监管，我怀疑这里的作业会困难得多。\r\n\r\n地下的条件尚可，尽管有些松懈。排水沟渠开凿得热情有余而细心不足，几处支撑结构也显现出磨损迹象。我建议适时处理这些问题，不过我相信你明白，任何对通道或加固的重大改进都需要与庄园协调，并且鉴于更广泛的区域需求，可能不会被优先考虑。\r\n\r\n总而言之，该采石场并无令人担忧之处。它沉闷、低效，且基本不值一提。我没有看到任何迹象表明存在我的上级所怀疑的秘密开采稀有金属的行为，目前也没有理由进行进一步审查。请代我向你的工人们致意。他们看起来很勤勉，尽管对此项事业的前景或许过于乐观了。\r\n\r\n在 Undland 王室的注视下，\r\n斯万马克的娜塔莉亚\r\n为斯万马克庄园服务的审计员\r\n\r\n___NEWPAGE___",
+  "lore-quarrycorrespondences-piece4": "未寄出的信\r\n\r\n致最显赫家族的金翅雀盖奇，\r\n\r\n我写这封信，即便不为别的，也是为了留个记录。\r\n\r\n风暴造成的破坏比预期的更糟。下层竖井的积水超出了水泵的处理能力，我们讨论过的勘探性开凿面也因工人在内而受损。救援工作需要额外的人手、额外的时间，以及通道上额外的往来。\r\n\r\n鉴于庄园的持续监督，我看不到任何能在不招致我们尚未准备好回答的问题的情况下继续进行的办法。\r\n\r\n被困在下面的工人，是在主要勘测图上未列出的区域作业。任何试图找回他们的行动，都将需要承认那些工程的存在。我想你比我更清楚其中的含义。\r\n\r\n我将履行我被指派的职责，干净利落地关闭这个场地。\r\n娜塔莉亚已经认为这个采石场无足轻重，而这场风暴是完美的掩护。\r\n\r\nJ. 福斯特",
+  "lore-quarrycorrespondences-title": "采石场通信集 (BR)",
+  "lore-reportslubrication-piece1": "行星齿轮系统润滑报告\r\n\r\n条目 1\r\n我往你要求的地方倒了一点那种液体，就在他们开始移动机械装置的时候。吱吱声消失了——看来起作用了。\r\n\r\n条目 2\r\n谢谢，我检查过了——一切正常。过段时间再重复这个步骤；我再说一遍，必须在齿轮转动时进行。完成后在这里记录。\r\n\r\n条目 3\r\n重复了一遍所有操作。你们组装出这么个东西真是太棒了——看着它转动真令人惊叹。太厉害了。\r\n\r\n条目 4\r\n别再在这里写你的感想了——这本日志只用于记录重要事项！\r\n\r\n___NEWPAGE___",
+  "lore-reportslubrication-title": "机械装置润滑报告 (BR)",
+  "lore-ripleysresearch-piece1": "这些是首席研究员阿坎莎·里普利关于她监督时渊圣杯项目的笔记。\r\n\r\n我是多么荣幸，金翅雀家族将如此重要的项目托付给我照管。在这些私人笔记中，我必须承认，近来我感觉自己的贡献似乎未被注意，好像我还不够努力。但上帝聆听了我的心声，给了我一个证明自己的机会！\r\n\r\n现在，这个具有里程碑意义的时刻正是如此——意义重大。有太多事情要做，在与时间本身抗争时，我们片刻也不能耽搁。我们必须找到在狭小空间内产生巨大能量的方法——我们必须以最小的熵来约束和引导它——我们必须找到一种方法，在空间中创造出超越空间存在的边界——所有这些要求都很高，但对金翅雀的血脉来说，没有什么是过于艰巨的，而且这都是证明我们之下的那个骗子 镰刀剑 无能的绝佳机会。\r\n\r\n我必须召集家族领地上最杰出的头脑来投身我的事业。哦，当然，瑞利关于时间纠缠的论文在设计阶段将是无价之宝，甚至已故的马格努斯的发明——上帝保佑他的灵魂——当我们用它来建造我们的小型发生器时，也将在他腐朽的躯体之外长久存续。分配给我的同事们个个都展现出巨大的潜力，对暂停时间的可能性抱有浓厚兴趣，并对这个最高贵的家族忠心耿耿。自我毕业以来，我还从未感到如此兴奋！___NEWPAGE___",
+  "lore-ripleysresearch-piece2": "这些是首席研究员阿坎莎·里普利关于时渊圣杯项目进展的笔记。\r\n\r\n在万分激动之中，我忘了明确圣杯的用途。现在我们有了一个初步设计，我可以再次提笔，确切地记录下来了。\r\n\r\n时渊圣杯是一个能在时空中创造出一个空洞的装置，一个能提供庇护、免受不断侵蚀的 腐烂物 影响的泡泡。楼上的园艺师们正致力于创造一个能在内部无限期维持生命的完美生物圈，而我们楼下的人则在努力将这个生物圈容纳于这个世界之外。\r\n\r\n已经订购了大量的砖砌原料，是金翅雀家族所能负担的最高品质，也就是说，是市面上能获得的最高品质。很快，粉碎的橄榄石 的货物就会送到我们门口，折射室的建造就可以开始了。___NEWPAGE___",
+  "lore-ripleysresearch-piece3": "这些是首席研究员阿坎莎·里普利关于时间圣杯项目受挫的笔记。\n\n令人沮丧。某个不务正业的家伙破坏了我们通往最近枢纽的传送器通道，这本该用于更快捷的通信。没有它，每一条指令、修订和授权都必须由信使沿着道路缓慢传递，没有任何事情能以这个项目所需的紧迫性推进。\n\n我很清楚自己不该尝试修理如此精密的设备。那位工程师海伦·雪莱又得过来一趟了，而我总觉得斯万马克庄园那边正被他们自己的腐烂物搞得焦头烂额。反正瘟疫正是沿着他们的道路传播的。\n\n黑卫军的工头们对手下的矿工逼迫得远远不够，导致没有足够的煤炭能让我们的“爪与牙”联络人神不知鬼不觉地转移到我们的仓库。没有燃料，我们就无法启动引擎；在产生足够的能量之前，我们无法推进原型机的工作。我几乎要怀疑，并非所有在我们旗帜下工作的人都像我一样对金翅雀家族忠心耿耿……我很乐意拿他们中的一些人杀鸡儆猴，只要我能承受得起在这个项目上损失任何人手。不幸的是，我们时间紧迫，眼下这些过失只能暂且不予追究。\n\n我们煞费苦心地同意直接从黑卫军那里购买，但考虑到我们需要派人去取煤炭，以及矿工们的拖沓，我们的人手只剩一半，而且好几天甚至好几周都没有燃料来取得进展。更别提那些如果在门口染上腐烂物就必须被处理掉的农奴了……\n\n至少这次延误能让我重新审阅计划并撰写报告。我已经指示我其余的下属去协助园艺师们的工作；我收到了关于地表也遭遇类似挫折的消息，我希望能全身心投入我的研究……我发现自己很恼火，因为太多时间浪费在管理他人的失败上，而不是专注于我的本行。___NEWPAGE___",
+  "lore-ripleysresearch-piece4": "这些是首席研究员阿坎莎·里普利关于她对时间圣杯项目疑虑的笔记。\n\n哦，上帝，我的上帝，请让这一切不要白费。\n\n我犹豫着是否要承认自己正经历着疑虑。六名农奴全都在门口被弓箭手射杀了。我被叫去处理尸体并给煤炭车消毒。我祈祷这是因为他们了解我擅长无菌操作，但我忍不住将其解读为一个警告——来自家族本身和上帝，警示我若失败将面临何种下场。\n\n随着持续发现的狂喜消失，我发现自己几天来第一次清醒过来，盯着这些计划，觉得它们出自一个疯子之手。我们没有足够的手段来产生容纳整个生物圈所需的能量。我们在等待燃料上浪费了太多时间……但腐烂物却没有等待。\n\n圣杯的启动定于一周后。我现在不能对这个过程失去信心。随着项目恢复，家族地下的厅堂再次充满了生机，这里有太多人依赖着我。我比以往任何时候都更需要加倍努力。一旦圣杯完成，我就可以在里面休息……再也没有时间睡觉了。___NEWPAGE___",
+  "lore-ripleysresearch-piece5": "这些是首席研究员阿坎莎·里普利关于时间圣杯项目启动的笔记。\n\n我发现我的疑虑已经消失了。也许是因为疲惫取代了它，或者是因为这周缺乏休息导致我脚上生了坏疽，但我没有放弃职责的奢侈。我的人挺过来了，一切都为启动做好了准备。原型机展现出了巨大的希望。当我们进入时间圣杯时，我将与同僚们庆祝，然后在桌子的宴会上毫无顾忌地睡上一觉！我们理应得到休息。\n\n一切就绪。金翅雀家族的首领有幸拉动主电源杆，并见证我们专属庇护所的诞生。此刻，他们似乎为我们的工作感到自豪，我现在确信这一切都是值得的。读数按预期进行。折射室相对轻松地容纳着巨大的能量，而我们原本预计至少会形成一些微小的裂隙。\n\n当我在各个站点间穿梭监督过程时，诅咒我这双坏疽的腿吧。但我很快就会有时间休息和恢复，上帝作证，我知道我会的。镜子正按预期引导能量，稳定器也已就位。没有看到任何裂隙的迹象。我们可以安全启动了。\n\n当装置启动时，我们感到大地在颤抖。我们周围的世界慢了下来，但我们没有。我意识到自己的呼吸，然后意识到它停止了，饥饿和疲惫瞬间离我而去。我看到一个实习生穿过大厅向我们走来，却停住了，凝固在时间里。我现在意识到了我的错误。产生的力场太小了。产生的能量太少了。哦，上帝，我的上帝，请原谅我。",
+  "lore-ripleysresearch-title": "里普利的研究（BR）",
+  "lore-saltstainedscrawlings-piece1": "第一篇\n\n我们原以为杰卡尔会不惜一切代价把我们弄出去。我们真的这么以为。他是个极其严厉的工头，但我们心里知道他关心我们。他和我们一起唱歌，一起在盐干活。你一看就知道他曾经也是个劳工。\n\n这就是为什么我希望我能说，我们中有人对这个结果感到惊讶。黑尔说他有一次被困在一个煤炭矿井里大概三天，他们把他救出来的唯一原因，是他们想开采他困住的那条矿脉。但我们都听到过杰卡尔和那个斯万马克女人之间的谈话。这个采石场不赚钱。他们不会回来找我们了。\n\n___NEWPAGE___",
+  "lore-saltstainedscrawlings-piece2": "第二篇\n\n我们觉得水泵再也没有被重新打开过。水只是不断地找到新的涌入途径。\n\n我们能听到前方某处有水在奔跑，在那之前我们听到了同一个方向传来的塌方声。在这下面很难计算时间。也许我们本该对杰卡尔多一点信心。我们要拿起我们的工具，继续朝那个方向挖。\n\n埃尔娜坚持说他了解老福斯特，如果有选择，他不会丢下我们，但乔伦一直在说，那首先就不是他能做的选择。\n\n___NEWPAGE___",
+  "lore-saltstainedscrawlings-piece3": "最后一篇\n\n那声音确实把我们引向了正确的地方。\n\n我们闯入了一个宽阔的空洞，为此失去了两个好人，有那么一刻，我们以为成功了。这里的空气确实在流动，水也有地方可以排走。这下面有骨头。很旧的骨头，堆积着，散落着，半埋在盐和淤泥里。无论这个地方过去是什么，它都不是一条出路。这就是他们派我们来寻找的东西吗？\n\n天花板太高了，爬不上去，墙壁太滑了，我们都筋疲力尽了。我选择相信杰卡尔不知道我们在这里。我向上帝祈祷，在这个洞穴也成为我们的坟墓之前，其他人能让我保留这点小小的安慰。\n\n作为我们四人中唯一会写字的人，我要草草记下我们想说的话，以防他们意识到我们失踪了，来找我们时却为时已晚。\n\n___NEWPAGE___",
+  "lore-saltstainedscrawlings-piece4": "告别\n\n这是给埃尔里克和孩子们的。\n我以为我会带着盐的钱和酸痛的手回家，仅此而已。\n对不起，我没有做到。我爱你，远比我曾说过的要多。\n无论如何，别让他们告诉你我是因为粗心大意。\n黑尔\n\n给我的姐姐玛拉。\n如果可以，保住房子。即使他们给你施压，也别卖掉它。我辛辛苦苦才在亚罗福德为我们挣得了一个遮风挡雨的屋顶。我只希望我能葬在那里，而不是这里。而且我更希望这篇文字永远不必见到天日，救援很快就能冲破这些墙壁。\n请告诉父亲我原谅他了。我想我从未真正生过他的气。\n埃尔娜\n\n致我的母亲：很抱歉让你如此担心。我想你的白发有不少是因我而生的，等你听说矿井关闭的消息时，要是你没有满头白发，我反倒会惊讶。我担心在我们被发现之前，衰老早已带走了你，但想象着有一天你能读到这些，我仍然能找到些许慰藉。\n你的面包仍然是我尝过的最美味的东西，对它的回忆曾支撑我带着微笑度过最艰难的轮班。\n乔伦\n\n给托马斯\n我就知道，你听到这个消息一定会生气。这次把怒气用在正道上，去修好屋顶吧。罗兰和姑娘们会感激你的。东边的漏水更严重。解冻后你很容易就能找到。\n莉娜\n\n___NEWPAGE___",
+  "lore-saltstainedscrawlings-title": "盐浸染的潦草手记 (BR)",
+  "lore-severancenotice-piece1": "发条公会的海伦·雪莱：\r\n\r\n奉斯凡马克庄园之命，即刻生效，将阿斯卡农端点从传送器枢纽路由网格中移除。\r\n\r\n阿斯卡农家族在屡次通知后，仍未缴纳前两个季度约定的费用。因此，其访问权限将被撤销，直至全额付清欠款及罚金。\r\n\r\n你须确保所有通往阿斯卡农领地的现有连接均已失效，且此后不得在庄园授权下向该处引导任何流量。未经书面批准，不得从此位置通告任何替代目的地。\r\n\r\n上述对外安排不得扰乱。任何问询均应通过常规渠道转交，并以日程安排或维护事宜为由予以驳回。此行动属行政性质，不构成合同解除，仅为特权暂停。\r\n\r\n签署，\r\n斯凡马克的艾尔温",
+  "lore-severancenotice-title": "断绝通知 (BR)",
+  "lore-smashingsuccess-piece1": "格特鲁德派我来这里，带着她自己调配的火药。她说庄园里没有硝石了，这就是全部，所以我不能浪费一丁点谷物。我要把点燃的炸药通过传送器送过去，摧毁远端，然后亲手砸碎这里的机械装置。我要切断道路，让腐烂物无法通行。\r\n\r\n能被委以重任，我无比自豪！自豪她选了我来做这件事。工作进行得很顺利，我差不多快完成了。我记得当时还在想，真想看看传送器另一头我的劳动成果。\r\n\r\n我真是个傻瓜，竟会冒出这个念头，因为它很快就成真了。金翅雀传送器骤然亮起。一枚炸弹传了过来，引信燃着，打包方式和她简报时教我的如出一辙。\r\n\r\n我现在明白了，为什么她坚持要我用那个装置来到这里。为什么她告诉我完成后要木棍一圈，确保传送器枢纽已彻底瘫痪。我已经暴露在腐烂物中了。我呼吸这里的空气太久了。她不能冒险让我回去。这从来就不是一趟往返的旅程。尽管如此，我还是摧毁了我能触及的一切。这些传送器不会再载着腐烂物走得更远了。\r\n\r\n格特鲁德·金翅雀曾是我的赞助人，我的雇主，到头来，也是我的行刑者。我不为此诅咒她。我只希望，她当初没有让我相信我还能回家。\r\n\r\n迈克尔·理查森",
+  "lore-smashingsuccess-title": "粉碎成功 (BR)",
+  "lore-stokersdirective-piece1": "尊敬的农奴，\r\n你已被选中监督伟大引擎的司炉工作。\r\n此信部分留白，是为了给你地窖来品味这项职责的重要性，并体会由此赋予你的荣耀。\r\n\r\n……\r\n\r\n你一定在好奇你的前任遭遇了什么。金翅雀家族向你保证，前任司炉蒂姆的死亡情况与其工作完全无关，而且如果蒂姆司炉当初选择多在引擎地窖的安全墙内待着，他本可以完全避开他的命运。\r\n\r\n至于技术信息：将伟大引擎从惰性状态启动需要极其庞大的能量，因此我们选择让它持续运行，处于一种“休眠”模式。以此模式消耗燃料的速率，它几乎可以无限期运行，并且仍能产生足够设施照明的电力。\r\n\r\n随信附上一份全天预期电力需求图表。\r\n请每天早上联系研究团队，了解他们的测试计划以及这些测试所需的额外电力。对于任何与时空圣杯相关的测试，忽略他们自己的估算，让引擎全功率运行；这将需要持续不断地铲入煤炭。\r\n\r\n由于此项工作的精密性质，自动机器和未经训练的人员不得进入引擎地窖。这就是司炉职责落在你，且仅落在你一人肩上的原因。请确保你保持最佳的生命值，以便你能继续作为司炉为金翅雀家族服务。\r\n\r\n在任何情况下，都不要让引擎干烧。",
+  "lore-stokersdirective-title": "司炉指令 (BR)",
+  "lore-strangetoylist-piece1": "我们被要求离开这个地方一段时间。\r\n我没法收拾那些不太重要的东西，所以留下这张便条给将来会回来的自己。\r\n\r\n留在这里的：\r\n……一个玩具，在营房出口右侧墙壁的装饰壁龛里……\r\n……\r\n……一个玩具，在从一楼下去的柱子后面……\r\n……\r\n……一整箱玩具，在缮写室钢琴后面……\r\n……\r\n___NEWPAGE___",
+  "lore-strangetoylist-title": "奇怪的玩具清单 (BR)",
+  "lore-sundialdiary-piece1": "条目 1\r\n得益于我们成功的裂隙转移实验，现在必须验证关于阳光对裂隙影响的理论。\r\n\r\n我们将建造一面透镜来收集和反射阳光。\r\n\r\n条目 2\r\n我们邀请了机械师、赞助人以及几位反射光学专家。\r\n\r\n大多数机械师表示同意；只有一位专家，卢修斯·贝尼迪，表现出兴趣。\r\n\r\n我们将等待他们的到来。\r\n\r\n条目 3\r\n会议产生了不同寻常的结果。\r\n一些机械师因反对风险而退出，但其余关键人物——包括那位反射光学专家——同意了。我们已经在安排后续会议，开始蓝图工作。\r\n\r\n条目 4\r\n蓝图工作已经开始。卢修斯分享了他关于光反射的知识和经验。团队正谨慎地将机械师的见解与专家的实践相结合。一个宏伟的开端！\r\n\r\n...\r\n\r\n___NEWPAGE___",
+  "lore-sundialdiary-piece2": "...\r\n\r\n条目 5\r\n透镜的建造有时会因这个地方的不稳定性而放缓。\r\n时间风暴变得频繁，迫使我们分出精力用于自我保护。\r\n除此之外，透镜所需的模具和材料已经准备就绪。\r\n\r\n条目 6\r\n组装已接近完成；精湛的技艺和来之不易的经验使我们得以建造如此庞大的仪器。\r\n一旦最后的准备工作完成，我们就能立即为那些老问题寻找答案。\r\n\r\n条目 7\r\n透镜是手动操作的。\r\n四人负责旋转它，一人在平台上倾斜镜面。\r\n\r\n...\r\n\r\n___NEWPAGE___",
+  "lore-sundialdiary-piece3": "...\r\n\r\n条目 8\r\n行星齿轮——旋转机构的关键元件——是付出了巨大努力才制造出来的。\r\n首先，我们铸造了一个巨大的模具，并浇注了熔融的金属。\r\n单个行星齿轮被铸造出来，并费了不少力气才固定到组件中。\r\n我们遵循了乔纳斯·镰刀剑的蓝图和手册。\r\n\r\n...\r\n\r\n___NEWPAGE___",
+  "lore-sundialdiary-piece4": "...\r\n\r\n条目 9\r\n透镜按预期运作。\r\n凭借运气和仔细的计算，当前的季节让阳光能够照射到透镜，并反射到洞穴的特定区域。\r\n我们管理的变量数量极其庞大。\r\n\r\n条目 10\r\n我们的首次试验将光束瞄准了不同位置；西南角被完美照亮，完全满足我们的需求。\r\n我应当指出，这是我见过的最昂贵的光源。\r\n我们现在可以照亮特定的工作区域——这很了不起。\r\n\r\n条目 11\r\n首次瞄准裂隙。\r\n成功：裂隙似乎冻结、平静下来，并变得明亮。\r\n我们似乎已经稳定了它。\r\n生物畏惧光线；它们害怕穿越到我们的世界。\r\n这暗示着一种可能性——仿佛我们或许能穿越到另一边。\r\n我们将为此召开一次团队会议。\r\n\r\n___NEWPAGE___",
+  "lore-sundialdiary-title": "日晷日记 (BR)",
+  "lore-tournamentwinners-piece1": "五子棋锦标赛周期获胜者：\r\n\r\n瓦尔德马 - 5\r\n卡塔奥普提克 - 3\r\n卡斯帕 - 2\r\n哈拉尔德 - 1\r\n幸运儿 - 1\r\n\r\n锦标赛管理员 - 卡斯帕·克里斯塔林\r\n\r\n___NEWPAGE___",
+  "lore-tournamentwinners-title": "常规锦标赛获胜者 (BR)",
+  "lore-treasurehunternotes1-piece1": "陨铁珍贵稀有，因此当我还只是个学徒时，师傅就教导我要时刻留意土壤中嵌入的圆形构造。\n\n想象一下，当我旅行中遇到一个完美球形的空洞地形，它齐整地切穿了许多地下隧道和房间时，我有多么惊讶。我看不出任何可能造成这种情况的原因，也没有足够的想象力去推测。好在这个建筑群的许多部分虽已被彻底摧毁，其余部分却完全未被触动，我希望能从其中找到答案。那些陈旧的储物箱肯定也不会介意我拿走遗留下来的任何装备……\n\n太阳开始落山了，我深知没有外面的日光庇护，就不该在这些废墟中四处探查，因此我要搭建营地，等黎明第一缕曙光降临时再下去。___NEWPAGE___",
+  "lore-treasurehunternotes1-piece2": "这片被遗弃的建筑群宛如迷宫。当然，它令我着迷，比起千篇一律的洞穴，我宁愿迷失在这里，不过我还是忍不住希望，在这黑暗世界的地底探索，比起随后在阳光下清点新发现的宝藏要短得多。\n\n我得到了答案。至少是部分答案。我从陨坑边缘绳降进入最浅的隧道，穿行于蜿蜒的走廊，直到来到一处仅剩残垣的所谓缮写室。这些图表我大多看不懂，这本身就说明了很多事；这些人正在摆弄某种远超我们理解的力量，而当我走近房间被陨坑切开的区域时，我的怀疑很快得到了证实。沿边缘处，书籍卷轴凭空悬停，漂浮在空中。缮写室其他地方的大部分羊皮纸都已因岁月泛黄，可这些书页却依然洁白如新。我不敢再进一步接触了。看来我拥有这些人所缺乏的自制力。\n\n我很想相信这一点，也许我确实相信了，至少直到我听见废墟深处传来一声恐怖的噪音，才意识到自己竟忘了带武器。即便有选择，我也决不愿主动与那些怪物交战，但……唉，我想最好还是朝入口返回。感谢上帝，那声音似乎没有跟来，但当我站在入口处时，听到一条标着“砖厂”的走廊里传来金属刮擦石头的声响。虽然不带武器就深入是个愚蠢的错误，但我还不至于蠢到让这些自动机械在我离开时占领整座设施，所以我把走廊堵了起来。用来堵门的家具倒是不缺——这群人过去肯定在他们蓝绿相间的旗帜下过着浮华的生活。有了暂时的安全，我便放心转身离开这些隧道，再次向上攀爬，好在不久的将来做好更充分的准备再回来。",
+  "lore-treasurehunternotes1-title": "寻宝者的笔记(BR)",
+  "lore-viridiliteshift-piece1": "最新发现表明，绿纹石可以影响裂隙开口的闭合与重新定位。\n\n在裂隙活动足够活跃的时期，我们打算利用新开发的仪器将多个裂隙重新导向至指定地点。\n\n我们建造了偏转器——一种用于安装绿纹石板的紧凑装置——它可以吸收锈蚀，使板材老化并逐渐耗尽矿物。高品级的绿纹石至关重要；小块或低品质的碎片会迅速降低效率。\n\n观察点报告：\n我们在驻地周围放置了数台偏转器，并在附近激活了一个裂隙卫士。\n\n结果：裂隙正在洞穴的西南角形成，且明显比平时更大。\n未观测到其他异常。\n\n我们将继续实验，增加偏转器和卫士的数量，以优化控制并测量稳定性阈值。\n\n___NEWPAGE___",
+  "lore-viridiliteshift-title": "维里迪石转换 (BR)",
+  "lore-wolfstone-piece1": "部分毁坏的狼石城堡有着悠久的历史，其历史可以追溯到几个世纪前，当时它只是一座方形塔楼，旨在监视周边地区的宝贵矿井。这座塔的建造非常谨慎，因为矿山对该地区的经济和安全至关重要。随着时间的推移，这座塔被证明是一个坚固的结构，它经受住了时间和元素的考验。\r\n\r\n随着时间的流逝，这座塔被赠予了一位新崛起的男爵，以表彰他在某些战争中所取得的成就。男爵很感激这份礼物，并努力将塔楼扩建成一座成熟的城堡，并增加了护城河和坚固的城墙来保护该地区。随着矿井变得越来越繁荣，城堡在原男爵的后裔的领导下不断发展和扩张。\r\n\r\n城堡因居住在周边地区的一群狼而得名，狼因其凶猛的力量和坚韧而受到当地人的崇敬。因此，这座城堡被称为“狼石”，这个名字将持续几个世纪。\r\n\r\n狼石岛的最后一位领主是一位狂热的读者和作家，他花了很多时间阅读城堡图书馆中的大量藏书。他是一位博学多才的人，具有敏锐的智慧，对周围的世界有深刻的了解。他经常在火边长时间地读书，陷入沉思，思考生命的奥秘。\r\n\r\n尽管狼石岛的最后一位领主热爱书籍，但他也是一位勇猛的战士，带领他的人民勇敢地战斗。他是一位公正公平的统治者，深切关心他的人民，并为确保他们的安全和繁荣而不懈努力。然而，尽管他尽了最大的努力，城堡最终还是年久失修，因为矿井开始枯竭，周边地区变得不那么繁荣。\r\n\r\n如今，部分毁坏的狼石城堡成为了过去时代的见证，提醒人们塑造我们周围世界的丰富历史和传统。",
+  "lore-wolfstone-title": "狼石城堡",
+  "mediumruins_min_spawn_distance": "中型废墟距出生点最小距离",
+  "mediumruins_spawn_chance": "中型废墟生成机会",
+  "mediumruins_title": "中型废墟",
+  "megastructure_aqueduct": "巨型结构渡槽",
+  "megastructure_auldburg": "巨型结构Auldburg",
+  "megastructure_catnoirscastleruin": "巨型结构Catnoir的城堡废墟",
+  "megastructure_destroyedlargechurch": "巨型结构被毁的大教堂",
+  "megastructure_forlornhopetower": "巨型结构Forlorn Hope塔",
+  "megastructure_giantcathedral": "巨型结构巨型大教堂",
+  "megastructure_houseofusher": "巨型结构：厄舍府",
+  "megastructure_jumblerockcastle": "巨型结构Jumblerockcastle",
+  "megastructure_normancastle": "巨型结构诺曼城堡",
+  "megastructure_oasis": "巨型结构绿洲",
+  "megastructure_palaceofnestor": "巨型结构：涅斯托尔宫殿",
+  "megastructure_rockformation": "巨型结构岩石形成",
+  "megastructure_romanbathhouse": "巨型结构：罗马浴场",
+  "megastructure_settlementofkeykeepers": "巨型结构：钥匙守护者聚落",
+  "megastructure_shoppingcentre": "巨型结构购物中心",
+  "megastructure_undergroundlibrary": "巨型结构地下图书馆",
+  "megastructure_visingborg": "巨型结构维辛堡",
+  "megastructure_wallsegment": "巨型结构墙段",
+  "megastructure_wolfstonecastle": "巨型结构狼石城堡",
+  "megastructures_min_distance": "最小距离巨型结构",
+  "megastructures_min_distance_comment": "定义所谓的巨型结构之间的距离，并以块为单位进行测量。",
+  "megastructures_min_spawn_distance": "距离出生点最小距离",
+  "megastructures_title": "巨型结构全局",
+  "meteorvalue": "陨石生成概率 (%)",
+  "meteorvalue_comment": "调整BetterRuins中陨石块的生成概率百分比。设置为100%使所有符合条件的块中都出现陨石，或降低百分比以控制其稀有度。设置为0%完全禁用陨石生成。",
+  "monoliths_title": "巨石",
+  "ogdredvillage_spawn_chance": "Ogdreds村庄生成机会",
+  "overall_spawn_chances_title": "整体生成概率",
+  "prisonvillage_spawn_chance": "监狱村庄生成机会",
+  "schematic_crafting": "蓝图复制",
+  "schematic_crafting_comment": "决定是否可以通过制作配方复制蓝图以便玩家之间交换。启用可通过制作实现复制。",
+  "structures_spawn_chance": "结构生成机会",
+  "structures_spawn_chance_comment": "影响所有结构（不包括村庄）的生成机会。",
+  "surfaceunderground_min_distance": "地表地下最小距离",
+  "surfaceunderground_spawn_chance": "地表地下废墟生成机会",
+  "surfaceundergroundruins_title": "地表 入口 遗迹",
+  "translocators_title": "传送门",
+  "underground_title": "地下",
+  "universal_maxtemperature": "最高温度",
+  "universal_maxtemperature_comment": "指定此结构生成的最高温度限制。如果温度超过此值，结构将不会生成。",
+  "universal_min_spawn_distance": "距生成点的最小距离",
+  "universal_mindistance": "最小距离",
+  "universal_mindistance_comment": "指定此结构必须与其组内其他结构保持的最小距离，以方块为单位测量。",
+  "universal_minspawndistance_comment": "定义此结构类型与世界生成点之间的距离，以方块为单位。",
+  "universal_mintemperature": "最低温度",
+  "universal_mintemperature_comment": "指定此结构生成所需的最低温度。如果温度低于此值，结构将不会生成。",
+  "universal_schematic_comment": "定义此蓝图在结构中生成的机会。较高的值会增加生成的可能性。设置为0将禁用生成，但不会禁用物品本身。",
+  "universal_spawnchance": "生成机会",
+  "universal_spawnchance_comment": "定义此结构生成的机会（在其组内，如果适用）。较高的值会增加生成频率。",
+  "vanilla_structures_spawn_chance": "原版结构生成几率",
+  "vanilla_structures_spawn_chance_comment": "影响所有原版结构（不包括村庄）的生成几率。",
+  "vanilla_villages_spawn_chance": "原版村庄生成几率",
+  "vanilla_villages_spawn_chance_comment": "影响所有原版村庄的生成几率，这些村庄是由小型建筑紧密聚集而成的群组（非单个建筑）。",
+  "villages_min_distance": "最小距离",
+  "villages_spawn_chance": "村庄生成机会",
+  "villages_spawn_chance_comment": "影响所有村庄的生成机会，村庄是由较小结构紧密聚集在一起的群体（不包括结构）。",
+  "villages_title": "村庄",
+  "villagestonesrowlyart_spawn_chance": "Rowdyarts 村庄生成几率",
+  "vsvillage_spawn_chance": "VSVillage生成机会",
+  "waystones_title": "路标",
+  "wiki_link": "维基链接"
+}
