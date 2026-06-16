@@ -1,23 +1,25 @@
-name: Release Translation Milestone Pack
+name: Manual Release Pack
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - 'projects/assets/**'
-      - 'config/packer/**'
-      - 'src/Packer/**'
-      - 'tests/Packer.Tests/**'
-      - 'VintageStory-Chinese-Language-Package.sln'
-      - '.github/workflows/release-milestone.yml'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Release version
+        required: true
+        type: string
+      release_kind:
+        description: Release kind
+        required: true
+        type: choice
+        options:
+          - release
+          - pre-release
 
 permissions:
   contents: write
 
 jobs:
   release:
-    name: Publish milestone releases
     runs-on: ubuntu-latest
 
     steps:
@@ -34,91 +36,36 @@ jobs:
       - name: Run tests
         run: dotnet test
 
-      - name: Inspect pack metadata
-        id: inspect
-        shell: bash
-        run: |
-          while IFS='=' read -r key value; do
-            echo "${key}=${value}" >> "$GITHUB_OUTPUT"
-          done < <(dotnet run --project src/Packer -- inspect --config config/packer/default.json)
-
-      - name: Plan release rebuild
-        id: milestone
+      - name: Build package
         shell: bash
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SELECTED_TRANSLATION_COUNT: ${{ steps.inspect.outputs.selected_translation_count }}
-          RELEASE_MILESTONE_COUNT: ${{ steps.inspect.outputs.release_milestone_count }}
+          VERSION: ${{ inputs.version }}
         run: |
-          echo "selected_translation_count=${SELECTED_TRANSLATION_COUNT}" >> "$GITHUB_OUTPUT"
+          dotnet run --project src/Packer -- pack --config config/packer/default.json --package-version "${VERSION}"
 
-          if [ "${RELEASE_MILESTONE_COUNT}" -lt 10 ]; then
-            echo "should_release=false" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
-
-          rebuild=()
-          for (( milestone=10; milestone<=RELEASE_MILESTONE_COUNT; milestone+=10 )); do
-            release_tag="mods-${milestone}"
-            release_version="0.0.$((milestone / 10))"
-            expected_asset="VSCN-VintageStory-Chinese-Language-Pack-${release_version}.zip"
-            existing_assets=$(gh release view "${release_tag}" --json assets --jq '.assets[].name' 2>/dev/null || true)
-
-            if [ -n "${existing_assets}" ] && printf '%s\n' "${existing_assets}" | grep -Fx "${expected_asset}" >/dev/null 2>&1; then
-              continue
-            fi
-
-            rebuild+=("${milestone}:${release_version}")
-          done
-
-          if [ "${#rebuild[@]}" -eq 0 ]; then
-            echo "should_release=false" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
-
-          rebuild_csv=$(IFS=,; echo "${rebuild[*]}")
-          echo "should_release=true" >> "$GITHUB_OUTPUT"
-          echo "rebuild=${rebuild_csv}" >> "$GITHUB_OUTPUT"
-
-      - name: Delete outdated release and tag
-        if: steps.milestone.outputs.should_release == 'true'
+      - name: Generate release notes
         shell: bash
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REBUILD: ${{ steps.milestone.outputs.rebuild }}
+          VERSION: ${{ inputs.version }}
+          RELEASE_KIND: ${{ inputs.release_kind }}
         run: |
-          IFS=',' read -ra rebuild <<< "${REBUILD}"
-          for item in "${rebuild[@]}"; do
-            milestone="${item%%:*}"
-            release_tag="mods-${milestone}"
-            gh release delete "${release_tag}" --yes >/dev/null 2>&1 || true
-            git push --delete origin "${release_tag}" >/dev/null 2>&1 || true
-            git tag -d "${release_tag}" >/dev/null 2>&1 || true
-          done
+          notes_path="build/release-notes-${VERSION}.md"
+          readme_path="build/README-${VERSION}.md"
+          dotnet run --project src/Packer -- describe-release --config config/packer/default.json --package-version "${VERSION}" --release-kind "${RELEASE_KIND}" --fetch-api > "${notes_path}"
+          dotnet run --project src/Packer -- describe-package --config config/packer/default.json --package-version "${VERSION}" --fetch-api > "${readme_path}"
 
-      - name: Build and publish release
-        if: steps.milestone.outputs.should_release == 'true'
+      - name: Create release
         shell: bash
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_SHA: ${{ github.sha }}
-          COUNT: ${{ steps.milestone.outputs.selected_translation_count }}
-          REBUILD: ${{ steps.milestone.outputs.rebuild }}
+          VERSION: ${{ inputs.version }}
+          RELEASE_KIND: ${{ inputs.release_kind }}
         run: |
-          IFS=',' read -ra rebuild <<< "${REBUILD}"
-          for item in "${rebuild[@]}"; do
-            milestone="${item%%:*}"
-            version="${item##*:}"
-            release_tag="mods-${milestone}"
-            dotnet run --project src/Packer -- pack --config config/packer/default.json --package-version "${version}"
-            notes_path="build/release-notes-${release_tag}.md"
-            readme_path="build/README-${release_tag}.md"
-            dotnet run --project src/Packer -- describe-release --config config/packer/default.json --milestone "${milestone}" --package-version "${version}" --fetch-api > "${notes_path}"
-            dotnet run --project src/Packer -- describe-package --config config/packer/default.json --package-version "${version}" --fetch-api > "${readme_path}"
-            gh release create "${release_tag}" \
-              --target "${GITHUB_SHA}" \
-              "build/VSCN-VintageStory-Chinese-Language-Pack-${version}.zip" \
-              "${readme_path}#README.md" \
-              --title "Translation milestone ${milestone}" \
-              --notes-file "${notes_path}"
-          done
+          gh release create "v${VERSION}" \
+            --target "${GITHUB_SHA}" \
+            "build/VintageStory-Chinese-Language-Package-${VERSION}.zip" \
+            "build/README-${VERSION}.md#README.md" \
+            --title "VintageStory-Chinese-Language-Package ${VERSION}" \
+            --notes-file "build/release-notes-${VERSION}.md" \
+            $( [ "${RELEASE_KIND}" = "pre-release" ] && echo --prerelease )

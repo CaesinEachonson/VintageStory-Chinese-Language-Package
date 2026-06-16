@@ -80,7 +80,7 @@ dotnet run --project src/Packer -- pack --config config/packer/default.json
 默认输出文件：
 
 ```text
-build/VSCN-VintageStory-Chinese-Language-Pack-<version>.zip
+build/VintageStory-Chinese-Language-Package-<version>.zip
 ```
 
 产物根目录固定为：
@@ -100,33 +100,9 @@ dotnet test
 
 ## GitHub Actions
 
-推送到 `main` 后，如果当前最终入包的模组翻译数量达到新的 10 的倍数档位，也会自动发布 GitHub Release。
+Release 通过 `.github/workflows/release-milestone.yml` 手动触发，输入 `version` 和 `release_kind` 即可。
 
-例如：
-
-```text
-10, 20, 30, ...
-```
-
-发布版本号遵循官方模组站实际接受的版本格式，并按每 10 份最终入包翻译递增一个 patch 版本，例如：
-
-```text
-0.0.1
-0.0.2
-0.0.10
-```
-
-对应 tag 格式为：
-
-```text
-mods-10
-mods-20
-mods-30
-```
-
-如果历史 release 仍使用旧的错误版本格式，工作流会自动删除旧 release/tag 并按新规则重新打包发布当前档位。
-
-每次 milestone release 的说明中，会用 Markdown 表格列出该档位对应的 10 份翻译明细，包含模组中文名称、模组英文名称、模组 ID、模组最新版本和模组贡献者。
+发布说明会显示全部入包模组列表，包含模组中文名称、模组英文名称、模组 ID、模组最新版本和翻译贡献者。
 
 Release 还会额外附带 `README.md` 文件，里面包含完整入包模组清单和贡献者链接。发布说明和 Release README 会通过 `mods.vintagestory.at/api` 获取模组站元数据，并结合 `projects/assets/index.json` 中的人工中文名和覆盖信息生成。
 

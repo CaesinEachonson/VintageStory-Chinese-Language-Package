@@ -9,7 +9,7 @@
   "targetLanguage": "zh-cn",
   "contentRoot": "projects/assets",
   "outputDirectory": "build",
-  "outputFileNameTemplate": "VSCN-VintageStory-Chinese-Language-Pack-{version}.zip",
+  "outputFileNameTemplate": "VintageStory-Chinese-Language-Package-{version}.zip",
   "excludedProjects": [],
   "excludedModIds": [],
   "excludedVersions": [],

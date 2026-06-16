@@ -5,7 +5,7 @@ namespace Packer;
 public static class CliRunner
 {
     private const string Usage =
-        "Usage: dotnet run --project src/Packer -- <pack|inspect|describe-release|describe-package> --config <path> [--package-version <value>] [--milestone <value>] [--fetch-api]";
+        "Usage: dotnet run --project src/Packer -- <pack|inspect|describe-release|describe-package> --config <path> [--package-version <value>] [--release-kind <release|pre-release>] [--fetch-api]";
 
     public static async Task<int> RunAsync(
         string[] args,
@@ -14,7 +14,7 @@ public static class CliRunner
         string repositoryRoot,
         CancellationToken cancellationToken = default)
     {
-        if (!TryParseArguments(args, out var command, out var configPath, out var packageVersion, out var milestone, out var fetchApi, out var parseError))
+        if (!TryParseArguments(args, out var command, out var configPath, out var packageVersion, out var releaseKind, out var fetchApi, out var parseError))
         {
             await stderr.WriteLineAsync(parseError ?? Usage);
             return 1;
@@ -35,13 +35,12 @@ public static class CliRunner
 
             if (string.Equals(command, "describe-release", StringComparison.OrdinalIgnoreCase))
             {
-                var description = TranslationPackBuilder.DescribeReleaseMilestone(
+                var description = TranslationPackBuilder.DescribeReleasePackage(
                     config,
                     repositoryRoot,
-                    milestone!.Value,
                     packageVersion!);
                 var metadata = await LoadMetadataAsync(config, repositoryRoot, description.Entries, fetchApi, cancellationToken);
-                await stdout.WriteAsync(FormatReleaseMilestoneDescription(description, metadata));
+                await stdout.WriteAsync(FormatReleasePackageDescription(description, metadata, repositoryRoot, releaseKind!));
                 return 0;
             }
 
@@ -52,7 +51,7 @@ public static class CliRunner
                     repositoryRoot,
                     packageVersion!);
                 var metadata = await LoadMetadataAsync(config, repositoryRoot, description.Entries, fetchApi, cancellationToken);
-                await stdout.WriteAsync(FormatReleasePackageDescription(description, metadata));
+                await stdout.WriteAsync(FormatReleasePackageDescription(description, metadata, repositoryRoot, "release"));
                 return 0;
             }
 
@@ -93,14 +92,14 @@ public static class CliRunner
         out string? command,
         out string? configPath,
         out string? packageVersion,
-        out int? milestone,
+        out string? releaseKind,
         out bool fetchApi,
         out string? error)
     {
         command = null;
         configPath = null;
         packageVersion = null;
-        milestone = null;
+        releaseKind = null;
         fetchApi = false;
         error = null;
 
@@ -148,21 +147,21 @@ public static class CliRunner
                 continue;
             }
 
-            if (string.Equals(arg, "--milestone", StringComparison.OrdinalIgnoreCase))
+            if (string.Equals(arg, "--release-kind", StringComparison.OrdinalIgnoreCase))
             {
                 if (i + 1 >= args.Length)
                 {
-                    error = $"Missing value for --milestone.{Environment.NewLine}{Usage}";
+                    error = $"Missing value for --release-kind.{Environment.NewLine}{Usage}";
                     return false;
                 }
 
-                if (!int.TryParse(args[++i], out var parsedMilestone))
+                releaseKind = args[++i].Trim();
+                if (!string.Equals(releaseKind, "release", StringComparison.OrdinalIgnoreCase) &&
+                    !string.Equals(releaseKind, "pre-release", StringComparison.OrdinalIgnoreCase))
                 {
-                    error = $"Invalid value for --milestone.{Environment.NewLine}{Usage}";
+                    error = $"Invalid value for --release-kind.{Environment.NewLine}{Usage}";
                     return false;
                 }
-
-                milestone = parsedMilestone;
                 continue;
             }
 
@@ -189,13 +188,6 @@ public static class CliRunner
             return false;
         }
 
-        if (string.Equals(command, "inspect", StringComparison.OrdinalIgnoreCase) &&
-            milestone is not null)
-        {
-            error = $"--milestone is not supported by the inspect command.{Environment.NewLine}{Usage}";
-            return false;
-        }
-
         if ((string.Equals(command, "pack", StringComparison.OrdinalIgnoreCase) ||
              string.Equals(command, "inspect", StringComparison.OrdinalIgnoreCase)) &&
             fetchApi)
@@ -204,18 +196,11 @@ public static class CliRunner
             return false;
         }
 
-        if (string.Equals(command, "pack", StringComparison.OrdinalIgnoreCase) &&
-            milestone is not null)
-        {
-            error = $"--milestone is only supported by the describe-release command.{Environment.NewLine}{Usage}";
-            return false;
-        }
-
         if (string.Equals(command, "describe-release", StringComparison.OrdinalIgnoreCase))
         {
-            if (milestone is null)
+            if (string.IsNullOrWhiteSpace(releaseKind))
             {
-                error = $"Missing required --milestone argument.{Environment.NewLine}{Usage}";
+                error = $"Missing required --release-kind argument.{Environment.NewLine}{Usage}";
                 return false;
             }
 
@@ -228,12 +213,6 @@ public static class CliRunner
 
         if (string.Equals(command, "describe-package", StringComparison.OrdinalIgnoreCase))
         {
-            if (milestone is not null)
-            {
-                error = $"--milestone is only supported by the describe-release command.{Environment.NewLine}{Usage}";
-                return false;
-            }
-
             if (string.IsNullOrWhiteSpace(packageVersion))
             {
                 error = $"Missing required --package-version argument.{Environment.NewLine}{Usage}";
@@ -263,39 +242,24 @@ public static class CliRunner
         return await ModMetadataProvider.LoadAsync(contentRoot, projectSlugs, projectModIds, fetchApi, cancellationToken);
     }
 
-    private static string FormatReleaseMilestoneDescription(
-        ReleaseMilestoneDescription description,
-        IReadOnlyDictionary<string, ModMetadata> metadata)
-    {
-        var builder = new StringBuilder();
-        builder.AppendLine($"自动发布：已达到 {description.MilestoneCount} 个入包模组翻译。");
-        builder.AppendLine();
-        builder.AppendLine($"入包翻译数量：{description.SelectedTranslationCount}");
-        builder.AppendLine($"跳过缺少 zh-cn.json 的目录：{description.SkippedDirectoryCount}");
-        builder.AppendLine($"语言包版本：{description.PackageVersion}");
-        builder.AppendLine();
-        builder.AppendLine($"本次档位条目（{description.BatchStartIndex}-{description.BatchEndIndex}）：");
-        builder.AppendLine();
-        AppendEntriesTable(builder, description.Entries, metadata);
-
-        return builder.ToString();
-    }
-
     private static string FormatReleasePackageDescription(
         ReleasePackageDescription description,
-        IReadOnlyDictionary<string, ModMetadata> metadata)
+        IReadOnlyDictionary<string, ModMetadata> metadata,
+        string repositoryRoot,
+        string releaseKind)
     {
         var builder = new StringBuilder();
         builder.AppendLine("# VSCN Vintage Story 汉化包");
         builder.AppendLine();
         builder.AppendLine($"语言包版本：{description.PackageVersion}");
+        builder.AppendLine($"发布类型：{releaseKind}");
         builder.AppendLine();
         builder.AppendLine($"入包翻译数量：{description.SelectedTranslationCount}");
         builder.AppendLine($"跳过缺少 zh-cn.json 的目录：{description.SkippedDirectoryCount}");
         builder.AppendLine();
         builder.AppendLine("## 模组清单");
         builder.AppendLine();
-        AppendEntriesTable(builder, description.Entries, metadata);
+        AppendEntriesTable(builder, description.Entries, metadata, repositoryRoot);
 
         return builder.ToString();
     }
@@ -303,29 +267,30 @@ public static class CliRunner
     private static void AppendEntriesTable(
         StringBuilder builder,
         IReadOnlyList<ReleaseMilestoneEntry> entries,
-        IReadOnlyDictionary<string, ModMetadata> metadata)
+        IReadOnlyDictionary<string, ModMetadata> metadata,
+        string repositoryRoot)
     {
         builder.AppendLine("| 模组中文名称 | 模组英文名称 | 模组ID | 模组最新版本 | 模组贡献者 |");
         builder.AppendLine("| --- | --- | --- | --- | --- |");
 
         foreach (var entry in entries)
         {
-            var item = ModMetadataProvider.ResolveEntryMetadata(entry, metadata);
+            var item = ModMetadataProvider.ResolveEntryMetadata(entry, metadata, repositoryRoot);
             builder.AppendLine(
-                $"| {EscapeMarkdownTableCell(item.ChineseName)} | {EscapeMarkdownTableCell(item.EnglishName)} | {EscapeMarkdownTableCell(item.ModId)} | {EscapeMarkdownTableCell(item.LatestVersion)} | {FormatContributors(item.Contributors)} |");
+                $"| {EscapeMarkdownTableCell(item.ChineseName)} | {EscapeMarkdownTableCell(item.EnglishName)} | {EscapeMarkdownTableCell(item.ModId)} | {EscapeMarkdownTableCell(item.LatestVersion)} | {FormatTranslators(item.Translators)} |");
         }
     }
 
-    private static string FormatContributors(IReadOnlyList<string> contributors)
+    private static string FormatTranslators(IReadOnlyList<string> translators)
     {
-        if (contributors.Count == 0)
+        if (translators.Count == 0)
         {
             return string.Empty;
         }
 
         return string.Join(
             ", ",
-            contributors.Select(contributor =>
+            translators.Select(contributor =>
             {
                 var escaped = EscapeMarkdownTableCell(contributor);
                 return IsGitHubUserName(contributor)

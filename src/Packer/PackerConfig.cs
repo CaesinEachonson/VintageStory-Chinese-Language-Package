@@ -29,7 +29,7 @@ public sealed class PackerConfig
     public string OutputDirectory { get; set; } = "build";
 
     [JsonPropertyName("outputFileNameTemplate")]
-    public string OutputFileNameTemplate { get; set; } = "VSCN-VintageStory-Chinese-Language-Pack-{version}.zip";
+    public string OutputFileNameTemplate { get; set; } = "VintageStory-Chinese-Language-Package-{version}.zip";
 
     [JsonPropertyName("excludedProjects")]
     public string[] ExcludedProjects { get; set; } = [];
@@ -53,7 +53,7 @@ public sealed class PackerConfig
         TargetLanguage = NormalizeOrDefault(TargetLanguage, "zh-cn");
         ContentRoot = NormalizeOrDefault(ContentRoot, "projects/assets");
         OutputDirectory = NormalizeOrDefault(OutputDirectory, "build");
-        OutputFileNameTemplate = NormalizeOrDefault(OutputFileNameTemplate, "VSCN-VintageStory-Chinese-Language-Pack-{version}.zip");
+        OutputFileNameTemplate = NormalizeOrDefault(OutputFileNameTemplate, "VintageStory-Chinese-Language-Package-{version}.zip");
         ExcludedProjects = NormalizeList(ExcludedProjects);
         ExcludedModIds = NormalizeList(ExcludedModIds);
         ExcludedVersions = NormalizeList(ExcludedVersions);

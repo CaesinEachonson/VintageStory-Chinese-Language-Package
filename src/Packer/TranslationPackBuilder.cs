@@ -58,54 +58,6 @@ public static class TranslationPackBuilder
         return new PackResult(outputZipPath, validated.Count, prepared.ScanResult.SkippedDirectoryCount);
     }
 
-    public static ReleaseMilestoneDescription DescribeReleaseMilestone(
-        PackerConfig config,
-        string repositoryRoot,
-        int milestoneCount,
-        string packageVersion)
-    {
-        ArgumentNullException.ThrowIfNull(config);
-        ArgumentException.ThrowIfNullOrWhiteSpace(repositoryRoot);
-        ArgumentException.ThrowIfNullOrWhiteSpace(packageVersion);
-
-        if (milestoneCount <= 0 || milestoneCount % 10 != 0)
-        {
-            throw new PackerException($"milestone must be a positive multiple of 10, got '{milestoneCount}'.");
-        }
-
-        var prepared = PrepareBuild(config, repositoryRoot);
-        var ordered = prepared.SelectedTranslations
-            .OrderBy(item => item.SourceDirectory, StringComparer.OrdinalIgnoreCase)
-            .ToList();
-
-        if (milestoneCount > ordered.Count)
-        {
-            throw new PackerException(
-                $"milestone '{milestoneCount}' exceeds the current packaged translation count '{ordered.Count}'.");
-        }
-
-        var batchStartIndex = milestoneCount - 10;
-        var entries = ordered
-            .Skip(batchStartIndex)
-            .Take(10)
-            .Select(item => new ReleaseMilestoneEntry(
-                item.ProjectSlug,
-                item.TargetModVersion,
-                item.RealModId,
-                item.SourceDirectory,
-                item.DestinationPath))
-            .ToArray();
-
-        return new ReleaseMilestoneDescription(
-            milestoneCount,
-            batchStartIndex + 1,
-            batchStartIndex + entries.Length,
-            ordered.Count,
-            prepared.ScanResult.SkippedDirectoryCount,
-            packageVersion.Trim(),
-            entries);
-    }
-
     public static ReleasePackageDescription DescribeReleasePackage(
         PackerConfig config,
         string repositoryRoot,
@@ -116,13 +68,17 @@ public static class TranslationPackBuilder
         ArgumentException.ThrowIfNullOrWhiteSpace(packageVersion);
 
         var prepared = PrepareBuild(config, repositoryRoot);
-        var entries = prepared.SelectedTranslations
+        var ordered = prepared.SelectedTranslations
             .OrderBy(item => item.SourceDirectory, StringComparer.OrdinalIgnoreCase)
+            .ToList();
+
+        var entries = ordered
             .Select(item => new ReleaseMilestoneEntry(
                 item.ProjectSlug,
                 item.TargetModVersion,
                 item.RealModId,
                 item.SourceDirectory,
+                item.SourceFilePath,
                 item.DestinationPath))
             .ToArray();
 

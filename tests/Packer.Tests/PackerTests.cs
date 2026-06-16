@@ -236,7 +236,7 @@ public sealed class PackerTests
         Assert.Equal(0, exitCode);
         Assert.Equal(string.Empty, stderr.ToString());
         Assert.Contains("Packed 1 translation file(s)", stdout.ToString(), StringComparison.Ordinal);
-        Assert.True(File.Exists(Path.Combine(workspace.RootPath, "build", "VSCN-VintageStory-Chinese-Language-Pack-0.0.0.zip")));
+        Assert.True(File.Exists(Path.Combine(workspace.RootPath, "build", "VintageStory-Chinese-Language-Package-0.0.0.zip")));
     }
 
     [Fact]
@@ -265,7 +265,7 @@ public sealed class PackerTests
         Assert.Equal(0, exitCode);
         Assert.Equal(string.Empty, stderr.ToString());
 
-        var zipPath = Path.Combine(workspace.RootPath, "build", $"VSCN-VintageStory-Chinese-Language-Pack-{version}.zip");
+        var zipPath = Path.Combine(workspace.RootPath, "build", $"VintageStory-Chinese-Language-Package-{version}.zip");
         Assert.True(File.Exists(zipPath));
 
         using var archive = ZipFile.OpenRead(zipPath);
@@ -348,7 +348,7 @@ public sealed class PackerTests
     }
 
     [Fact]
-    public async Task CliRunner_DescribeReleaseCommand_ListsMilestoneEntries()
+    public async Task CliRunner_DescribeReleaseCommand_WritesFullTable()
     {
         using var workspace = new TestWorkspace();
 
@@ -376,18 +376,19 @@ public sealed class PackerTests
         var stderr = new StringWriter();
 
         var exitCode = await CliRunner.RunAsync(
-            ["describe-release", "--config", configPath, "--milestone", "10", "--package-version", "0.0.1"],
+            ["describe-release", "--config", configPath, "--package-version", "0.0.1", "--release-kind", "release"],
             stdout,
             stderr,
             workspace.RootPath);
 
         Assert.Equal(0, exitCode);
         Assert.Equal(string.Empty, stderr.ToString());
-        Assert.Contains("自动发布：已达到 10 个入包模组翻译。", stdout.ToString(), StringComparison.Ordinal);
+        Assert.Contains("# VSCN Vintage Story 汉化包", stdout.ToString(), StringComparison.Ordinal);
         Assert.Contains("语言包版本：0.0.1", stdout.ToString(), StringComparison.Ordinal);
+        Assert.Contains("发布类型：release", stdout.ToString(), StringComparison.Ordinal);
         Assert.Contains("| 模组中文名称 | 模组英文名称 | 模组ID | 模组最新版本 | 模组贡献者 |", stdout.ToString(), StringComparison.Ordinal);
         Assert.Contains("| mod0 | mod0 | mod0 | 1.0.0 |  |", stdout.ToString(), StringComparison.Ordinal);
-        Assert.DoesNotContain("zmod", stdout.ToString(), StringComparison.Ordinal);
+        Assert.Contains("zmod", stdout.ToString(), StringComparison.Ordinal);
     }
 
     [Fact]
@@ -459,7 +460,7 @@ public sealed class PackerTests
         Assert.Equal(0, exitCode);
         Assert.Equal(string.Empty, stderr.ToString());
         Assert.Contains(
-            "| 更好的战利品 | Better Loot | betterloot | 2.0.3 | [DejFidOFF](https://github.com/DejFidOFF) |",
+            "| 更好的战利品 | Better Loot | betterloot | 2.0.3 |  |",
             stdout.ToString(),
             StringComparison.Ordinal);
     }
@@ -492,7 +493,7 @@ public sealed class PackerTests
                   "targetLanguage": "zh-cn",
                   "contentRoot": "projects/assets",
                   "outputDirectory": "build",
-                  "outputFileNameTemplate": "VSCN-VintageStory-Chinese-Language-Pack-{version}.zip",
+                  "outputFileNameTemplate": "VintageStory-Chinese-Language-Package-{version}.zip",
                   "excludedProjects": [],
                   "excludedModIds": [],
                   "excludedVersions": [],

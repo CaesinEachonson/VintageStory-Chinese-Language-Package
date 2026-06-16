@@ -20,4 +20,5 @@ public sealed record ReleaseMilestoneEntry(
     string TargetModVersion,
     string RealModId,
     string SourceDirectory,
+    string SourceFilePath,
     string DestinationPath);
