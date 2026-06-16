@@ -106,6 +106,33 @@ public static class TranslationPackBuilder
             entries);
     }
 
+    public static ReleasePackageDescription DescribeReleasePackage(
+        PackerConfig config,
+        string repositoryRoot,
+        string packageVersion)
+    {
+        ArgumentNullException.ThrowIfNull(config);
+        ArgumentException.ThrowIfNullOrWhiteSpace(repositoryRoot);
+        ArgumentException.ThrowIfNullOrWhiteSpace(packageVersion);
+
+        var prepared = PrepareBuild(config, repositoryRoot);
+        var entries = prepared.SelectedTranslations
+            .OrderBy(item => item.SourceDirectory, StringComparer.OrdinalIgnoreCase)
+            .Select(item => new ReleaseMilestoneEntry(
+                item.ProjectSlug,
+                item.TargetModVersion,
+                item.RealModId,
+                item.SourceDirectory,
+                item.DestinationPath))
+            .ToArray();
+
+        return new ReleasePackageDescription(
+            entries.Length,
+            prepared.ScanResult.SkippedDirectoryCount,
+            packageVersion.Trim(),
+            entries);
+    }
+
     private static PreparedBuild PrepareBuild(PackerConfig config, string repositoryRoot)
     {
         config.ApplyDefaults();

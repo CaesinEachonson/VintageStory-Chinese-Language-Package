@@ -383,11 +383,85 @@ public sealed class PackerTests
 
         Assert.Equal(0, exitCode);
         Assert.Equal(string.Empty, stderr.ToString());
-        Assert.Contains("Auto-generated release for reaching 10 translated mod language files.", stdout.ToString(), StringComparison.Ordinal);
-        Assert.Contains("Package version: 0.0.1", stdout.ToString(), StringComparison.Ordinal);
-        Assert.Contains("Milestone entries (1-10):", stdout.ToString(), StringComparison.Ordinal);
-        Assert.Contains("mod-name: mod0 | mod-version: 1.0.0 | modid: mod0", stdout.ToString(), StringComparison.Ordinal);
-        Assert.DoesNotContain("mod-name: zmod", stdout.ToString(), StringComparison.Ordinal);
+        Assert.Contains("自动发布：已达到 10 个入包模组翻译。", stdout.ToString(), StringComparison.Ordinal);
+        Assert.Contains("语言包版本：0.0.1", stdout.ToString(), StringComparison.Ordinal);
+        Assert.Contains("| 模组中文名称 | 模组英文名称 | 模组ID | 模组最新版本 | 模组贡献者 |", stdout.ToString(), StringComparison.Ordinal);
+        Assert.Contains("| mod0 | mod0 | mod0 | 1.0.0 |  |", stdout.ToString(), StringComparison.Ordinal);
+        Assert.DoesNotContain("zmod", stdout.ToString(), StringComparison.Ordinal);
+    }
+
+    [Fact]
+    public async Task CliRunner_DescribePackageCommand_WritesFullTable()
+    {
+        using var workspace = new TestWorkspace();
+        workspace.WriteText(
+            "projects/assets/betterloot/2.0.2/betterloot/lang/zh-cn.json",
+            """
+            {
+              "item-gearpart": "更好的战利品"
+            }
+            """);
+
+        var configPath = workspace.WriteConfigFile();
+        var stdout = new StringWriter();
+        var stderr = new StringWriter();
+
+        var exitCode = await CliRunner.RunAsync(
+            ["describe-package", "--config", configPath, "--package-version", "0.0.1"],
+            stdout,
+            stderr,
+            workspace.RootPath);
+
+        Assert.Equal(0, exitCode);
+        Assert.Equal(string.Empty, stderr.ToString());
+        Assert.Contains("# VSCN Vintage Story 汉化包", stdout.ToString(), StringComparison.Ordinal);
+        Assert.Contains("## 模组清单", stdout.ToString(), StringComparison.Ordinal);
+        Assert.Contains("betterloot", stdout.ToString(), StringComparison.Ordinal);
+    }
+
+    [Fact]
+    public async Task CliRunner_DescribePackageCommand_UsesIndexMetadata()
+    {
+        using var workspace = new TestWorkspace();
+        workspace.WriteText(
+            "projects/assets/index.json",
+            """
+            {
+              "betterloot": {
+                "name": "Better Loot",
+                "translation": "更好的战利品",
+                "authors": [
+                  "DejFidOFF"
+                ],
+                "homepage": "https://mods.vintagestory.at/betterloot",
+                "latestVersion": "2.0.3"
+              }
+            }
+            """);
+        workspace.WriteText(
+            "projects/assets/betterloot/2.0.2/betterloot/lang/zh-cn.json",
+            """
+            {
+              "item-gearpart": "更好的战利品"
+            }
+            """);
+
+        var configPath = workspace.WriteConfigFile();
+        var stdout = new StringWriter();
+        var stderr = new StringWriter();
+
+        var exitCode = await CliRunner.RunAsync(
+            ["describe-package", "--config", configPath, "--package-version", "0.0.1"],
+            stdout,
+            stderr,
+            workspace.RootPath);
+
+        Assert.Equal(0, exitCode);
+        Assert.Equal(string.Empty, stderr.ToString());
+        Assert.Contains(
+            "| 更好的战利品 | Better Loot | betterloot | 2.0.3 | [DejFidOFF](https://github.com/DejFidOFF) |",
+            stdout.ToString(),
+            StringComparison.Ordinal);
     }
 
     private sealed class TestWorkspace : IDisposable

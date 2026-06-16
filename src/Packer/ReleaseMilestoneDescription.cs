@@ -9,6 +9,12 @@ public sealed record ReleaseMilestoneDescription(
     string PackageVersion,
     IReadOnlyList<ReleaseMilestoneEntry> Entries);
 
+public sealed record ReleasePackageDescription(
+    int SelectedTranslationCount,
+    int SkippedDirectoryCount,
+    string PackageVersion,
+    IReadOnlyList<ReleaseMilestoneEntry> Entries);
+
 public sealed record ReleaseMilestoneEntry(
     string ProjectSlug,
     string TargetModVersion,

@@ -111,10 +111,14 @@ jobs:
             version="${item##*:}"
             release_tag="mods-${milestone}"
             dotnet run --project src/Packer -- pack --config config/packer/default.json --package-version "${version}"
-            notes=$(dotnet run --project src/Packer -- describe-release --config config/packer/default.json --milestone "${milestone}" --package-version "${version}")
+            notes_path="build/release-notes-${release_tag}.md"
+            readme_path="build/README-${release_tag}.md"
+            dotnet run --project src/Packer -- describe-release --config config/packer/default.json --milestone "${milestone}" --package-version "${version}" --fetch-api > "${notes_path}"
+            dotnet run --project src/Packer -- describe-package --config config/packer/default.json --package-version "${version}" --fetch-api > "${readme_path}"
             gh release create "${release_tag}" \
               --target "${GITHUB_SHA}" \
               "build/VSCN-VintageStory-Chinese-Language-Pack-${version}.zip" \
+              "${readme_path}#README.md" \
               --title "Translation milestone ${milestone}" \
-              --notes "${notes}"
+              --notes-file "${notes_path}"
           done
