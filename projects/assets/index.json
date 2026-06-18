@@ -531,5 +531,14 @@
     ],
     "homepage": "https://mods.vintagestory.at/indappledgroves",
     "latestVersion": "3.0.1-rc.5"
+  },
+    "vsroofing": {
+    "name": "VS Roofing Mod",
+    "translation": "VS 屋顶",
+    "authors": [
+      "tui_smuggler"
+    ],
+    "homepage": "https://mods.vintagestory.at/show/mod/30143",
+    "latestVersion": "1.6.2"
   }
 }

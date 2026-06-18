@@ -440,10 +440,15 @@ def render_markdown(records: list[ModRecord]) -> str:
     lines.append("")
 
     if outdated:
+        lines.append("| 模组中文名称 | 模组英文名称 | 模组ID | 仓库翻译版本 | 模组最新版本 | 模组更新时间 |")
+        lines.append("| --- | --- | --- | --- | --- | --- |")
         for record in outdated:
+            modids = "<br>".join(escape_cell(modid) for modid in record.repository_modids) if record.repository_modids else "未记录"
+            latest_version = escape_cell(record.official_latest) if record.official_latest else "未获取"
+            updated_at = escape_cell(record.official_updated_at) if record.official_updated_at else "未获取"
             lines.append(
-                f"- {format_link(record.chinese_name, record.homepage)} / {format_link(record.english_name, record.homepage)}"
-                f"：仓库 {escape_cell(record.repository_latest)}，官方 {escape_cell(record.official_latest)}，更新时间 {escape_cell(record.official_updated_at)}"
+                f"| {format_link(record.chinese_name, record.homepage)} | {format_link(record.english_name, record.homepage)} | {modids} | "
+                f"{escape_cell(record.repository_latest)} | {latest_version} | {updated_at} |"
             )
     else:
         lines.append("- 无")
@@ -451,15 +456,16 @@ def render_markdown(records: list[ModRecord]) -> str:
     lines.append("")
     lines.append("## 模组版本表")
     lines.append("")
-    lines.append("| 模组中文名称 | 模组英文名称 | 仓库翻译版本 | 模组最新版本 | 模组更新时间 |")
-    lines.append("| --- | --- | --- | --- | --- |")
+    lines.append("| 模组中文名称 | 模组英文名称 | 模组ID | 仓库翻译版本 | 模组最新版本 | 模组更新时间 |")
+    lines.append("| --- | --- | --- | --- | --- | --- |")
 
     for record in records:
+        modids = "<br>".join(escape_cell(modid) for modid in record.repository_modids) if record.repository_modids else "未记录"
         repo_versions = "<br>".join(escape_cell(version) for version in record.repository_versions)
         latest_version = escape_cell(record.official_latest) if record.official_latest else "未获取"
         updated_at = escape_cell(record.official_updated_at) if record.official_updated_at else "未获取"
         lines.append(
-            f"| {format_link(record.chinese_name, record.homepage)} | {format_link(record.english_name, record.homepage)} | {repo_versions} | {latest_version} | {updated_at} |"
+            f"| {format_link(record.chinese_name, record.homepage)} | {format_link(record.english_name, record.homepage)} | {modids} | {repo_versions} | {latest_version} | {updated_at} |"
         )
 
     lines.append("")
